@@ -1,0 +1,22 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260520-0025",
+    "timestamp": "2026-05-20T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0058",
+    "field_changed": "delivery_address_primary",
+    "old_value": {
+      "street": "V Poli 89",
+      "city": "Kravaře",
+      "postal_code": "355 13"
+    },
+    "new_value": {
+      "street": "pl. Konarskiego 65",
+      "city": "Wieluń",
+      "postal_code": "86-210"
+    },
+    "effective_date": "2026-05-21",
+    "reason": "office_relocation"
+  }
+]

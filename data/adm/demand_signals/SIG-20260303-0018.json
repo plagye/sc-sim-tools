@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260303-0018",
+    "timestamp": "2026-03-03T08:00:00Z",
+    "simulation_date": "2026-03-03",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0016",
+    "product_group": "BF-DN150-S316",
+    "signal_type": "new_demand",
+    "magnitude": "low",
+    "horizon_weeks": 16,
+    "description": "New demand source identified for this product group. Source: consumption trend.",
+    "confidence": 0.5
+  }
+]

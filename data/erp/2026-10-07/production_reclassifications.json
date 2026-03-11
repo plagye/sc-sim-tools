@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "f415758b-471b-48d4-8912-4d6660c97f1e",
+    "simulation_date": "2026-10-07",
+    "batch_id": "BATCH-2032",
+    "sku": "FF-BF15-DPX-PN10-XP",
+    "quantity": 103,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-10-02",
+    "reclassification_reason": "quality_review"
+  }
+]

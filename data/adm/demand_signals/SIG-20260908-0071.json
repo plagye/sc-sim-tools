@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260908-0071",
+    "timestamp": "2026-09-08T08:00:00Z",
+    "simulation_date": "2026-09-08",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0002",
+    "product_group": "BF-DN250-CS",
+    "signal_type": "downside_risk",
+    "magnitude": "low",
+    "horizon_weeks": 18,
+    "description": "Market signal indicates potential demand softening in the near term. Source: consumption trend.",
+    "confidence": 0.7
+  }
+]

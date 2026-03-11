@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "89ceda60-9248-4d2c-9273-c26e84798a81",
+    "event_subtype": "rate_change",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-07-31",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": -14.1646,
+    "message": "BalticHaul rate adjustment: -14.2% effective immediately",
+    "simulation_date": "2026-07-31",
+    "timestamp": "2026-07-31T14:00:00Z",
+    "sync_window": "14"
+  }
+]

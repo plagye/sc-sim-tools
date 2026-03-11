@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20261001-0084",
+    "timestamp": "2026-10-01T08:00:00Z",
+    "simulation_date": "2026-10-01",
+    "signal_source": "competitor_event",
+    "customer_id": null,
+    "product_group": "GT-DN80-S304",
+    "signal_type": "new_demand",
+    "magnitude": "low",
+    "horizon_weeks": 13,
+    "description": "New demand source identified for this product group. Source: competitor event.",
+    "confidence": 0.3
+  }
+]

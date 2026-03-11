@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260202-0010",
+    "timestamp": "2026-02-02T08:00:00Z",
+    "simulation_date": "2026-02-02",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0020",
+    "product_group": "GT-DN200-S316",
+    "signal_type": "mix_change",
+    "magnitude": "high",
+    "horizon_weeks": 9,
+    "description": "Product mix shift anticipated toward this product family. Source: seasonal model.",
+    "confidence": 0.3
+  }
+]

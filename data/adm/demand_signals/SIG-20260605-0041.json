@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260605-0041",
+    "timestamp": "2026-06-05T08:00:00Z",
+    "simulation_date": "2026-06-05",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0014",
+    "product_group": "BL-DN80-CS",
+    "signal_type": "upside_risk",
+    "magnitude": "low",
+    "horizon_weeks": 23,
+    "description": "Positive demand indicator suggests higher-than-planned volumes ahead. Source: seasonal model.",
+    "confidence": 0.1
+  }
+]

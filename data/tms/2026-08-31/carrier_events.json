@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "1245f973-f1c5-4621-b7c1-aac3a6ca8d59",
+    "event_subtype": "rate_change",
+    "carrier_code": "DBSC",
+    "carrier_name": "DB Schenker",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-08-31",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": -8.0741,
+    "message": "DB Schenker rate adjustment: -8.1% effective immediately",
+    "simulation_date": "2026-08-31",
+    "timestamp": "2026-08-31T14:00:00Z",
+    "sync_window": "14"
+  }
+]

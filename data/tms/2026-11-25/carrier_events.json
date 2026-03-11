@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "c393cb32-179c-4c1f-86ec-2cd5f8bf31fd",
+    "event_subtype": "service_disruption",
+    "carrier_code": "DBSC",
+    "carrier_name": "DB Schenker",
+    "affected_region": "PL-DS",
+    "impact_severity": "medium",
+    "start_date": "2026-11-25",
+    "end_date": "2026-11-29",
+    "duration_days": 4,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting DB Schenker operations in PL-DS for 4 days",
+    "simulation_date": "2026-11-25",
+    "timestamp": "2026-11-25T14:00:00Z",
+    "sync_window": "14"
+  }
+]

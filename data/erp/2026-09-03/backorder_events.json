@@ -1,0 +1,79 @@
+[
+  {
+    "event_type": "backorder",
+    "event_id": "709f0e86-599b-4def-ae9a-ed59ef7d57d0",
+    "backorder_date": "2026-09-03",
+    "order_id": "ORD-2026-001019",
+    "order_line_id": "ORD-2026-001019-L1",
+    "sku": "FF-BF80-BRS-PN16-TM",
+    "quantity_backordered": 28,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "8ed2976d-3a98-4dee-bb96-7a06851648ba",
+    "backorder_date": "2026-09-03",
+    "order_id": "ORD-2026-002000",
+    "order_line_id": "ORD-2026-002000-L1",
+    "sku": "FF-GL40-CS-PN16-FM",
+    "quantity_backordered": 3014656,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 18,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "a054937e-4e41-4ff9-aef1-ff066978e69d",
+    "backorder_date": "2026-09-03",
+    "order_id": "ORD-2025-051128",
+    "order_line_id": "ORD-2026-002000-L2",
+    "sku": "FF-BF25-BRS-PN16-TP",
+    "quantity_backordered": 1835008,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 18,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "292d3bf0-4bfc-46bd-8983-644e9204f9c7",
+    "backorder_date": "2026-09-03",
+    "order_id": "ORD-2026-002000",
+    "order_line_id": "ORD-2026-002000-L3",
+    "sku": "FF-BL80-CS-PN10-FP",
+    "quantity_backordered": 654105,
+    "quantity_allocated": 83,
+    "backorder_reason": "no_stock",
+    "days_backordered": 18,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "103c8f80-a179-43ab-bb24-b98bdc0004b9",
+    "backorder_date": "2026-09-03",
+    "order_id": "ORD-2022-066604",
+    "order_line_id": "ORD-2026-002142-L1",
+    "sku": "FF-BF50-CS-PN63-XM",
+    "quantity_backordered": 536870912,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 27,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "95ed74b3-9bd2-453c-96a5-8483bb8baf07",
+    "backorder_date": "2026-09-03",
+    "order_id": "ORD-2026-002375",
+    "order_line_id": "ORD-2026-002375-L3",
+    "sku": "FF-GL100-S316-PN40-FM",
+    "quantity_backordered": 404,
+    "quantity_allocated": 28,
+    "backorder_reason": "no_stock",
+    "days_backordered": 2,
+    "escalated_to_express": false
+  }
+]

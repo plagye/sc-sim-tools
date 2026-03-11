@@ -1,0 +1,27 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "21bc4d90-03b4-4818-98ac-2ca1da316ecd",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1035",
+    "order_id": "ORD-2026-001117",
+    "customer_id": "CUST-0031",
+    "carrier_code": "BALTIC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001117-L1",
+        "sku": "FF-BF150-S316-PN10-XM",
+        "quantity_returned": 23,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-05-11",
+    "timestamp": "2026-05-11T09:00:00Z",
+    "sync_window": "08"
+  }
+]

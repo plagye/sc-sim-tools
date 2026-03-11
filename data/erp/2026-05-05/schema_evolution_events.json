@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "schema_evolution_event",
+    "evolution_id": "SEVT-20260505-0003",
+    "timestamp": "2026-05-05T09:00:00Z",
+    "affected_system": "erp",
+    "affected_event_type": "customer_order",
+    "field_name": "incoterms",
+    "change_type": "field_activation",
+    "effective_from_day": 120,
+    "description": "Field 'incoterms' is now active on customer_order events from sim day 120 onwards."
+  }
+]

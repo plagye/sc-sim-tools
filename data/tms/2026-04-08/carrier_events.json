@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "91b50716-f645-4301-8bab-01cd6de7ab67",
+    "event_subtype": "service_disruption",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": "PL-KP",
+    "impact_severity": "medium",
+    "start_date": "2026-04-08",
+    "end_date": "2026-04-13",
+    "duration_days": 5,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting DHL Freight operations in PL-KP for 5 days",
+    "simulation_date": "2026-04-08",
+    "timestamp": "2026-04-08T08:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "5895d94e-a28a-47e3-a930-80bfaf91464e",
+    "event_subtype": "maintenance_window",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-04-08",
+    "end_date": null,
+    "duration_days": 0,
+    "rate_delta_pct": null,
+    "message": "Scheduled system maintenance for BalticHaul on 2026-04-08 14:00–18:00 UTC",
+    "simulation_date": "2026-04-08",
+    "timestamp": "2026-04-08T08:00:00Z",
+    "sync_window": "08"
+  }
+]

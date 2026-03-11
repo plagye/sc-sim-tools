@@ -1,0 +1,22 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260306-0009",
+    "timestamp": "2026-03-06T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0019",
+    "field_changed": "delivery_address_primary",
+    "old_value": {
+      "street": "Wilmsenallee 28",
+      "city": "Aschaffenburg",
+      "postal_code": "42044"
+    },
+    "new_value": {
+      "street": "aleja Liliowa 21",
+      "city": "Żyrardów",
+      "postal_code": "43-196"
+    },
+    "effective_date": "2026-03-07",
+    "reason": "office_relocation"
+  }
+]

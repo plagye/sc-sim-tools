@@ -1,0 +1,80 @@
+[
+  {
+    "event_type": "backorder",
+    "event_id": "59890816-e54b-4648-8886-812243a0f496",
+    "backorder_date": "2026-07-09",
+    "order_id": "ORD-2026-002053",
+    "order_line_id": "ORD-2026-002053-L1",
+    "sku": "FF-BL100-S316-PN40-FE",
+    "quantity_backordered": 3227733,
+    "quantity_allocated": 0,
+    "backorder_reason": "insufficient_stock",
+    "days_backordered": 15,
+    "escalated_to_express": true
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "f71981a2-58cd-493f-8289-a5e9b54620ba",
+    "backorder_date": "2026-07-09",
+    "order_id": "ORD-2026-001111",
+    "order_line_id": "ORD-2026-001111-L1",
+    "sku": "FF-BL150-CS-PN40-FH",
+    "quantity_backordered": 99,
+    "quantity_allocated": 119,
+    "backorder_reason": "no_stock",
+    "days_backordered": 1,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "bd2a97c5-e577-421c-80cd-3d6a83df1499",
+    "backorder_date": "2026-07-09",
+    "order_id": "ORD-2026-002053",
+    "order_line_id": "ORD-2026-002053-L1",
+    "sku": "FF-BL100-S316-PN40-FE",
+    "quantity_backordered": 3227733,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 15,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "b8bd3fc8-ee0d-4021-9ac1-0fafd3250c98",
+    "backorder_date": "2026-07-09",
+    "order_id": "ORD-2026-002053",
+    "order_line_id": "ORD-2026-002053-L2",
+    "sku": "FF-BL100-CS-PN63-WM",
+    "quantity_backordered": 1867776,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 15,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "9ac15fd2-2a23-48b1-9283-c7277bc19aeb",
+    "backorder_date": "2026-07-09",
+    "order_id": "ORD-2026-001265",
+    "order_line_id": "ORD-2026-001265-L2",
+    "sku": "FF-GL80-S316-PN40-FM",
+    "quantity_backordered": 66,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 0,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "cd562ff6-c870-4b34-a69e-6b951e0f7198",
+    "backorder_date": "2026-07-09",
+    "order_id": "ORD-2026-001923",
+    "order_line_id": "ORD-2026-001923-L1",
+    "sku": "FF-CK200-CS-PN16-FP",
+    "quantity_backordered": 208896,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 13,
+    "escalated_to_express": false
+  }
+]

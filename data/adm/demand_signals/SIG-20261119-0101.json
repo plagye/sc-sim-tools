@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20261119-0101",
+    "timestamp": "2026-11-19T08:00:00Z",
+    "simulation_date": "2026-11-19",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0045",
+    "product_group": "BL-DN150-CS",
+    "signal_type": "timing_shift",
+    "magnitude": "low",
+    "horizon_weeks": 4,
+    "description": "Delivery timing expected to shift based on customer project schedule. Source: consumption trend.",
+    "confidence": 0.5
+  }
+]

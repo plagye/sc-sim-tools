@@ -1,0 +1,91 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "d33d7f91-38c2-4515-9afd-83f72f330987",
+    "event_subtype": "pickup_scheduled",
+    "rma_id": "RMA-1093",
+    "order_id": "ORD-2026-001344",
+    "customer_id": "CUST-0022",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001344-L1",
+        "sku": "FF-BL25-S304-PN10-WP",
+        "quantity_returned": 23,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "pickup_scheduled",
+    "simulation_date": "2026-08-05",
+    "timestamp": "2026-08-05T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "7ed35967-989f-4d09-bb9b-f455dca7a2cb",
+    "event_subtype": "pickup_scheduled",
+    "rma_id": "RMA-1094",
+    "order_id": "ORD-2026-001732",
+    "customer_id": "CUST-0058",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001732-L3",
+        "sku": "FF-BF250-S316-PN16-WE",
+        "quantity_returned": 13,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      },
+      {
+        "line_id": "ORD-2026-001732-L2",
+        "sku": "FF-CK50-S316-PN25-FM",
+        "quantity_returned": 12,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      },
+      {
+        "line_id": "ORD-2026-001732-L1",
+        "sku": "FF-BL40-S304-PN16-TM",
+        "quantity_returned": 18,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "pickup_scheduled",
+    "simulation_date": "2026-08-05",
+    "timestamp": "2026-08-05T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "ce46ade6-e23f-4226-ae68-30571bbf9a44",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1095",
+    "order_id": "ORD-2026-001003",
+    "customer_id": "CUST-0017",
+    "carrier_code": "BALTIC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001003-L1",
+        "sku": "FF-BF80-CS-PN25-FP",
+        "quantity_returned": 24,
+        "quantity_accepted": null,
+        "return_reason": "overstock"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "overstock",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-08-05",
+    "timestamp": "2026-08-05T09:00:00Z",
+    "sync_window": "08"
+  }
+]

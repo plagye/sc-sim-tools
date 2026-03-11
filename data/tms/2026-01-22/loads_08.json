@@ -1,0 +1,161 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "8f775fd2-260f-4952-a0db-8fb5ec0a062b",
+    "load_id": "LOAD-1028",
+    "event_subtype": "load_created",
+    "simulation_date": "2026-01-22",
+    "sync_window": "08",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1035"
+    ],
+    "order_ids": [
+      "ORD-2026-001083"
+    ],
+    "total_weight_kg": 5514.045,
+    "weight_unit": "kg",
+    "total_weight_reported": 5514.045,
+    "status": "load_created",
+    "planned_date": "2026-01-22",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0040"
+    ],
+    "destination_region": "DE-NI"
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "522494ac-2b08-4f0c-a73f-48ca8969490b",
+    "load_id": "LOAD-1020",
+    "event_subtype": "delivered",
+    "simulation_date": "2026-01-22",
+    "sync_window": "08",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1024"
+    ],
+    "order_ids": [
+      "ORD-2026-001050"
+    ],
+    "total_weight_kg": 462.0,
+    "weight_unit": "kg",
+    "total_weight_reported": 462.0,
+    "status": "delivered",
+    "planned_date": "2026-01-19",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0043"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "6ae2c2b1-9a0b-4965-b5ae-06de26e82496",
+    "load_id": "LOAD-1028",
+    "event_subtype": "in_transit",
+    "simulation_date": "2026-01-22",
+    "sync_window": "08",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1035"
+    ],
+    "order_ids": [
+      "ORD-2026-001083"
+    ],
+    "total_weight_kg": 5514.045,
+    "weight_unit": "kg",
+    "total_weight_reported": 5514.045,
+    "status": "in_transit",
+    "planned_date": "2026-01-22",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0040"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "caa47a94-1fbc-4b87-9abe-70a9908447c1",
+    "load_id": "LOAD-1014",
+    "event_subtype": "pod_received",
+    "simulation_date": "2026-01-22",
+    "sync_window": "08",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1017"
+    ],
+    "order_ids": [
+      "ORD-2026-001040"
+    ],
+    "total_weight_kg": 13304.3,
+    "weight_unit": "kg",
+    "total_weight_reported": 13304.3,
+    "status": "pod_received",
+    "planned_date": "2026-01-14",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0006"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "e74504f3-8a6b-462e-a992-f4bde5352a32",
+    "load_id": "LOAD-1017",
+    "event_subtype": "pod_received",
+    "simulation_date": "2026-01-22",
+    "sync_window": "08",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1020"
+    ],
+    "order_ids": [
+      "ORD-2026-001053"
+    ],
+    "total_weight_kg": 425.814,
+    "weight_unit": "kg",
+    "total_weight_reported": 425.814,
+    "status": "pod_received",
+    "planned_date": "2026-01-15",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0054"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "9d3519b7-6ad9-40b0-894a-ecc192c402b4",
+    "load_id": "LOAD-1018",
+    "event_subtype": "pod_received",
+    "simulation_date": "2026-01-22",
+    "sync_window": "08",
+    "carrier_code": "GEODIS",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1021",
+      "SHP-1022"
+    ],
+    "order_ids": [
+      "ORD-2026-001047",
+      "ORD-2026-001048"
+    ],
+    "total_weight_kg": 18519.636,
+    "weight_unit": "kg",
+    "total_weight_reported": 18519.636,
+    "status": "pod_received",
+    "planned_date": "2026-01-16",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0004",
+      "CUST-0008"
+    ],
+    "destination_region": ""
+  }
+]

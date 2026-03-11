@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "29332795-2e57-4611-bd84-14ae1a6827bf",
+    "event_subtype": "maintenance_window",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-02-23",
+    "end_date": null,
+    "duration_days": 0,
+    "rate_delta_pct": null,
+    "message": "Scheduled system maintenance for BalticHaul on 2026-02-23 10:00–14:00 UTC",
+    "simulation_date": "2026-02-23",
+    "timestamp": "2026-02-23T08:00:00Z",
+    "sync_window": "08"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20261119-0050",
+    "timestamp": "2026-11-19T09:00:00Z",
+    "entity_type": "product",
+    "entity_id": "FF-GL100-S304-PN16-TP",
+    "field_changed": "sku_status",
+    "old_value": "active",
+    "new_value": "discontinued",
+    "effective_date": "2026-11-20",
+    "reason": "product_lifecycle"
+  }
+]

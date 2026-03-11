@@ -1,0 +1,53 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "b5ee0d8a-0b6f-4c74-bdb8-ff3e6c6b61e8",
+    "event_subtype": "rate_change",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-05-06",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": 12.5399,
+    "message": "DHL Freight rate adjustment: +12.5% effective immediately",
+    "simulation_date": "2026-05-06",
+    "timestamp": "2026-05-06T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "e3f720ae-987b-4ccc-85e7-f2d60cb38b7b",
+    "event_subtype": "maintenance_window",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-05-06",
+    "end_date": null,
+    "duration_days": 0,
+    "rate_delta_pct": null,
+    "message": "Scheduled system maintenance for Raben Group on 2026-05-06 10:00–14:00 UTC",
+    "simulation_date": "2026-05-06",
+    "timestamp": "2026-05-06T08:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "835c18d0-5e77-4bf4-bb35-3f7537100abd",
+    "event_subtype": "rate_change",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-05-06",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": -5.443,
+    "message": "Geodis rate adjustment: -5.4% effective immediately",
+    "simulation_date": "2026-05-06",
+    "timestamp": "2026-05-06T14:00:00Z",
+    "sync_window": "14"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260211-0005",
+    "timestamp": "2026-02-11T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0007",
+    "field_changed": "payment_terms_days",
+    "old_value": 60,
+    "new_value": 30,
+    "effective_date": "2026-02-12",
+    "reason": "contract_renewal"
+  }
+]

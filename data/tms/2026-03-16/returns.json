@@ -1,0 +1,27 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "3643de58-a979-424d-883c-698b793634e4",
+    "event_subtype": "scrapped",
+    "rma_id": "RMA-1010",
+    "order_id": "ORD-2026-001084",
+    "customer_id": "CUST-0046",
+    "carrier_code": "GEODIS",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001084-L3",
+        "sku": "FF-GT50-CS-PN25-FE",
+        "quantity_returned": 30,
+        "quantity_accepted": 30,
+        "return_reason": "wrong_item_shipped"
+      }
+    ],
+    "resolution": "scrapped",
+    "return_reason": "wrong_item_shipped",
+    "rma_status": "scrapped",
+    "simulation_date": "2026-03-16",
+    "timestamp": "2026-03-16T09:00:00Z",
+    "sync_window": "08"
+  }
+]

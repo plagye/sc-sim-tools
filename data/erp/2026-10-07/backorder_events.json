@@ -1,0 +1,41 @@
+[
+  {
+    "event_type": "backorder",
+    "event_id": "dff87c40-0f73-4cc0-b7b7-2f411f140085",
+    "backorder_date": "2026-10-07",
+    "order_id": "ORD-2026-001504",
+    "order_line_id": "ORD-2026-001504-L1",
+    "sku": "FF-GT50-S304-PN16-TM",
+    "quantity_backordered": 950272,
+    "quantity_allocated": 0,
+    "backorder_reason": "insufficient_stock",
+    "days_backordered": 15,
+    "escalated_to_express": true
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "f0f74de1-a5df-48d2-9cd9-82e98826c10e",
+    "backorder_date": "2026-10-07",
+    "order_id": "ORD-2026-002465",
+    "order_line_id": "ORD-2026-002465-L1",
+    "sku": "FF-GL100-DPX-PN25-TP",
+    "quantity_backordered": 5033088,
+    "quantity_allocated": 230,
+    "backorder_reason": "no_stock",
+    "days_backordered": 16,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "7acfb7a5-e055-449b-88bf-b5f1347e5e1f",
+    "backorder_date": "2026-10-07",
+    "order_id": "ORD-2026-001504",
+    "order_line_id": "ORD-2026-001504-L1",
+    "sku": "FF-GT50-S304-PN16-TM",
+    "quantity_backordered": 950272,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 15,
+    "escalated_to_express": false
+  }
+]

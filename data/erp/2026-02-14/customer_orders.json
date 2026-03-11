@@ -1,0 +1,26 @@
+[
+  {
+    "event_type": "customer_order",
+    "event_id": "35eb4a9d-ea48-4f8a-bb3d-822605647a59",
+    "order_id": "ORD-2026-001182",
+    "customer_id": "CUST-0002",
+    "simulation_date": "2026-02-14",
+    "timestamp": "2026-02-14T05:25:22",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-03-06",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001182-L1",
+        "sku": "FF-GL100-S304-PN10-FP",
+        "quantity_ordered": 7,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 4992.96,
+        "line_status": "open"
+      }
+    ]
+  }
+]

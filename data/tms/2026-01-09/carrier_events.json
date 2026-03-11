@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "67944a71-288d-451a-8376-50ad9338c3f8",
+    "event_subtype": "service_disruption",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": "PL-WN",
+    "impact_severity": "medium",
+    "start_date": "2026-01-09",
+    "end_date": "2026-01-13",
+    "duration_days": 4,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting BalticHaul operations in PL-WN for 4 days",
+    "simulation_date": "2026-01-09",
+    "timestamp": "2026-01-09T08:00:00Z",
+    "sync_window": "08"
+  }
+]

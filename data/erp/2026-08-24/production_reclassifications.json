@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "48c43672-1eaa-4ff0-a407-a7fc7754bf22",
+    "simulation_date": "2026-08-24",
+    "batch_id": "BATCH-1854",
+    "sku": "FF-BL25-S304-PN25-WM",
+    "quantity": 37,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-08-17",
+    "reclassification_reason": "quality_review"
+  }
+]

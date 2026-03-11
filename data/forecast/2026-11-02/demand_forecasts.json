@@ -1,0 +1,913 @@
+[
+  {
+    "event_type": "demand_forecast",
+    "forecast_id": "FCST-2026-11",
+    "timestamp": "2026-11-02T06:00:00Z",
+    "model_version": "v3.0",
+    "horizon_months": 6,
+    "lines": [
+      {
+        "sku_group": "BF-DN300-S316",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 456,
+            "lower_bound": 304,
+            "upper_bound": 613
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 166,
+            "lower_bound": 111,
+            "upper_bound": 223
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 219,
+            "lower_bound": 146,
+            "upper_bound": 295
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 289,
+            "lower_bound": 193,
+            "upper_bound": 389
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 77,
+            "lower_bound": 51,
+            "upper_bound": 104
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 188,
+            "lower_bound": 125,
+            "upper_bound": 253
+          }
+        ]
+      },
+      {
+        "sku_group": "BF-DN40-BRS",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 390,
+            "lower_bound": 260,
+            "upper_bound": 525
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 125,
+            "lower_bound": 83,
+            "upper_bound": 168
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 182,
+            "lower_bound": 121,
+            "upper_bound": 245
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 504,
+            "lower_bound": 336,
+            "upper_bound": 678
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 406,
+            "lower_bound": 271,
+            "upper_bound": 546
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 263,
+            "lower_bound": 175,
+            "upper_bound": 354
+          }
+        ]
+      },
+      {
+        "sku_group": "BF-DN80-S316",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 343,
+            "lower_bound": 229,
+            "upper_bound": 461
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 134,
+            "lower_bound": 89,
+            "upper_bound": 180
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 52,
+            "lower_bound": 35,
+            "upper_bound": 70
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 119,
+            "lower_bound": 79,
+            "upper_bound": 160
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 650,
+            "lower_bound": 434,
+            "upper_bound": 874
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 671,
+            "lower_bound": 448,
+            "upper_bound": 902
+          }
+        ]
+      },
+      {
+        "sku_group": "BL-DN15-S316",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 98,
+            "lower_bound": 65,
+            "upper_bound": 132
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 187,
+            "lower_bound": 125,
+            "upper_bound": 252
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 273,
+            "lower_bound": 182,
+            "upper_bound": 367
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 70,
+            "lower_bound": 47,
+            "upper_bound": 94
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 97,
+            "lower_bound": 65,
+            "upper_bound": 130
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 306,
+            "lower_bound": 204,
+            "upper_bound": 412
+          }
+        ]
+      },
+      {
+        "sku_group": "BL-DN25-BRS",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 337,
+            "lower_bound": 225,
+            "upper_bound": 453
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 277,
+            "lower_bound": 185,
+            "upper_bound": 373
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 223,
+            "lower_bound": 149,
+            "upper_bound": 300
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 72,
+            "lower_bound": 48,
+            "upper_bound": 97
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 260,
+            "lower_bound": 173,
+            "upper_bound": 350
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 523,
+            "lower_bound": 349,
+            "upper_bound": 703
+          }
+        ]
+      },
+      {
+        "sku_group": "BL-DN250-CS",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 607,
+            "lower_bound": 405,
+            "upper_bound": 816
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 207,
+            "lower_bound": 138,
+            "upper_bound": 278
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 368,
+            "lower_bound": 245,
+            "upper_bound": 495
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 383,
+            "lower_bound": 255,
+            "upper_bound": 515
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 183,
+            "lower_bound": 122,
+            "upper_bound": 246
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 119,
+            "lower_bound": 79,
+            "upper_bound": 160
+          }
+        ]
+      },
+      {
+        "sku_group": "BL-DN300-S304",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 129,
+            "lower_bound": 86,
+            "upper_bound": 174
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 62,
+            "lower_bound": 41,
+            "upper_bound": 83
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 245,
+            "lower_bound": 163,
+            "upper_bound": 330
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 298,
+            "lower_bound": 199,
+            "upper_bound": 401
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 408,
+            "lower_bound": 272,
+            "upper_bound": 549
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 161,
+            "lower_bound": 107,
+            "upper_bound": 217
+          }
+        ]
+      },
+      {
+        "sku_group": "BL-DN40-BRS",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 288,
+            "lower_bound": 192,
+            "upper_bound": 387
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 198,
+            "lower_bound": 132,
+            "upper_bound": 266
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 167,
+            "lower_bound": 111,
+            "upper_bound": 225
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 237,
+            "lower_bound": 158,
+            "upper_bound": 319
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 517,
+            "lower_bound": 345,
+            "upper_bound": 695
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 440,
+            "lower_bound": 293,
+            "upper_bound": 592
+          }
+        ]
+      },
+      {
+        "sku_group": "BL-DN40-S304",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 549,
+            "lower_bound": 366,
+            "upper_bound": 738
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 74,
+            "lower_bound": 49,
+            "upper_bound": 100
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 107,
+            "lower_bound": 71,
+            "upper_bound": 144
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 242,
+            "lower_bound": 161,
+            "upper_bound": 325
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 354,
+            "lower_bound": 236,
+            "upper_bound": 476
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 320,
+            "lower_bound": 213,
+            "upper_bound": 430
+          }
+        ]
+      },
+      {
+        "sku_group": "CK-DN200-S316",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 514,
+            "lower_bound": 343,
+            "upper_bound": 691
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 97,
+            "lower_bound": 65,
+            "upper_bound": 130
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 132,
+            "lower_bound": 88,
+            "upper_bound": 178
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 156,
+            "lower_bound": 104,
+            "upper_bound": 210
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 637,
+            "lower_bound": 425,
+            "upper_bound": 857
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 520,
+            "lower_bound": 347,
+            "upper_bound": 699
+          }
+        ]
+      },
+      {
+        "sku_group": "CK-DN40-S316",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 87,
+            "lower_bound": 58,
+            "upper_bound": 117
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 85,
+            "lower_bound": 57,
+            "upper_bound": 114
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 263,
+            "lower_bound": 175,
+            "upper_bound": 354
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 81,
+            "lower_bound": 54,
+            "upper_bound": 109
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 205,
+            "lower_bound": 137,
+            "upper_bound": 276
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 99,
+            "lower_bound": 66,
+            "upper_bound": 133
+          }
+        ]
+      },
+      {
+        "sku_group": "GL-DN100-BRS",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 300,
+            "lower_bound": 200,
+            "upper_bound": 404
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 219,
+            "lower_bound": 146,
+            "upper_bound": 295
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 233,
+            "lower_bound": 155,
+            "upper_bound": 313
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 301,
+            "lower_bound": 201,
+            "upper_bound": 405
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 253,
+            "lower_bound": 169,
+            "upper_bound": 340
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 241,
+            "lower_bound": 161,
+            "upper_bound": 324
+          }
+        ]
+      },
+      {
+        "sku_group": "GL-DN100-S304",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 121,
+            "lower_bound": 81,
+            "upper_bound": 163
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 192,
+            "lower_bound": 128,
+            "upper_bound": 258
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 107,
+            "lower_bound": 71,
+            "upper_bound": 144
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 232,
+            "lower_bound": 155,
+            "upper_bound": 312
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 264,
+            "lower_bound": 176,
+            "upper_bound": 355
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 437,
+            "lower_bound": 291,
+            "upper_bound": 588
+          }
+        ]
+      },
+      {
+        "sku_group": "GL-DN150-CS",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 350,
+            "lower_bound": 233,
+            "upper_bound": 471
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 257,
+            "lower_bound": 171,
+            "upper_bound": 346
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 170,
+            "lower_bound": 113,
+            "upper_bound": 229
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 211,
+            "lower_bound": 141,
+            "upper_bound": 284
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 249,
+            "lower_bound": 166,
+            "upper_bound": 335
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 382,
+            "lower_bound": 255,
+            "upper_bound": 514
+          }
+        ]
+      },
+      {
+        "sku_group": "GL-DN300-S304",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 596,
+            "lower_bound": 398,
+            "upper_bound": 802
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 221,
+            "lower_bound": 147,
+            "upper_bound": 297
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 53,
+            "lower_bound": 35,
+            "upper_bound": 71
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 170,
+            "lower_bound": 113,
+            "upper_bound": 229
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 471,
+            "lower_bound": 314,
+            "upper_bound": 633
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 255,
+            "lower_bound": 170,
+            "upper_bound": 343
+          }
+        ]
+      },
+      {
+        "sku_group": "GL-DN50-BRS",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 124,
+            "lower_bound": 83,
+            "upper_bound": 167
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 95,
+            "lower_bound": 63,
+            "upper_bound": 128
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 91,
+            "lower_bound": 61,
+            "upper_bound": 122
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 267,
+            "lower_bound": 178,
+            "upper_bound": 359
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 392,
+            "lower_bound": 261,
+            "upper_bound": 527
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 255,
+            "lower_bound": 170,
+            "upper_bound": 343
+          }
+        ]
+      },
+      {
+        "sku_group": "GT-DN15-DPX",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 489,
+            "lower_bound": 326,
+            "upper_bound": 658
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 126,
+            "lower_bound": 84,
+            "upper_bound": 169
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 289,
+            "lower_bound": 193,
+            "upper_bound": 389
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 155,
+            "lower_bound": 103,
+            "upper_bound": 208
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 540,
+            "lower_bound": 360,
+            "upper_bound": 726
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 239,
+            "lower_bound": 159,
+            "upper_bound": 321
+          }
+        ]
+      },
+      {
+        "sku_group": "GT-DN150-S304",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 506,
+            "lower_bound": 338,
+            "upper_bound": 681
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 109,
+            "lower_bound": 73,
+            "upper_bound": 147
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 76,
+            "lower_bound": 51,
+            "upper_bound": 102
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 178,
+            "lower_bound": 119,
+            "upper_bound": 239
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 470,
+            "lower_bound": 313,
+            "upper_bound": 632
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 120,
+            "lower_bound": 80,
+            "upper_bound": 161
+          }
+        ]
+      },
+      {
+        "sku_group": "GT-DN150-S316",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 469,
+            "lower_bound": 313,
+            "upper_bound": 631
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 91,
+            "lower_bound": 61,
+            "upper_bound": 122
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 51,
+            "lower_bound": 34,
+            "upper_bound": 69
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 116,
+            "lower_bound": 77,
+            "upper_bound": 156
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 210,
+            "lower_bound": 140,
+            "upper_bound": 282
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 87,
+            "lower_bound": 58,
+            "upper_bound": 117
+          }
+        ]
+      },
+      {
+        "sku_group": "GT-DN200-DPX",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 170,
+            "lower_bound": 113,
+            "upper_bound": 229
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 99,
+            "lower_bound": 66,
+            "upper_bound": 133
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 200,
+            "lower_bound": 133,
+            "upper_bound": 269
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 505,
+            "lower_bound": 337,
+            "upper_bound": 679
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 436,
+            "lower_bound": 291,
+            "upper_bound": 586
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 137,
+            "lower_bound": 91,
+            "upper_bound": 184
+          }
+        ]
+      },
+      {
+        "sku_group": "ND-DN15-BRS",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 219,
+            "lower_bound": 146,
+            "upper_bound": 295
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 121,
+            "lower_bound": 81,
+            "upper_bound": 163
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 397,
+            "lower_bound": 265,
+            "upper_bound": 534
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 178,
+            "lower_bound": 119,
+            "upper_bound": 239
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 190,
+            "lower_bound": 127,
+            "upper_bound": 256
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 511,
+            "lower_bound": 341,
+            "upper_bound": 687
+          }
+        ]
+      },
+      {
+        "sku_group": "ND-DN25-S316",
+        "periods": [
+          {
+            "month": "2026-11",
+            "forecast_quantity": 454,
+            "lower_bound": 303,
+            "upper_bound": 611
+          },
+          {
+            "month": "2026-12",
+            "forecast_quantity": 85,
+            "lower_bound": 57,
+            "upper_bound": 114
+          },
+          {
+            "month": "2027-01",
+            "forecast_quantity": 178,
+            "lower_bound": 119,
+            "upper_bound": 239
+          },
+          {
+            "month": "2027-02",
+            "forecast_quantity": 254,
+            "lower_bound": 169,
+            "upper_bound": 342
+          },
+          {
+            "month": "2027-03",
+            "forecast_quantity": 624,
+            "lower_bound": 416,
+            "upper_bound": 839
+          },
+          {
+            "month": "2027-04",
+            "forecast_quantity": 459,
+            "lower_bound": 306,
+            "upper_bound": 617
+          }
+        ]
+      }
+    ]
+  }
+]

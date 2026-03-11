@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "6a628aed-8b95-49cb-be36-4b5d70ac4ab3",
+    "event_subtype": "rate_change",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-06-10",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": 14.0294,
+    "message": "DHL Freight rate adjustment: +14.0% effective immediately",
+    "simulation_date": "2026-06-10",
+    "timestamp": "2026-06-10T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "2af43f61-5eaa-483a-9b27-0bf7992deaed",
+    "event_subtype": "service_disruption",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": "PL-LO",
+    "impact_severity": "medium",
+    "start_date": "2026-06-10",
+    "end_date": "2026-06-11",
+    "duration_days": 1,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting Raben Group operations in PL-LO for 1 day",
+    "simulation_date": "2026-06-10",
+    "timestamp": "2026-06-10T08:00:00Z",
+    "sync_window": "08"
+  }
+]

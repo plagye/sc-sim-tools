@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260129-0007",
+    "timestamp": "2026-01-29T08:00:00Z",
+    "simulation_date": "2026-01-29",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0045",
+    "product_group": "BF-DN40-DPX",
+    "signal_type": "downside_risk",
+    "magnitude": "high",
+    "horizon_weeks": 22,
+    "description": "Market signal indicates potential demand softening in the near term. Source: seasonal model.",
+    "confidence": 0.2
+  }
+]

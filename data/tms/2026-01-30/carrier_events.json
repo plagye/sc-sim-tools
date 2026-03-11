@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "db8d9582-5442-4956-9f75-f4c685fccfad",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "DBSC",
+    "carrier_name": "DB Schenker",
+    "affected_region": "PL-WN",
+    "impact_severity": "low",
+    "start_date": "2026-01-30",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-WN, expect 1-2 day delays",
+    "simulation_date": "2026-01-30",
+    "timestamp": "2026-01-30T14:00:00Z",
+    "sync_window": "14"
+  }
+]

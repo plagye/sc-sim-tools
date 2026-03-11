@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260612-0029",
+    "timestamp": "2026-06-12T09:00:00Z",
+    "entity_type": "product",
+    "entity_id": "FF-BF200-S316-PN25-TE",
+    "field_changed": "sku_status",
+    "old_value": "active",
+    "new_value": "discontinued",
+    "effective_date": "2026-06-13",
+    "reason": "product_lifecycle"
+  }
+]

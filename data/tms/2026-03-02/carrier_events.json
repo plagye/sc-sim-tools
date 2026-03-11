@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "d6a6f9c7-55e0-4d20-bc0b-281f57a29408",
+    "event_subtype": "rate_change",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-03-02",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": 5.4649,
+    "message": "Geodis rate adjustment: +5.5% effective immediately",
+    "simulation_date": "2026-03-02",
+    "timestamp": "2026-03-02T14:00:00Z",
+    "sync_window": "14"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "7fd6bb23-4855-4a36-91ce-4be5ff808f87",
+    "event_subtype": "rate_change",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-11-05",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": 14.6119,
+    "message": "DHL Freight rate adjustment: +14.6% effective immediately",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "ae1ac282-a1d3-43b2-a01a-0e07b13f7142",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": "PL-MA",
+    "impact_severity": "low",
+    "start_date": "2026-11-05",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-MA, expect 1-2 day delays",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T08:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "689e880f-864a-489a-b3e6-dcbb488941f8",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": "PL-PM",
+    "impact_severity": "low",
+    "start_date": "2026-11-05",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-PM, expect 1-2 day delays",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T08:00:00Z",
+    "sync_window": "08"
+  }
+]

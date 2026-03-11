@@ -1,0 +1,28 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "6e9e1ab4-cd3f-4d97-b9a1-fa015901ede7",
+    "load_id": "LOAD-1032",
+    "event_subtype": "out_for_delivery",
+    "simulation_date": "2026-01-31",
+    "sync_window": "08",
+    "carrier_code": "GEODIS",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1040"
+    ],
+    "order_ids": [
+      "ORD-2026-001102"
+    ],
+    "total_weight_kg": 2544.258,
+    "weight_unit": "kg",
+    "total_weight_reported": 2544.258,
+    "status": "out_for_delivery",
+    "planned_date": "2026-01-28",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0028"
+    ],
+    "destination_region": ""
+  }
+]

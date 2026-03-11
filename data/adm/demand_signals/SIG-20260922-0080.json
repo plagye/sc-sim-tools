@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260922-0080",
+    "timestamp": "2026-09-22T08:00:00Z",
+    "simulation_date": "2026-09-22",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0010",
+    "product_group": "BF-DN200-S304",
+    "signal_type": "mix_change",
+    "magnitude": "low",
+    "horizon_weeks": 10,
+    "description": "Product mix shift anticipated toward this product family. Source: consumption trend.",
+    "confidence": 0.2
+  }
+]

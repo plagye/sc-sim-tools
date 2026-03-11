@@ -1,0 +1,86 @@
+[
+  {
+    "event_type": "production_completion",
+    "event_id": "5e5b386d-5e47-43ff-a4fb-b7528fe89a00",
+    "simulation_date": "2026-09-15",
+    "batch_id": "BATCH-1975",
+    "sku": "FF-BL100-CS-PN63-WP",
+    "quantity": 35,
+    "grade": "A",
+    "production_line": 5,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-09-15T13:56:58"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "97837241-3d56-49f5-9a34-6dd1a3b7071b",
+    "simulation_date": "2026-09-15",
+    "batch_id": "BATCH-1976",
+    "sku": "FF-GT250-S316-PN63-TM",
+    "quantity": 28,
+    "grade": "B",
+    "production_line": 4,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-09-15T09:48:28"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "8c169fda-f7b3-48a8-bfe7-acbb28854bfa",
+    "simulation_date": "2026-09-15",
+    "batch_id": "BATCH-1977",
+    "sku": "FF-BL80-DPX-PN25-FE",
+    "quantity": 38,
+    "grade": "B",
+    "production_line": 2,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-09-15T10:40:27"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "4c2370e6-25cb-4cda-a14a-4f6947708ea1",
+    "simulation_date": "2026-09-15",
+    "batch_id": "BATCH-1978",
+    "sku": "FF-GT50-BRS-PN16-FM",
+    "quantity": 57,
+    "grade": "A",
+    "production_line": 3,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-09-15T13:57:00"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "7cb6f3fd-dd1e-48a4-aca1-297e9317db36",
+    "simulation_date": "2026-09-15",
+    "batch_id": "BATCH-1979",
+    "sku": "FF-BL50-S316-PN10-TE",
+    "quantity": 57,
+    "grade": "A",
+    "production_line": 4,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-09-15T07:17:31"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "48258529-ca9b-437a-9b3b-de7834b99cc4",
+    "simulation_date": "2026-09-15",
+    "batch_id": "BATCH-1980",
+    "sku": "FF-GT80-S304-PN10-FM",
+    "quantity": 36,
+    "grade": "A",
+    "production_line": 5,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-09-15T08:59:05"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "99565094-ef9e-40eb-b601-5f177a662f5d",
+    "simulation_date": "2026-09-15",
+    "batch_id": "BATCH-1981",
+    "sku": "FF-BF100-CS-PN40-XP",
+    "quantity": 51,
+    "grade": "A",
+    "production_line": 3,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-09-15T06:50:13"
+  }
+]

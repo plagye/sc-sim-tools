@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260304-0019",
+    "timestamp": "2026-03-04T08:00:00Z",
+    "simulation_date": "2026-03-04",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0041",
+    "product_group": "GT-DN100-CS",
+    "signal_type": "upside_risk",
+    "magnitude": "low",
+    "horizon_weeks": 13,
+    "description": "Positive demand indicator suggests higher-than-planned volumes ahead. Source: seasonal model.",
+    "confidence": 0.8
+  }
+]

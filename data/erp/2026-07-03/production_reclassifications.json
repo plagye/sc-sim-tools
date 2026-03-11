@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "cc6a7c90-ee92-4d28-a4de-0c59a52077dd",
+    "simulation_date": "2026-07-03",
+    "batch_id": "BATCH-1662",
+    "sku": "FF-BF80-CS-PN40-FP",
+    "quantity": 60,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-07-01",
+    "reclassification_reason": "quality_review"
+  }
+]

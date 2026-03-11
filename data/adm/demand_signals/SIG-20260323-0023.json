@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260323-0023",
+    "timestamp": "2026-03-23T08:00:00Z",
+    "simulation_date": "2026-03-23",
+    "signal_source": "market_intelligence",
+    "customer_id": null,
+    "product_group": "BF-DN150-BRS",
+    "signal_type": "upside_risk",
+    "magnitude": "high",
+    "horizon_weeks": 13,
+    "description": "Positive demand indicator suggests higher-than-planned volumes ahead. Source: market intelligence.",
+    "confidence": 0.1
+  }
+]

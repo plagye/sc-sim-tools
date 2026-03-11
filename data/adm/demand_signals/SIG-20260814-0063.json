@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260814-0063",
+    "timestamp": "2026-08-14T08:00:00Z",
+    "simulation_date": "2026-08-14",
+    "signal_source": "market_intelligence",
+    "customer_id": null,
+    "product_group": "GT-DN100-CS",
+    "signal_type": "timing_shift",
+    "magnitude": "high",
+    "horizon_weeks": 12,
+    "description": "Delivery timing expected to shift based on customer project schedule. Source: market intelligence.",
+    "confidence": 0.8
+  }
+]

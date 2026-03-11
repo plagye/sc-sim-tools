@@ -1,0 +1,27 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "846c3774-17ad-4ced-82ce-d2ff99a3ff6e",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1001",
+    "order_id": "ORD-2026-001001",
+    "customer_id": "CUST-0013",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001001-L1",
+        "sku": "FF-BF80-S316-PN16-WM",
+        "quantity_returned": 14,
+        "quantity_accepted": null,
+        "return_reason": "wrong_item_shipped"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "wrong_item_shipped",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-01-15",
+    "timestamp": "2026-01-15T09:00:00Z",
+    "sync_window": "08"
+  }
+]

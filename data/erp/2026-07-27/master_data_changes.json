@@ -1,0 +1,22 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260727-0034",
+    "timestamp": "2026-07-27T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0029",
+    "field_changed": "delivery_address_primary",
+    "old_value": {
+      "street": "ul. Dobra 99/27",
+      "city": "Zduńska Wola",
+      "postal_code": "52-790"
+    },
+    "new_value": {
+      "street": "aleja Towarowa 05/59",
+      "city": "Grudziądz",
+      "postal_code": "43-053"
+    },
+    "effective_date": "2026-07-28",
+    "reason": "office_relocation"
+  }
+]

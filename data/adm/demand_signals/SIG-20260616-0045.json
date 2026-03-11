@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260616-0045",
+    "timestamp": "2026-06-16T08:00:00Z",
+    "simulation_date": "2026-06-16",
+    "signal_source": "contract_renewal",
+    "customer_id": "CUST-0029",
+    "product_group": "BF-DN200-BRS",
+    "signal_type": "new_demand",
+    "magnitude": "low",
+    "horizon_weeks": 17,
+    "description": "New demand source identified for this product group. Source: contract renewal.",
+    "confidence": 0.4
+  }
+]

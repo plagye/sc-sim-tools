@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260318-0022",
+    "timestamp": "2026-03-18T08:00:00Z",
+    "simulation_date": "2026-03-18",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0046",
+    "product_group": "BF-DN50-CS",
+    "signal_type": "mix_change",
+    "magnitude": "high",
+    "horizon_weeks": 6,
+    "description": "Product mix shift anticipated toward this product family. Source: consumption trend.",
+    "confidence": 0.7
+  }
+]

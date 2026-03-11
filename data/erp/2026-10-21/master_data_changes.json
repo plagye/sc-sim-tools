@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20261021-0044",
+    "timestamp": "2026-10-21T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0056",
+    "field_changed": "segment",
+    "old_value": "Chemical Plants",
+    "new_value": "Shipyards",
+    "effective_date": "2026-10-22",
+    "reason": "account_reclassification"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "20fe325b-0b6a-4906-b5eb-40cd022a77ca",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": "PL-MA",
+    "impact_severity": "medium",
+    "start_date": "2026-05-18",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-MA, expect 1-2 day delays",
+    "simulation_date": "2026-05-18",
+    "timestamp": "2026-05-18T20:00:00Z",
+    "sync_window": "20"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "18c5786b-8952-47cf-bbd0-3224241a9c2a",
+    "event_subtype": "rate_change",
+    "carrier_code": "DBSC",
+    "carrier_name": "DB Schenker",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-05-18",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": 12.2727,
+    "message": "DB Schenker rate adjustment: +12.3% effective immediately",
+    "simulation_date": "2026-05-18",
+    "timestamp": "2026-05-18T14:00:00Z",
+    "sync_window": "14"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "order_modifications",
+    "event_id": "9622803c-f9cc-403c-acb7-f5b23666b9f6",
+    "modification_date": "2026-08-13",
+    "order_id": "ORD-2026-001875",
+    "modification_type": "line_addition",
+    "line_id": "ORD-2026-001875-L2",
+    "old_value": null,
+    "new_value": "FF-BL50-S304-PN25-TM:5",
+    "reason": "customer_request"
+  }
+]

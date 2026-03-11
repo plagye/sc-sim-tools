@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "48ebc3a4-6db5-4a29-9743-1d3b37f101df",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": "PL-PM",
+    "impact_severity": "low",
+    "start_date": "2026-09-30",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-PM, expect 1-2 day delays",
+    "simulation_date": "2026-09-30",
+    "timestamp": "2026-09-30T08:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "b67c1203-3129-4d7a-a146-072c10b70f66",
+    "event_subtype": "rate_change",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-09-30",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": -5.5197,
+    "message": "Geodis rate adjustment: -5.5% effective immediately",
+    "simulation_date": "2026-09-30",
+    "timestamp": "2026-09-30T14:00:00Z",
+    "sync_window": "14"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "3abca587-2e95-4bc2-b6c9-fb71c15cb1a5",
+    "event_subtype": "service_disruption",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": "PL-LB",
+    "impact_severity": "medium",
+    "start_date": "2026-06-19",
+    "end_date": "2026-06-22",
+    "duration_days": 3,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting Geodis operations in PL-LB for 3 days",
+    "simulation_date": "2026-06-19",
+    "timestamp": "2026-06-19T20:00:00Z",
+    "sync_window": "20"
+  }
+]

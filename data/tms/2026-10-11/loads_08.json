@@ -1,0 +1,28 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "d1db2f43-1abe-49ec-83cf-eb35c713cc4d",
+    "load_id": "LOAD-1134",
+    "event_subtype": "out_for_delivery",
+    "simulation_date": "2026-10-11",
+    "sync_window": "08",
+    "carrier_code": "DBSC",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1156"
+    ],
+    "order_ids": [
+      "ORD-2026-002416"
+    ],
+    "total_weight_kg": 957.387,
+    "weight_unit": "kg",
+    "total_weight_reported": 957.387,
+    "status": "out_for_delivery",
+    "planned_date": "2026-10-09",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0052"
+    ],
+    "destination_region": ""
+  }
+]

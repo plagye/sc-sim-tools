@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260723-0052",
+    "timestamp": "2026-07-23T08:00:00Z",
+    "simulation_date": "2026-07-23",
+    "signal_source": "market_intelligence",
+    "customer_id": null,
+    "product_group": "GL-DN50-S304",
+    "signal_type": "upside_risk",
+    "magnitude": "low",
+    "horizon_weeks": 20,
+    "description": "Positive demand indicator suggests higher-than-planned volumes ahead. Source: market intelligence.",
+    "confidence": 0.8
+  }
+]

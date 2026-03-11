@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260603-0040",
+    "timestamp": "2026-06-03T08:00:00Z",
+    "simulation_date": "2026-06-03",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0032",
+    "product_group": "CK-DN200-S304",
+    "signal_type": "mix_change",
+    "magnitude": "high",
+    "horizon_weeks": 14,
+    "description": "Product mix shift anticipated toward this product family. Source: seasonal model.",
+    "confidence": 0.8
+  }
+]

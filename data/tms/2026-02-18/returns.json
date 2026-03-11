@@ -1,0 +1,59 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "628bd9fa-b7c7-45f7-a300-8ad6fa335474",
+    "event_subtype": "received_at_warehouse",
+    "rma_id": "RMA-1002",
+    "order_id": "ORD-2026-001066",
+    "customer_id": "CUST-0001",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001066-L1",
+        "sku": "FF-GL200-BRS-PN16-TE",
+        "quantity_returned": 71,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      },
+      {
+        "line_id": "ORD-2026-001066-L2",
+        "sku": "FF-BL25-BRS-PN10-WM",
+        "quantity_returned": 14,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "received_at_warehouse",
+    "simulation_date": "2026-02-18",
+    "timestamp": "2026-02-18T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "622df33c-6d8b-48b5-ae47-e951b888d360",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1003",
+    "order_id": "ORD-2026-001069",
+    "customer_id": "CUST-0017",
+    "carrier_code": "BALTIC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001069-L1",
+        "sku": "FF-BF25-S316-PN10-TE",
+        "quantity_returned": 24,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-02-18",
+    "timestamp": "2026-02-18T09:00:00Z",
+    "sync_window": "08"
+  }
+]

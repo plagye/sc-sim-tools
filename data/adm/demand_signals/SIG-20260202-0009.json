@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260202-0009",
+    "timestamp": "2026-02-02T08:00:00Z",
+    "simulation_date": "2026-02-02",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0021",
+    "product_group": "BF-DN100-CS",
+    "signal_type": "upside_risk",
+    "magnitude": "medium",
+    "horizon_weeks": 16,
+    "description": "Positive demand indicator suggests higher-than-planned volumes ahead. Source: consumption trend.",
+    "confidence": 0.7
+  }
+]

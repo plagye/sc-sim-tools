@@ -1,0 +1,46 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260611-0026",
+    "timestamp": "2026-06-11T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0029",
+    "field_changed": "delivery_address_primary",
+    "old_value": {
+      "street": "Aminasteeg 58",
+      "city": "Rouveen",
+      "postal_code": "8861 EO"
+    },
+    "new_value": {
+      "street": "ul. Dobra 99/27",
+      "city": "Zduńska Wola",
+      "postal_code": "52-790"
+    },
+    "effective_date": "2026-06-12",
+    "reason": "office_relocation"
+  },
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260611-0027",
+    "timestamp": "2026-06-11T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0004",
+    "field_changed": "segment",
+    "old_value": "Oil & Gas",
+    "new_value": "Chemical Plants",
+    "effective_date": "2026-06-12",
+    "reason": "account_reclassification"
+  },
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260611-0028",
+    "timestamp": "2026-06-11T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0047",
+    "field_changed": "payment_terms_days",
+    "old_value": 90,
+    "new_value": 30,
+    "effective_date": "2026-06-12",
+    "reason": "contract_renewal"
+  }
+]

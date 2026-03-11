@@ -1,0 +1,27 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "715ab979-d777-476f-a4b9-11a21b2fb9b7",
+    "event_subtype": "pickup_scheduled",
+    "rma_id": "RMA-1011",
+    "order_id": "ORD-2026-001003",
+    "customer_id": "CUST-0017",
+    "carrier_code": "BALTIC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001003-L1",
+        "sku": "FF-BF80-CS-PN25-FP",
+        "quantity_returned": 26,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "pickup_scheduled",
+    "simulation_date": "2026-03-11",
+    "timestamp": "2026-03-11T09:00:00Z",
+    "sync_window": "08"
+  }
+]

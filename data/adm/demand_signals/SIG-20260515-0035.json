@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260515-0035",
+    "timestamp": "2026-05-15T08:00:00Z",
+    "simulation_date": "2026-05-15",
+    "signal_source": "customer_communication",
+    "customer_id": "CUST-0032",
+    "product_group": "GL-DN15-S304",
+    "signal_type": "mix_change",
+    "magnitude": "low",
+    "horizon_weeks": 5,
+    "description": "Product mix shift anticipated toward this product family. Source: customer communication.",
+    "confidence": 0.3
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "event_type": "exchange_rate",
+    "event_id": "376cffe2-4f8d-4a21-a587-0dab7c550180",
+    "simulation_date": "2026-01-09",
+    "currency_pair": "EUR/PLN",
+    "rate": 4.292,
+    "previous_rate": 4.2962,
+    "change_pct": -0.0978
+  },
+  {
+    "event_type": "exchange_rate",
+    "event_id": "82055f03-9aeb-467f-8098-f68b1a605b24",
+    "simulation_date": "2026-01-09",
+    "currency_pair": "USD/PLN",
+    "rate": 4.068,
+    "previous_rate": 4.0609,
+    "change_pct": 0.1748
+  }
+]

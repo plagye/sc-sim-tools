@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "ed28fac7-1795-4113-b681-62a02decf2e6",
+    "simulation_date": "2026-07-20",
+    "batch_id": "BATCH-1720",
+    "sku": "FF-GT80-CS-PN25-FM",
+    "quantity": 16,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-07-14",
+    "reclassification_reason": "quality_review"
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "event_type": "customer_order",
+    "event_id": "b8e42044-e4b0-467e-8e37-bd57b12fa4ae",
+    "order_id": "ORD-2026-002229",
+    "customer_id": "CUST-0018",
+    "simulation_date": "2026-07-28",
+    "timestamp": "2026-07-28T09:21:08",
+    "currency": "PLN",
+    "priority": "express",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-08-10",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002229-L1",
+        "sku": "FF-GT250-S316-PN63-WP",
+        "quantity_ordered": 33,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 58318.11,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002229-L2",
+        "sku": "FF-BL150-S316-PN40-WE",
+        "quantity_ordered": 30,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 17810.6,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002229-L3",
+        "sku": "FF-BL150-S304-PN40-FM",
+        "quantity_ordered": 33,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 7672.42,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "portal",
+    "incoterms": "DDP"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "b128f4f5-bc09-465e-a774-3d17267605ce",
+    "order_id": "ORD-2026-002230",
+    "customer_id": "CUST-0024",
+    "simulation_date": "2026-07-28",
+    "timestamp": "2026-07-28T11:07:00",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-08-14",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002230-L1",
+        "sku": "FF-GT150-S316-PN25-FM",
+        "quantity_ordered": 41,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 7812.18,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002230-L2",
+        "sku": "FF-GT150-S316-PN40-TM",
+        "quantity_ordered": 26,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 8253.74,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "direct",
+    "incoterms": "FCA"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "51e300f6-9eb9-46e5-b2a4-3f9e8003e606",
+    "order_id": "ORD-2026-002231",
+    "customer_id": "CUST-0040",
+    "simulation_date": "2026-07-28",
+    "timestamp": "2026-07-28T08:52:32",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-08-18",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002231-L1",
+        "sku": "FF-GT250-S316-PN40-WH",
+        "quantity_ordered": 58,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 70138.18,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002231-L2",
+        "sku": "FF-BL150-S316-PN40-TM",
+        "quantity_ordered": 103,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 8783.54,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002231-L3",
+        "sku": "FF-BF150-S316-PN40-FE",
+        "quantity_ordered": 91,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 11418.61,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002231-L4",
+        "sku": "FF-CK200-CS-PN63-TM",
+        "quantity_ordered": 61,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 9542.61,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "direct",
+    "incoterms": "DDP"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0025",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BF50-CS-PN25-TE",
+    "warehouse": "W01",
+    "safety_stock": 7,
+    "reorder_point": 12,
+    "target_stock": 24,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0026",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BF50-CS-PN25-TE",
+    "warehouse": "W02",
+    "safety_stock": 9,
+    "reorder_point": 16,
+    "target_stock": 30,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0027",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-GT200-CS-PN40-TE",
+    "warehouse": "W01",
+    "safety_stock": 11,
+    "reorder_point": 18,
+    "target_stock": 29,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0028",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-GT200-CS-PN40-TE",
+    "warehouse": "W02",
+    "safety_stock": 9,
+    "reorder_point": 13,
+    "target_stock": 27,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0029",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-GT150-CS-PN10-FM",
+    "warehouse": "W01",
+    "safety_stock": 9,
+    "reorder_point": 14,
+    "target_stock": 23,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0030",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-GT150-CS-PN10-FM",
+    "warehouse": "W02",
+    "safety_stock": 5,
+    "reorder_point": 7,
+    "target_stock": 17,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0031",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BL100-S316-PN25-FP",
+    "warehouse": "W01",
+    "safety_stock": 7,
+    "reorder_point": 11,
+    "target_stock": 24,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0032",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BL100-S316-PN25-FP",
+    "warehouse": "W02",
+    "safety_stock": 12,
+    "reorder_point": 19,
+    "target_stock": 31,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0033",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BL40-BRS-PN16-TM",
+    "warehouse": "W01",
+    "safety_stock": 12,
+    "reorder_point": 20,
+    "target_stock": 40,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0034",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BL40-BRS-PN16-TM",
+    "warehouse": "W02",
+    "safety_stock": 12,
+    "reorder_point": 20,
+    "target_stock": 34,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0035",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-GT50-S316-PN25-FM",
+    "warehouse": "W01",
+    "safety_stock": 6,
+    "reorder_point": 10,
+    "target_stock": 20,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0036",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-GT50-S316-PN25-FM",
+    "warehouse": "W02",
+    "safety_stock": 6,
+    "reorder_point": 9,
+    "target_stock": 17,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0037",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BF40-S304-PN25-FE",
+    "warehouse": "W01",
+    "safety_stock": 10,
+    "reorder_point": 16,
+    "target_stock": 27,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0038",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BF40-S304-PN25-FE",
+    "warehouse": "W02",
+    "safety_stock": 9,
+    "reorder_point": 15,
+    "target_stock": 28,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0039",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-GT25-BRS-PN10-WE",
+    "warehouse": "W01",
+    "safety_stock": 8,
+    "reorder_point": 14,
+    "target_stock": 22,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0040",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-GT25-BRS-PN10-WE",
+    "warehouse": "W02",
+    "safety_stock": 7,
+    "reorder_point": 12,
+    "target_stock": 20,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0041",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BL250-DPX-PN25-FE",
+    "warehouse": "W01",
+    "safety_stock": 8,
+    "reorder_point": 14,
+    "target_stock": 27,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0042",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BL250-DPX-PN25-FE",
+    "warehouse": "W02",
+    "safety_stock": 9,
+    "reorder_point": 13,
+    "target_stock": 31,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0043",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BL50-S304-PN10-TE",
+    "warehouse": "W01",
+    "safety_stock": 6,
+    "reorder_point": 9,
+    "target_stock": 16,
+    "review_trigger": "demand_plan_update"
+  },
+  {
+    "event_type": "inventory_target",
+    "target_id": "TGT-20260302-0044",
+    "timestamp": "2026-03-02T07:30:00Z",
+    "sku": "FF-BL50-S304-PN10-TE",
+    "warehouse": "W02",
+    "safety_stock": 12,
+    "reorder_point": 19,
+    "target_stock": 34,
+    "review_trigger": "demand_plan_update"
+  }
+]

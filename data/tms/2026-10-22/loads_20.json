@@ -1,0 +1,28 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "4eb3a16a-e538-4e51-999a-f58dd9f06b6d",
+    "load_id": "LOAD-1142",
+    "event_subtype": "out_for_delivery",
+    "simulation_date": "2026-10-22",
+    "sync_window": "20",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1164"
+    ],
+    "order_ids": [
+      "ORD-2026-002670"
+    ],
+    "total_weight_kg": 27.0,
+    "weight_unit": "kg",
+    "total_weight_reported": 27.0,
+    "status": "out_for_delivery",
+    "planned_date": "2026-10-19",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0043"
+    ],
+    "destination_region": ""
+  }
+]

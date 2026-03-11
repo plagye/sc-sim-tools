@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260916-0076",
+    "timestamp": "2026-09-16T08:00:00Z",
+    "simulation_date": "2026-09-16",
+    "signal_source": "market_intelligence",
+    "customer_id": null,
+    "product_group": "BF-DN100-BRS",
+    "signal_type": "mix_change",
+    "magnitude": "medium",
+    "horizon_weeks": 5,
+    "description": "Product mix shift anticipated toward this product family. Source: market intelligence.",
+    "confidence": 0.7
+  }
+]

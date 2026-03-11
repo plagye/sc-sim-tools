@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260724-0053",
+    "timestamp": "2026-07-24T08:00:00Z",
+    "simulation_date": "2026-07-24",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0060",
+    "product_group": "GL-DN80-S316",
+    "signal_type": "upside_risk",
+    "magnitude": "low",
+    "horizon_weeks": 26,
+    "description": "Positive demand indicator suggests higher-than-planned volumes ahead. Source: consumption trend.",
+    "confidence": 0.7
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "5ac8a97b-0b50-4e7a-a732-7050099d22cc",
+    "load_id": "LOAD-1145",
+    "event_subtype": "load_created",
+    "simulation_date": "2026-10-28",
+    "sync_window": "08",
+    "carrier_code": "GEODIS",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1167"
+    ],
+    "order_ids": [
+      "ORD-2026-001360"
+    ],
+    "total_weight_kg": 5152.875,
+    "weight_unit": "kg",
+    "total_weight_reported": 5152.875,
+    "status": "load_created",
+    "planned_date": "2026-10-28",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0046"
+    ],
+    "destination_region": "CZ-MS"
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "80ebe4ce-43a4-4c35-87d5-761c45e9de42",
+    "load_id": "LOAD-1145",
+    "event_subtype": "in_transit",
+    "simulation_date": "2026-10-28",
+    "sync_window": "08",
+    "carrier_code": "GEODIS",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1167"
+    ],
+    "order_ids": [
+      "ORD-2026-001360"
+    ],
+    "total_weight_kg": 5152.875,
+    "weight_unit": "kg",
+    "total_weight_reported": 5152.875,
+    "status": "in_transit",
+    "planned_date": "2026-10-28",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0046"
+    ],
+    "destination_region": ""
+  }
+]

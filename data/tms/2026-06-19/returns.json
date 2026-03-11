@@ -1,0 +1,148 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "e7f76de9-7b74-4ac4-9df6-f900eba975d4",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1060",
+    "order_id": "ORD-2026-001038",
+    "customer_id": "CUST-0053",
+    "carrier_code": "DHL",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001038-L1",
+        "sku": "FF-BF80-CS-PN10-WP",
+        "quantity_returned": 9,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-06-19",
+    "timestamp": "2026-06-19T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "4dff569a-2080-48b2-840e-cce1abdb3237",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1061",
+    "order_id": "ORD-2026-001014",
+    "customer_id": "CUST-0043",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001014-L1",
+        "sku": "FF-CK150-S316-PN10-WM",
+        "quantity_returned": 27,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-06-19",
+    "timestamp": "2026-06-19T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "6831f564-a991-44cf-8df4-2c9bb16e2773",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1062",
+    "order_id": "ORD-2026-001487",
+    "customer_id": "CUST-0019",
+    "carrier_code": "DHL",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001487-L1",
+        "sku": "FF-BF150-S304-PN16-XM",
+        "quantity_returned": 10,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      },
+      {
+        "line_id": "ORD-2026-001487-L2",
+        "sku": "FF-BF150-CS-PN16-TM",
+        "quantity_returned": 12,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      },
+      {
+        "line_id": "ORD-2026-001487-L3",
+        "sku": "FF-BF50-BRS-PN10-XM",
+        "quantity_returned": 10,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-06-19",
+    "timestamp": "2026-06-19T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "a7155985-793e-4111-b859-00c0cc1396d8",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1063",
+    "order_id": "ORD-2026-001587",
+    "customer_id": "CUST-0058",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001587-L1",
+        "sku": "FF-BL40-S304-PN16-WM",
+        "quantity_returned": 96,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-06-19",
+    "timestamp": "2026-06-19T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "2f292428-2200-4224-be58-2ba6931c65d4",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1064",
+    "order_id": "ORD-2026-001753",
+    "customer_id": "CUST-0043",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001753-L2",
+        "sku": "FF-GT25-BRS-PN10-WM",
+        "quantity_returned": 3,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      },
+      {
+        "line_id": "ORD-2026-001753-L1",
+        "sku": "FF-BF25-S316-PN16-FE",
+        "quantity_returned": 7,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-06-19",
+    "timestamp": "2026-06-19T09:00:00Z",
+    "sync_window": "08"
+  }
+]

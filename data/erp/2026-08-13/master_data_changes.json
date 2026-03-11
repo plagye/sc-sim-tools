@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260813-0037",
+    "timestamp": "2026-08-13T09:00:00Z",
+    "entity_type": "product",
+    "entity_id": "FF-BL50-S304-PN10-FM",
+    "field_changed": "sku_status",
+    "old_value": "active",
+    "new_value": "discontinued",
+    "effective_date": "2026-08-14",
+    "reason": "product_lifecycle"
+  }
+]

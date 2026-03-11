@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20261009-0087",
+    "timestamp": "2026-10-09T08:00:00Z",
+    "simulation_date": "2026-10-09",
+    "signal_source": "competitor_event",
+    "customer_id": null,
+    "product_group": "CK-DN80-CS",
+    "signal_type": "new_demand",
+    "magnitude": "low",
+    "horizon_weeks": 10,
+    "description": "New demand source identified for this product group. Source: competitor event.",
+    "confidence": 0.8
+  }
+]

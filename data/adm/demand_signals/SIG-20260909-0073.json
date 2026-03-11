@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260909-0073",
+    "timestamp": "2026-09-09T08:00:00Z",
+    "simulation_date": "2026-09-09",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0039",
+    "product_group": "BL-DN40-CS",
+    "signal_type": "timing_shift",
+    "magnitude": "high",
+    "horizon_weeks": 21,
+    "description": "Delivery timing expected to shift based on customer project schedule. Source: seasonal model.",
+    "confidence": 0.3
+  }
+]

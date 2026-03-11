@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "ac17e691-d645-4b57-bbe6-e7d6de55ca2c",
+    "simulation_date": "2026-08-14",
+    "batch_id": "BATCH-1814",
+    "sku": "FF-GT250-CS-PN25-FE",
+    "quantity": 117,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-08-10",
+    "reclassification_reason": "quality_review"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260826-0067",
+    "timestamp": "2026-08-26T08:00:00Z",
+    "simulation_date": "2026-08-26",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0058",
+    "product_group": "BL-DN25-CS",
+    "signal_type": "new_demand",
+    "magnitude": "low",
+    "horizon_weeks": 26,
+    "description": "New demand source identified for this product group. Source: seasonal model.",
+    "confidence": 0.9
+  }
+]

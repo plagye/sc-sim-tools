@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "9b07972c-4ba3-4509-93c5-e48e6120b40a",
+    "event_subtype": "rate_change",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-04-21",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": 14.9671,
+    "message": "Raben Group rate adjustment: +15.0% effective immediately",
+    "simulation_date": "2026-04-21",
+    "timestamp": "2026-04-21T14:00:00Z",
+    "sync_window": "14"
+  }
+]

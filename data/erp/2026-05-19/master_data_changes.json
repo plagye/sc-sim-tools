@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260519-0024",
+    "timestamp": "2026-05-19T09:00:00Z",
+    "entity_type": "product",
+    "entity_id": "FF-GL200-BRS-PN16-TP",
+    "field_changed": "sku_status",
+    "old_value": "active",
+    "new_value": "discontinued",
+    "effective_date": "2026-05-20",
+    "reason": "product_lifecycle"
+  }
+]

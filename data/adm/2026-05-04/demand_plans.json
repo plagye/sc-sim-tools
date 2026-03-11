@@ -1,0 +1,3286 @@
+[
+  {
+    "event_type": "demand_plan",
+    "plan_id": "DP-2026-05",
+    "timestamp": "2026-05-04T07:00:00Z",
+    "planning_horizon_months": 6,
+    "plan_lines": [
+      {
+        "product_group": "BF-DN100-CS",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 379,
+            "confidence_low": 284,
+            "confidence_high": 493
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 541,
+            "confidence_low": 406,
+            "confidence_high": 703
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 315,
+            "confidence_low": 236,
+            "confidence_high": 410
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 179,
+            "confidence_low": 134,
+            "confidence_high": 233
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 882,
+            "confidence_low": 662,
+            "confidence_high": 1147
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 645,
+            "confidence_low": 484,
+            "confidence_high": 838
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN100-CS",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 236,
+            "confidence_low": 177,
+            "confidence_high": 307
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 539,
+            "confidence_low": 404,
+            "confidence_high": 701
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 270,
+            "confidence_low": 202,
+            "confidence_high": 351
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 417,
+            "confidence_low": 313,
+            "confidence_high": 542
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 707,
+            "confidence_low": 530,
+            "confidence_high": 919
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 110,
+            "confidence_low": 82,
+            "confidence_high": 143
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN100-CS",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 275,
+            "confidence_low": 206,
+            "confidence_high": 358
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 327,
+            "confidence_low": 245,
+            "confidence_high": 425
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 313,
+            "confidence_low": 235,
+            "confidence_high": 407
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 266,
+            "confidence_low": 200,
+            "confidence_high": 346
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 381,
+            "confidence_low": 286,
+            "confidence_high": 495
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 357,
+            "confidence_low": 268,
+            "confidence_high": 464
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN100-CS",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 684,
+            "confidence_low": 513,
+            "confidence_high": 889
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 197,
+            "confidence_low": 148,
+            "confidence_high": 256
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 488,
+            "confidence_low": 366,
+            "confidence_high": 634
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 518,
+            "confidence_low": 388,
+            "confidence_high": 673
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 221,
+            "confidence_low": 166,
+            "confidence_high": 287
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 120,
+            "confidence_low": 90,
+            "confidence_high": 156
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN100-CS",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 319,
+            "confidence_low": 239,
+            "confidence_high": 415
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 205,
+            "confidence_low": 154,
+            "confidence_high": 266
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 83,
+            "confidence_low": 62,
+            "confidence_high": 108
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 264,
+            "confidence_low": 198,
+            "confidence_high": 343
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 295,
+            "confidence_low": 221,
+            "confidence_high": 384
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 239,
+            "confidence_low": 179,
+            "confidence_high": 311
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN100-CS",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 183,
+            "confidence_low": 137,
+            "confidence_high": 238
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 235,
+            "confidence_low": 176,
+            "confidence_high": 306
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 125,
+            "confidence_low": 94,
+            "confidence_high": 162
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 200,
+            "confidence_low": 150,
+            "confidence_high": 260
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 331,
+            "confidence_low": 248,
+            "confidence_high": 430
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 96,
+            "confidence_low": 72,
+            "confidence_high": 125
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN40-CS",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 433,
+            "confidence_low": 325,
+            "confidence_high": 563
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 566,
+            "confidence_low": 424,
+            "confidence_high": 736
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 522,
+            "confidence_low": 392,
+            "confidence_high": 679
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 198,
+            "confidence_low": 148,
+            "confidence_high": 257
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 773,
+            "confidence_low": 580,
+            "confidence_high": 1005
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 156,
+            "confidence_low": 117,
+            "confidence_high": 203
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN40-CS",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 579,
+            "confidence_low": 434,
+            "confidence_high": 753
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 276,
+            "confidence_low": 207,
+            "confidence_high": 359
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 88,
+            "confidence_low": 66,
+            "confidence_high": 114
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 96,
+            "confidence_low": 72,
+            "confidence_high": 125
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 750,
+            "confidence_low": 562,
+            "confidence_high": 975
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 507,
+            "confidence_low": 380,
+            "confidence_high": 659
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN40-CS",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 193,
+            "confidence_low": 145,
+            "confidence_high": 251
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 530,
+            "confidence_low": 398,
+            "confidence_high": 689
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 261,
+            "confidence_low": 196,
+            "confidence_high": 339
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 336,
+            "confidence_low": 252,
+            "confidence_high": 437
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 286,
+            "confidence_low": 214,
+            "confidence_high": 372
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 415,
+            "confidence_low": 311,
+            "confidence_high": 540
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN40-CS",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 147,
+            "confidence_low": 110,
+            "confidence_high": 191
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 307,
+            "confidence_low": 230,
+            "confidence_high": 399
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 418,
+            "confidence_low": 314,
+            "confidence_high": 543
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 253,
+            "confidence_low": 190,
+            "confidence_high": 329
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 236,
+            "confidence_low": 177,
+            "confidence_high": 307
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 643,
+            "confidence_low": 482,
+            "confidence_high": 836
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN40-CS",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 411,
+            "confidence_low": 308,
+            "confidence_high": 534
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 97,
+            "confidence_low": 73,
+            "confidence_high": 126
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 319,
+            "confidence_low": 239,
+            "confidence_high": 415
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 339,
+            "confidence_low": 254,
+            "confidence_high": 441
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 420,
+            "confidence_low": 315,
+            "confidence_high": 546
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 123,
+            "confidence_low": 92,
+            "confidence_high": 160
+          }
+        ]
+      },
+      {
+        "product_group": "BF-DN40-CS",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 87,
+            "confidence_low": 65,
+            "confidence_high": 113
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 275,
+            "confidence_low": 206,
+            "confidence_high": 358
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 46,
+            "confidence_low": 34,
+            "confidence_high": 60
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 119,
+            "confidence_low": 89,
+            "confidence_high": 155
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 244,
+            "confidence_low": 183,
+            "confidence_high": 317
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 232,
+            "confidence_low": 174,
+            "confidence_high": 302
+          }
+        ]
+      },
+      {
+        "product_group": "BL-DN300-CS",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 356,
+            "confidence_low": 267,
+            "confidence_high": 463
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 710,
+            "confidence_low": 532,
+            "confidence_high": 923
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 396,
+            "confidence_low": 297,
+            "confidence_high": 515
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 245,
+            "confidence_low": 184,
+            "confidence_high": 318
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 635,
+            "confidence_low": 476,
+            "confidence_high": 826
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 412,
+            "confidence_low": 309,
+            "confidence_high": 536
+          }
+        ]
+      },
+      {
+        "product_group": "BL-DN300-CS",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 95,
+            "confidence_low": 71,
+            "confidence_high": 124
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 248,
+            "confidence_low": 186,
+            "confidence_high": 322
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 125,
+            "confidence_low": 94,
+            "confidence_high": 162
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 339,
+            "confidence_low": 254,
+            "confidence_high": 441
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 606,
+            "confidence_low": 454,
+            "confidence_high": 788
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 571,
+            "confidence_low": 428,
+            "confidence_high": 742
+          }
+        ]
+      },
+      {
+        "product_group": "BL-DN300-CS",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 309,
+            "confidence_low": 232,
+            "confidence_high": 402
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 99,
+            "confidence_low": 74,
+            "confidence_high": 129
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 198,
+            "confidence_low": 148,
+            "confidence_high": 257
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 245,
+            "confidence_low": 184,
+            "confidence_high": 318
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 570,
+            "confidence_low": 428,
+            "confidence_high": 741
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 510,
+            "confidence_low": 382,
+            "confidence_high": 663
+          }
+        ]
+      },
+      {
+        "product_group": "BL-DN300-CS",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 557,
+            "confidence_low": 418,
+            "confidence_high": 724
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 505,
+            "confidence_low": 379,
+            "confidence_high": 656
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 454,
+            "confidence_low": 340,
+            "confidence_high": 590
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 367,
+            "confidence_low": 275,
+            "confidence_high": 477
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 818,
+            "confidence_low": 614,
+            "confidence_high": 1063
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 268,
+            "confidence_low": 201,
+            "confidence_high": 348
+          }
+        ]
+      },
+      {
+        "product_group": "BL-DN300-CS",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 378,
+            "confidence_low": 284,
+            "confidence_high": 491
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 397,
+            "confidence_low": 298,
+            "confidence_high": 516
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 171,
+            "confidence_low": 128,
+            "confidence_high": 222
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 286,
+            "confidence_low": 214,
+            "confidence_high": 372
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 126,
+            "confidence_low": 94,
+            "confidence_high": 164
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 241,
+            "confidence_low": 181,
+            "confidence_high": 313
+          }
+        ]
+      },
+      {
+        "product_group": "BL-DN300-CS",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 95,
+            "confidence_low": 71,
+            "confidence_high": 124
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 204,
+            "confidence_low": 153,
+            "confidence_high": 265
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 81,
+            "confidence_low": 61,
+            "confidence_high": 105
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 50,
+            "confidence_low": 38,
+            "confidence_high": 65
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 220,
+            "confidence_low": 165,
+            "confidence_high": 286
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 220,
+            "confidence_low": 165,
+            "confidence_high": 286
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN200-BRS",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 554,
+            "confidence_low": 416,
+            "confidence_high": 720
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 239,
+            "confidence_low": 179,
+            "confidence_high": 311
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 377,
+            "confidence_low": 283,
+            "confidence_high": 490
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 98,
+            "confidence_low": 74,
+            "confidence_high": 127
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 227,
+            "confidence_low": 170,
+            "confidence_high": 295
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 438,
+            "confidence_low": 328,
+            "confidence_high": 569
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN200-BRS",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 128,
+            "confidence_low": 96,
+            "confidence_high": 166
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 472,
+            "confidence_low": 354,
+            "confidence_high": 614
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 68,
+            "confidence_low": 51,
+            "confidence_high": 88
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 331,
+            "confidence_low": 248,
+            "confidence_high": 430
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 601,
+            "confidence_low": 451,
+            "confidence_high": 781
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 662,
+            "confidence_low": 496,
+            "confidence_high": 861
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN200-BRS",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 243,
+            "confidence_low": 182,
+            "confidence_high": 316
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 486,
+            "confidence_low": 364,
+            "confidence_high": 632
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 266,
+            "confidence_low": 200,
+            "confidence_high": 346
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 179,
+            "confidence_low": 134,
+            "confidence_high": 233
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 330,
+            "confidence_low": 248,
+            "confidence_high": 429
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 158,
+            "confidence_low": 118,
+            "confidence_high": 205
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN200-BRS",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 261,
+            "confidence_low": 196,
+            "confidence_high": 339
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 247,
+            "confidence_low": 185,
+            "confidence_high": 321
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 96,
+            "confidence_low": 72,
+            "confidence_high": 125
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 181,
+            "confidence_low": 136,
+            "confidence_high": 235
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 696,
+            "confidence_low": 522,
+            "confidence_high": 905
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 359,
+            "confidence_low": 269,
+            "confidence_high": 467
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN200-BRS",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 463,
+            "confidence_low": 347,
+            "confidence_high": 602
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 91,
+            "confidence_low": 68,
+            "confidence_high": 118
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 53,
+            "confidence_low": 40,
+            "confidence_high": 69
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 72,
+            "confidence_low": 54,
+            "confidence_high": 94
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 308,
+            "confidence_low": 231,
+            "confidence_high": 400
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 129,
+            "confidence_low": 97,
+            "confidence_high": 168
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN200-BRS",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 235,
+            "confidence_low": 176,
+            "confidence_high": 306
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 286,
+            "confidence_low": 214,
+            "confidence_high": 372
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 167,
+            "confidence_low": 125,
+            "confidence_high": 217
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 226,
+            "confidence_low": 170,
+            "confidence_high": 294
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 150,
+            "confidence_low": 112,
+            "confidence_high": 195
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 294,
+            "confidence_low": 220,
+            "confidence_high": 382
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN40-CS",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 153,
+            "confidence_low": 115,
+            "confidence_high": 199
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 384,
+            "confidence_low": 288,
+            "confidence_high": 499
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 443,
+            "confidence_low": 332,
+            "confidence_high": 576
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 512,
+            "confidence_low": 384,
+            "confidence_high": 666
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 872,
+            "confidence_low": 654,
+            "confidence_high": 1134
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 603,
+            "confidence_low": 452,
+            "confidence_high": 784
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN40-CS",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 251,
+            "confidence_low": 188,
+            "confidence_high": 326
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 387,
+            "confidence_low": 290,
+            "confidence_high": 503
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 259,
+            "confidence_low": 194,
+            "confidence_high": 337
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 139,
+            "confidence_low": 104,
+            "confidence_high": 181
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 185,
+            "confidence_low": 139,
+            "confidence_high": 240
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 421,
+            "confidence_low": 316,
+            "confidence_high": 547
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN40-CS",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 217,
+            "confidence_low": 163,
+            "confidence_high": 282
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 145,
+            "confidence_low": 109,
+            "confidence_high": 188
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 119,
+            "confidence_low": 89,
+            "confidence_high": 155
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 304,
+            "confidence_low": 228,
+            "confidence_high": 395
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 542,
+            "confidence_low": 406,
+            "confidence_high": 705
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 273,
+            "confidence_low": 205,
+            "confidence_high": 355
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN40-CS",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 703,
+            "confidence_low": 527,
+            "confidence_high": 914
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 574,
+            "confidence_low": 430,
+            "confidence_high": 746
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 194,
+            "confidence_low": 146,
+            "confidence_high": 252
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 486,
+            "confidence_low": 364,
+            "confidence_high": 632
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 632,
+            "confidence_low": 474,
+            "confidence_high": 822
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 185,
+            "confidence_low": 139,
+            "confidence_high": 240
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN40-CS",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 499,
+            "confidence_low": 374,
+            "confidence_high": 649
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 411,
+            "confidence_low": 308,
+            "confidence_high": 534
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 114,
+            "confidence_low": 86,
+            "confidence_high": 148
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 332,
+            "confidence_low": 249,
+            "confidence_high": 432
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 132,
+            "confidence_low": 99,
+            "confidence_high": 172
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 85,
+            "confidence_low": 64,
+            "confidence_high": 110
+          }
+        ]
+      },
+      {
+        "product_group": "CK-DN40-CS",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 137,
+            "confidence_low": 103,
+            "confidence_high": 178
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 173,
+            "confidence_low": 130,
+            "confidence_high": 225
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 262,
+            "confidence_low": 196,
+            "confidence_high": 341
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 287,
+            "confidence_low": 215,
+            "confidence_high": 373
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 112,
+            "confidence_low": 84,
+            "confidence_high": 146
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 372,
+            "confidence_low": 279,
+            "confidence_high": 484
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN15-CS",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 815,
+            "confidence_low": 611,
+            "confidence_high": 1060
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 170,
+            "confidence_low": 128,
+            "confidence_high": 221
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 100,
+            "confidence_low": 75,
+            "confidence_high": 130
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 460,
+            "confidence_low": 345,
+            "confidence_high": 598
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 399,
+            "confidence_low": 299,
+            "confidence_high": 519
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 315,
+            "confidence_low": 236,
+            "confidence_high": 410
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN15-CS",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 589,
+            "confidence_low": 442,
+            "confidence_high": 766
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 484,
+            "confidence_low": 363,
+            "confidence_high": 629
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 274,
+            "confidence_low": 206,
+            "confidence_high": 356
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 468,
+            "confidence_low": 351,
+            "confidence_high": 608
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 455,
+            "confidence_low": 341,
+            "confidence_high": 592
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 601,
+            "confidence_low": 451,
+            "confidence_high": 781
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN15-CS",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 200,
+            "confidence_low": 150,
+            "confidence_high": 260
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 330,
+            "confidence_low": 248,
+            "confidence_high": 429
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 280,
+            "confidence_low": 210,
+            "confidence_high": 364
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 151,
+            "confidence_low": 113,
+            "confidence_high": 196
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 305,
+            "confidence_low": 229,
+            "confidence_high": 396
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 133,
+            "confidence_low": 100,
+            "confidence_high": 173
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN15-CS",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 416,
+            "confidence_low": 312,
+            "confidence_high": 541
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 620,
+            "confidence_low": 465,
+            "confidence_high": 806
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 526,
+            "confidence_low": 394,
+            "confidence_high": 684
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 181,
+            "confidence_low": 136,
+            "confidence_high": 235
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 465,
+            "confidence_low": 349,
+            "confidence_high": 604
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 652,
+            "confidence_low": 489,
+            "confidence_high": 848
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN15-CS",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 470,
+            "confidence_low": 352,
+            "confidence_high": 611
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 331,
+            "confidence_low": 248,
+            "confidence_high": 430
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 334,
+            "confidence_low": 250,
+            "confidence_high": 434
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 383,
+            "confidence_low": 287,
+            "confidence_high": 498
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 167,
+            "confidence_low": 125,
+            "confidence_high": 217
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 318,
+            "confidence_low": 238,
+            "confidence_high": 413
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN15-CS",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 191,
+            "confidence_low": 143,
+            "confidence_high": 248
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 314,
+            "confidence_low": 236,
+            "confidence_high": 408
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 141,
+            "confidence_low": 106,
+            "confidence_high": 183
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 243,
+            "confidence_low": 182,
+            "confidence_high": 316
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 131,
+            "confidence_low": 98,
+            "confidence_high": 170
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 368,
+            "confidence_low": 276,
+            "confidence_high": 478
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN300-DPX",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 370,
+            "confidence_low": 278,
+            "confidence_high": 481
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 332,
+            "confidence_low": 249,
+            "confidence_high": 432
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 558,
+            "confidence_low": 418,
+            "confidence_high": 725
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 577,
+            "confidence_low": 433,
+            "confidence_high": 750
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 484,
+            "confidence_low": 363,
+            "confidence_high": 629
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 303,
+            "confidence_low": 227,
+            "confidence_high": 394
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN300-DPX",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 307,
+            "confidence_low": 230,
+            "confidence_high": 399
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 154,
+            "confidence_low": 116,
+            "confidence_high": 200
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 404,
+            "confidence_low": 303,
+            "confidence_high": 525
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 466,
+            "confidence_low": 350,
+            "confidence_high": 606
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 281,
+            "confidence_low": 211,
+            "confidence_high": 365
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 454,
+            "confidence_low": 340,
+            "confidence_high": 590
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN300-DPX",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 112,
+            "confidence_low": 84,
+            "confidence_high": 146
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 94,
+            "confidence_low": 70,
+            "confidence_high": 122
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 309,
+            "confidence_low": 232,
+            "confidence_high": 402
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 165,
+            "confidence_low": 124,
+            "confidence_high": 214
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 127,
+            "confidence_low": 95,
+            "confidence_high": 165
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 538,
+            "confidence_low": 404,
+            "confidence_high": 699
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN300-DPX",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 227,
+            "confidence_low": 170,
+            "confidence_high": 295
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 229,
+            "confidence_low": 172,
+            "confidence_high": 298
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 186,
+            "confidence_low": 140,
+            "confidence_high": 242
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 418,
+            "confidence_low": 314,
+            "confidence_high": 543
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 391,
+            "confidence_low": 293,
+            "confidence_high": 508
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 399,
+            "confidence_low": 299,
+            "confidence_high": 519
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN300-DPX",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 87,
+            "confidence_low": 65,
+            "confidence_high": 113
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 219,
+            "confidence_low": 164,
+            "confidence_high": 285
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 267,
+            "confidence_low": 200,
+            "confidence_high": 347
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 328,
+            "confidence_low": 246,
+            "confidence_high": 426
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 262,
+            "confidence_low": 196,
+            "confidence_high": 341
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 169,
+            "confidence_low": 127,
+            "confidence_high": 220
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN300-DPX",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 277,
+            "confidence_low": 208,
+            "confidence_high": 360
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 233,
+            "confidence_low": 175,
+            "confidence_high": 303
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 259,
+            "confidence_low": 194,
+            "confidence_high": 337
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 128,
+            "confidence_low": 96,
+            "confidence_high": 166
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 240,
+            "confidence_low": 180,
+            "confidence_high": 312
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 139,
+            "confidence_low": 104,
+            "confidence_high": 181
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN50-DPX",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 707,
+            "confidence_low": 530,
+            "confidence_high": 919
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 482,
+            "confidence_low": 362,
+            "confidence_high": 627
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 129,
+            "confidence_low": 97,
+            "confidence_high": 168
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 243,
+            "confidence_low": 182,
+            "confidence_high": 316
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 846,
+            "confidence_low": 634,
+            "confidence_high": 1100
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 726,
+            "confidence_low": 544,
+            "confidence_high": 944
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN50-DPX",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 305,
+            "confidence_low": 229,
+            "confidence_high": 396
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 647,
+            "confidence_low": 485,
+            "confidence_high": 841
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 464,
+            "confidence_low": 348,
+            "confidence_high": 603
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 410,
+            "confidence_low": 308,
+            "confidence_high": 533
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 371,
+            "confidence_low": 278,
+            "confidence_high": 482
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 485,
+            "confidence_low": 364,
+            "confidence_high": 630
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN50-DPX",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 291,
+            "confidence_low": 218,
+            "confidence_high": 378
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 540,
+            "confidence_low": 405,
+            "confidence_high": 702
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 172,
+            "confidence_low": 129,
+            "confidence_high": 224
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 110,
+            "confidence_low": 82,
+            "confidence_high": 143
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 505,
+            "confidence_low": 379,
+            "confidence_high": 656
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 287,
+            "confidence_low": 215,
+            "confidence_high": 373
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN50-DPX",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 572,
+            "confidence_low": 429,
+            "confidence_high": 744
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 324,
+            "confidence_low": 243,
+            "confidence_high": 421
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 404,
+            "confidence_low": 303,
+            "confidence_high": 525
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 538,
+            "confidence_low": 404,
+            "confidence_high": 699
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 316,
+            "confidence_low": 237,
+            "confidence_high": 411
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 127,
+            "confidence_low": 95,
+            "confidence_high": 165
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN50-DPX",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 246,
+            "confidence_low": 184,
+            "confidence_high": 320
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 232,
+            "confidence_low": 174,
+            "confidence_high": 302
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 349,
+            "confidence_low": 262,
+            "confidence_high": 454
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 284,
+            "confidence_low": 213,
+            "confidence_high": 369
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 158,
+            "confidence_low": 118,
+            "confidence_high": 205
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 346,
+            "confidence_low": 260,
+            "confidence_high": 450
+          }
+        ]
+      },
+      {
+        "product_group": "GL-DN50-DPX",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 120,
+            "confidence_low": 90,
+            "confidence_high": 156
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 80,
+            "confidence_low": 60,
+            "confidence_high": 104
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 55,
+            "confidence_low": 41,
+            "confidence_high": 72
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 274,
+            "confidence_low": 206,
+            "confidence_high": 356
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 135,
+            "confidence_low": 101,
+            "confidence_high": 176
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 168,
+            "confidence_low": 126,
+            "confidence_high": 218
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN15-S304",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 485,
+            "confidence_low": 364,
+            "confidence_high": 630
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 294,
+            "confidence_low": 220,
+            "confidence_high": 382
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 196,
+            "confidence_low": 147,
+            "confidence_high": 255
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 98,
+            "confidence_low": 74,
+            "confidence_high": 127
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 227,
+            "confidence_low": 170,
+            "confidence_high": 295
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 589,
+            "confidence_low": 442,
+            "confidence_high": 766
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN15-S304",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 143,
+            "confidence_low": 107,
+            "confidence_high": 186
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 409,
+            "confidence_low": 307,
+            "confidence_high": 532
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 319,
+            "confidence_low": 239,
+            "confidence_high": 415
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 495,
+            "confidence_low": 371,
+            "confidence_high": 644
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 646,
+            "confidence_low": 484,
+            "confidence_high": 840
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 636,
+            "confidence_low": 477,
+            "confidence_high": 827
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN15-S304",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 421,
+            "confidence_low": 316,
+            "confidence_high": 547
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 493,
+            "confidence_low": 370,
+            "confidence_high": 641
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 90,
+            "confidence_low": 68,
+            "confidence_high": 117
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 239,
+            "confidence_low": 179,
+            "confidence_high": 311
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 415,
+            "confidence_low": 311,
+            "confidence_high": 540
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 401,
+            "confidence_low": 301,
+            "confidence_high": 521
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN15-S304",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 270,
+            "confidence_low": 202,
+            "confidence_high": 351
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 313,
+            "confidence_low": 235,
+            "confidence_high": 407
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 392,
+            "confidence_low": 294,
+            "confidence_high": 510
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 153,
+            "confidence_low": 115,
+            "confidence_high": 199
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 328,
+            "confidence_low": 246,
+            "confidence_high": 426
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 536,
+            "confidence_low": 402,
+            "confidence_high": 697
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN15-S304",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 95,
+            "confidence_low": 71,
+            "confidence_high": 124
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 308,
+            "confidence_low": 231,
+            "confidence_high": 400
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 310,
+            "confidence_low": 232,
+            "confidence_high": 403
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 289,
+            "confidence_low": 217,
+            "confidence_high": 376
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 78,
+            "confidence_low": 58,
+            "confidence_high": 101
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 186,
+            "confidence_low": 140,
+            "confidence_high": 242
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN15-S304",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 151,
+            "confidence_low": 113,
+            "confidence_high": 196
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 72,
+            "confidence_low": 54,
+            "confidence_high": 94
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 241,
+            "confidence_low": 181,
+            "confidence_high": 313
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 228,
+            "confidence_low": 171,
+            "confidence_high": 296
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 266,
+            "confidence_low": 200,
+            "confidence_high": 346
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 183,
+            "confidence_low": 137,
+            "confidence_high": 238
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN25-DPX",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 198,
+            "confidence_low": 148,
+            "confidence_high": 257
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 403,
+            "confidence_low": 302,
+            "confidence_high": 524
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 80,
+            "confidence_low": 60,
+            "confidence_high": 104
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 544,
+            "confidence_low": 408,
+            "confidence_high": 707
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 220,
+            "confidence_low": 165,
+            "confidence_high": 286
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 153,
+            "confidence_low": 115,
+            "confidence_high": 199
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN25-DPX",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 663,
+            "confidence_low": 497,
+            "confidence_high": 862
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 473,
+            "confidence_low": 355,
+            "confidence_high": 615
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 253,
+            "confidence_low": 190,
+            "confidence_high": 329
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 418,
+            "confidence_low": 314,
+            "confidence_high": 543
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 410,
+            "confidence_low": 308,
+            "confidence_high": 533
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 520,
+            "confidence_low": 390,
+            "confidence_high": 676
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN25-DPX",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 290,
+            "confidence_low": 218,
+            "confidence_high": 377
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 157,
+            "confidence_low": 118,
+            "confidence_high": 204
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 90,
+            "confidence_low": 68,
+            "confidence_high": 117
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 289,
+            "confidence_low": 217,
+            "confidence_high": 376
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 491,
+            "confidence_low": 368,
+            "confidence_high": 638
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 407,
+            "confidence_low": 305,
+            "confidence_high": 529
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN25-DPX",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 417,
+            "confidence_low": 313,
+            "confidence_high": 542
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 445,
+            "confidence_low": 334,
+            "confidence_high": 578
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 202,
+            "confidence_low": 152,
+            "confidence_high": 263
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 567,
+            "confidence_low": 425,
+            "confidence_high": 737
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 607,
+            "confidence_low": 455,
+            "confidence_high": 789
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 680,
+            "confidence_low": 510,
+            "confidence_high": 884
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN25-DPX",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 284,
+            "confidence_low": 213,
+            "confidence_high": 369
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 166,
+            "confidence_low": 124,
+            "confidence_high": 216
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 239,
+            "confidence_low": 179,
+            "confidence_high": 311
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 367,
+            "confidence_low": 275,
+            "confidence_high": 477
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 430,
+            "confidence_low": 322,
+            "confidence_high": 559
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 259,
+            "confidence_low": 194,
+            "confidence_high": 337
+          }
+        ]
+      },
+      {
+        "product_group": "GT-DN25-DPX",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 185,
+            "confidence_low": 139,
+            "confidence_high": 240
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 360,
+            "confidence_low": 270,
+            "confidence_high": 468
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 241,
+            "confidence_low": 181,
+            "confidence_high": 313
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 216,
+            "confidence_low": 162,
+            "confidence_high": 281
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 310,
+            "confidence_low": 232,
+            "confidence_high": 403
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 146,
+            "confidence_low": 110,
+            "confidence_high": 190
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN25-DPX",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 315,
+            "confidence_low": 236,
+            "confidence_high": 410
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 710,
+            "confidence_low": 532,
+            "confidence_high": 923
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 559,
+            "confidence_low": 419,
+            "confidence_high": 727
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 349,
+            "confidence_low": 262,
+            "confidence_high": 454
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 363,
+            "confidence_low": 272,
+            "confidence_high": 472
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 305,
+            "confidence_low": 229,
+            "confidence_high": 396
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN25-DPX",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 511,
+            "confidence_low": 383,
+            "confidence_high": 664
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 330,
+            "confidence_low": 248,
+            "confidence_high": 429
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 262,
+            "confidence_low": 196,
+            "confidence_high": 341
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 147,
+            "confidence_low": 110,
+            "confidence_high": 191
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 468,
+            "confidence_low": 351,
+            "confidence_high": 608
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 520,
+            "confidence_low": 390,
+            "confidence_high": 676
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN25-DPX",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 206,
+            "confidence_low": 154,
+            "confidence_high": 268
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 338,
+            "confidence_low": 254,
+            "confidence_high": 439
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 171,
+            "confidence_low": 128,
+            "confidence_high": 222
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 152,
+            "confidence_low": 114,
+            "confidence_high": 198
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 494,
+            "confidence_low": 370,
+            "confidence_high": 642
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 131,
+            "confidence_low": 98,
+            "confidence_high": 170
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN25-DPX",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 103,
+            "confidence_low": 77,
+            "confidence_high": 134
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 478,
+            "confidence_low": 358,
+            "confidence_high": 621
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 425,
+            "confidence_low": 319,
+            "confidence_high": 552
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 408,
+            "confidence_low": 306,
+            "confidence_high": 530
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 134,
+            "confidence_low": 100,
+            "confidence_high": 174
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 253,
+            "confidence_low": 190,
+            "confidence_high": 329
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN25-DPX",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 189,
+            "confidence_low": 142,
+            "confidence_high": 246
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 422,
+            "confidence_low": 316,
+            "confidence_high": 549
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 134,
+            "confidence_low": 100,
+            "confidence_high": 174
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 364,
+            "confidence_low": 273,
+            "confidence_high": 473
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 244,
+            "confidence_low": 183,
+            "confidence_high": 317
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 365,
+            "confidence_low": 274,
+            "confidence_high": 474
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN25-DPX",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 171,
+            "confidence_low": 128,
+            "confidence_high": 222
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 280,
+            "confidence_low": 210,
+            "confidence_high": 364
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 200,
+            "confidence_low": 150,
+            "confidence_high": 260
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 118,
+            "confidence_low": 88,
+            "confidence_high": 153
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 235,
+            "confidence_low": 176,
+            "confidence_high": 306
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 176,
+            "confidence_low": 132,
+            "confidence_high": 229
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-BRS",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 453,
+            "confidence_low": 340,
+            "confidence_high": 589
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 313,
+            "confidence_low": 235,
+            "confidence_high": 407
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 199,
+            "confidence_low": 149,
+            "confidence_high": 259
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 608,
+            "confidence_low": 456,
+            "confidence_high": 790
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 750,
+            "confidence_low": 562,
+            "confidence_high": 975
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 644,
+            "confidence_low": 483,
+            "confidence_high": 837
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-BRS",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 653,
+            "confidence_low": 490,
+            "confidence_high": 849
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 275,
+            "confidence_low": 206,
+            "confidence_high": 358
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 220,
+            "confidence_low": 165,
+            "confidence_high": 286
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 380,
+            "confidence_low": 285,
+            "confidence_high": 494
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 464,
+            "confidence_low": 348,
+            "confidence_high": 603
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 698,
+            "confidence_low": 524,
+            "confidence_high": 907
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-BRS",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 214,
+            "confidence_low": 160,
+            "confidence_high": 278
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 423,
+            "confidence_low": 317,
+            "confidence_high": 550
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 73,
+            "confidence_low": 55,
+            "confidence_high": 95
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 419,
+            "confidence_low": 314,
+            "confidence_high": 545
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 594,
+            "confidence_low": 446,
+            "confidence_high": 772
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 406,
+            "confidence_low": 304,
+            "confidence_high": 528
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-BRS",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 655,
+            "confidence_low": 491,
+            "confidence_high": 852
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 304,
+            "confidence_low": 228,
+            "confidence_high": 395
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 369,
+            "confidence_low": 277,
+            "confidence_high": 480
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 387,
+            "confidence_low": 290,
+            "confidence_high": 503
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 665,
+            "confidence_low": 499,
+            "confidence_high": 864
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 519,
+            "confidence_low": 389,
+            "confidence_high": 675
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-BRS",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 386,
+            "confidence_low": 290,
+            "confidence_high": 502
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 459,
+            "confidence_low": 344,
+            "confidence_high": 597
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 323,
+            "confidence_low": 242,
+            "confidence_high": 420
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 331,
+            "confidence_low": 248,
+            "confidence_high": 430
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 86,
+            "confidence_low": 64,
+            "confidence_high": 112
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 454,
+            "confidence_low": 340,
+            "confidence_high": 590
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-BRS",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 268,
+            "confidence_low": 201,
+            "confidence_high": 348
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 239,
+            "confidence_low": 179,
+            "confidence_high": 311
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 92,
+            "confidence_low": 69,
+            "confidence_high": 120
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 124,
+            "confidence_low": 93,
+            "confidence_high": 161
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 371,
+            "confidence_low": 278,
+            "confidence_high": 482
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 248,
+            "confidence_low": 186,
+            "confidence_high": 322
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-CS",
+        "customer_segment": "oil_gas",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 362,
+            "confidence_low": 272,
+            "confidence_high": 471
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 456,
+            "confidence_low": 342,
+            "confidence_high": 593
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 97,
+            "confidence_low": 73,
+            "confidence_high": 126
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 338,
+            "confidence_low": 254,
+            "confidence_high": 439
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 598,
+            "confidence_low": 448,
+            "confidence_high": 777
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 117,
+            "confidence_low": 88,
+            "confidence_high": 152
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-CS",
+        "customer_segment": "water_utilities",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 147,
+            "confidence_low": 110,
+            "confidence_high": 191
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 439,
+            "confidence_low": 329,
+            "confidence_high": 571
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 299,
+            "confidence_low": 224,
+            "confidence_high": 389
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 407,
+            "confidence_low": 305,
+            "confidence_high": 529
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 293,
+            "confidence_low": 220,
+            "confidence_high": 381
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 522,
+            "confidence_low": 392,
+            "confidence_high": 679
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-CS",
+        "customer_segment": "chemical_plants",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 483,
+            "confidence_low": 362,
+            "confidence_high": 628
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 435,
+            "confidence_low": 326,
+            "confidence_high": 566
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 236,
+            "confidence_low": 177,
+            "confidence_high": 307
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 333,
+            "confidence_low": 250,
+            "confidence_high": 433
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 564,
+            "confidence_low": 423,
+            "confidence_high": 733
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 111,
+            "confidence_low": 83,
+            "confidence_high": 144
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-CS",
+        "customer_segment": "industrial_distributors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 486,
+            "confidence_low": 364,
+            "confidence_high": 632
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 216,
+            "confidence_low": 162,
+            "confidence_high": 281
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 354,
+            "confidence_low": 266,
+            "confidence_high": 460
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 414,
+            "confidence_low": 310,
+            "confidence_high": 538
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 577,
+            "confidence_low": 433,
+            "confidence_high": 750
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 395,
+            "confidence_low": 296,
+            "confidence_high": 514
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-CS",
+        "customer_segment": "hvac_contractors",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 126,
+            "confidence_low": 94,
+            "confidence_high": 164
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 194,
+            "confidence_low": 146,
+            "confidence_high": 252
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 149,
+            "confidence_low": 112,
+            "confidence_high": 194
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 366,
+            "confidence_low": 274,
+            "confidence_high": 476
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 480,
+            "confidence_low": 360,
+            "confidence_high": 624
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 443,
+            "confidence_low": 332,
+            "confidence_high": 576
+          }
+        ]
+      },
+      {
+        "product_group": "ND-DN50-CS",
+        "customer_segment": "shipyards",
+        "periods": [
+          {
+            "month": "2026-05",
+            "planned_quantity": 222,
+            "confidence_low": 166,
+            "confidence_high": 289
+          },
+          {
+            "month": "2026-06",
+            "planned_quantity": 211,
+            "confidence_low": 158,
+            "confidence_high": 274
+          },
+          {
+            "month": "2026-07",
+            "planned_quantity": 257,
+            "confidence_low": 193,
+            "confidence_high": 334
+          },
+          {
+            "month": "2026-08",
+            "planned_quantity": 274,
+            "confidence_low": 206,
+            "confidence_high": 356
+          },
+          {
+            "month": "2026-09",
+            "planned_quantity": 176,
+            "confidence_low": 132,
+            "confidence_high": 229
+          },
+          {
+            "month": "2026-10",
+            "planned_quantity": 393,
+            "confidence_low": 295,
+            "confidence_high": 511
+          }
+        ]
+      }
+    ]
+  }
+]

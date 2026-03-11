@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260421-0028",
+    "timestamp": "2026-04-21T08:00:00Z",
+    "simulation_date": "2026-04-21",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0052",
+    "product_group": "GT-DN100-CS",
+    "signal_type": "new_demand",
+    "magnitude": "low",
+    "horizon_weeks": 7,
+    "description": "New demand source identified for this product group. Source: seasonal model.",
+    "confidence": 0.8
+  }
+]

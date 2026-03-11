@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20261223-0113",
+    "timestamp": "2026-12-23T08:00:00Z",
+    "simulation_date": "2026-12-23",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0018",
+    "product_group": "GT-DN100-BRS",
+    "signal_type": "downside_risk",
+    "magnitude": "medium",
+    "horizon_weeks": 15,
+    "description": "Market signal indicates potential demand softening in the near term. Source: consumption trend.",
+    "confidence": 0.2
+  }
+]

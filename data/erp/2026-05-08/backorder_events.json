@@ -1,0 +1,67 @@
+[
+  {
+    "event_type": "backorder",
+    "event_id": "bb5bc0ff-6665-44d3-a314-812330673965",
+    "backorder_date": "2026-05-08",
+    "order_id": "ORD-2026-001338",
+    "order_line_id": "ORD-2026-001338-L1",
+    "sku": "FF-GL40-CS-PN16-FM",
+    "quantity_backordered": 2654208,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 16,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "dead46a2-45c7-4fdb-b4e9-7bc604685197",
+    "backorder_date": "2026-05-08",
+    "order_id": "ORD-2026-001044",
+    "order_line_id": "ORD-2026-001044-L1",
+    "sku": "FF-BF100-CS-PN40-TM",
+    "quantity_backordered": 209715200,
+    "quantity_allocated": 119,
+    "backorder_reason": "no_stock",
+    "days_backordered": 23,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "570f0385-f782-4c5b-a721-bb11f4e717f1",
+    "backorder_date": "2026-05-08",
+    "order_id": "ORD-2026-001044",
+    "order_line_id": "ORD-2026-001044-L2",
+    "sku": "FF-GT25-S316-PN25-FM",
+    "quantity_backordered": 1015021568,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 23,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "e415d0ca-88fa-40ec-8055-0c981b531575",
+    "backorder_date": "2026-05-08",
+    "order_id": "ORD-2026-001567",
+    "order_line_id": "ORD-2026-001567-L1",
+    "sku": "FF-GL250-S316-PN16-FM",
+    "quantity_backordered": 52953088,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 20,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "1fa41631-daef-474b-877e-87b7c0e3fa94",
+    "backorder_date": "2026-05-08",
+    "order_id": "ORD-2026-001557",
+    "order_line_id": "ORD-2026-001557-L1",
+    "sku": "FF-GT100-S316-PN40-FM",
+    "quantity_backordered": 243269632,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 22,
+    "escalated_to_express": false
+  }
+]

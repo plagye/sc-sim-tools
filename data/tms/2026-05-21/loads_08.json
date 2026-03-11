@@ -1,0 +1,80 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "e63e0e4a-c2c8-4dd3-9781-44e11d1dac22",
+    "load_id": "LOAD-1088",
+    "event_subtype": "load_created",
+    "simulation_date": "2026-05-21",
+    "sync_window": "08",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1106"
+    ],
+    "order_ids": [
+      "ORD-2026-001018"
+    ],
+    "total_weight_kg": 105.196,
+    "weight_unit": "kg",
+    "total_weight_reported": 105.196,
+    "status": "load_created",
+    "planned_date": "2026-05-21",
+    "priority": "express",
+    "customer_ids": [
+      "CUST-0013"
+    ],
+    "destination_region": "SE-AC"
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "dec3add9-b902-4856-90a0-6988fae37beb",
+    "load_id": "LOAD-1088",
+    "event_subtype": "in_transit",
+    "simulation_date": "2026-05-21",
+    "sync_window": "08",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1106"
+    ],
+    "order_ids": [
+      "ORD-2026-001018"
+    ],
+    "total_weight_kg": 105.196,
+    "weight_unit": "kg",
+    "total_weight_reported": 105.196,
+    "status": "in_transit",
+    "planned_date": "2026-05-21",
+    "priority": "express",
+    "customer_ids": [
+      "CUST-0013"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "66d7d1a5-4de7-4ec3-afae-97af039729dd",
+    "load_id": "LOAD-1086",
+    "event_subtype": "pod_received",
+    "simulation_date": "2026-05-21",
+    "sync_window": "08",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1104"
+    ],
+    "order_ids": [
+      "ORD-2026-001037"
+    ],
+    "total_weight_kg": 419.375,
+    "weight_unit": "kg",
+    "total_weight_reported": 419.375,
+    "status": "pod_received",
+    "planned_date": "2026-05-15",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0043"
+    ],
+    "destination_region": ""
+  }
+]

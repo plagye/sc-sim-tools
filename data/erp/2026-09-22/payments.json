@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "payment",
+    "event_id": "95cf678b-9002-4e48-ab80-3babbc6b7bc2",
+    "simulation_date": "2026-09-22",
+    "customer_id": "CUST-0009",
+    "payment_amount_pln": 1628857.42,
+    "balance_before_pln": 2967766.85,
+    "balance_after_pln": 1338909.43,
+    "payment_behaviour": "late",
+    "payment_terms_days": 60
+  }
+]

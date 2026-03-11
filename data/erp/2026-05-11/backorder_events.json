@@ -1,0 +1,80 @@
+[
+  {
+    "event_type": "backorder",
+    "event_id": "2491942f-f52a-4638-8cce-bcc1c7a9305a",
+    "backorder_date": "2026-05-11",
+    "order_id": "ORD-2026-001338",
+    "order_line_id": "ORD-2026-001338-L1",
+    "sku": "FF-GL40-CS-PN16-FM",
+    "quantity_backordered": 5308416,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 17,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "2c6ed5a8-d978-4718-9f2b-a5fe753458d1",
+    "backorder_date": "2026-05-11",
+    "order_id": "ORD-2026-001044",
+    "order_line_id": "ORD-2026-001044-L1",
+    "sku": "FF-BF100-CS-PN40-TM",
+    "quantity_backordered": 419430400,
+    "quantity_allocated": 119,
+    "backorder_reason": "no_stock",
+    "days_backordered": 24,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "9a1c0100-b671-433a-9779-4fbac2bd7145",
+    "backorder_date": "2026-05-11",
+    "order_id": "ORD-2026-001044",
+    "order_line_id": "ORD-2026-001044-L2",
+    "sku": "FF-GT25-S316-PN25-FM",
+    "quantity_backordered": 2030043136,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 24,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "621ae344-8931-4320-b150-7ab278471ea7",
+    "backorder_date": "2026-05-11",
+    "order_id": "ORD-2026-001567",
+    "order_line_id": "ORD-2026-001567-L1",
+    "sku": "FF-GL250-S316-PN16-FM",
+    "quantity_backordered": 105906176,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 21,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "ceccd15a-6aa5-4e1f-9ae3-2eb569433892",
+    "backorder_date": "2026-05-11",
+    "order_id": "ORD-2026-001557",
+    "order_line_id": "ORD-2026-001557-L1",
+    "sku": "FF-GT100-S316-PN40-FM",
+    "quantity_backordered": 486539264,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 23,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "36eaa869-a675-44be-a491-92d46bf79ba5",
+    "backorder_date": "2026-05-11",
+    "order_id": "ORD-2026-001349",
+    "order_line_id": "ORD-2026-001349-L1",
+    "sku": "FF-GL50-S304-PN25-FM",
+    "quantity_backordered": 26,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 0,
+    "escalated_to_express": false
+  }
+]

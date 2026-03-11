@@ -1,0 +1,68 @@
+[
+  {
+    "event_type": "credit_hold",
+    "event_id": "b85fb629-5586-4533-bb81-078917b0a671",
+    "simulation_date": "2026-02-20",
+    "order_id": "ORD-2026-001215",
+    "customer_id": "CUST-0017",
+    "customer_balance_pln": 142946.44,
+    "open_orders_value_pln": 318013.92,
+    "credit_limit_pln": 198457.0,
+    "exposure_pln": 460960.36
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "c0e6f7a0-2458-4897-9bfa-ab73db531a92",
+    "simulation_date": "2026-02-20",
+    "order_id": "ORD-2026-001216",
+    "customer_id": "CUST-0031",
+    "customer_balance_pln": 129515.09,
+    "open_orders_value_pln": 797964.35,
+    "credit_limit_pln": 116396.27,
+    "exposure_pln": 927479.44
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "5daf7da6-08d3-407c-aa44-185af0917ee5",
+    "simulation_date": "2026-02-20",
+    "order_id": "ORD-2026-001217",
+    "customer_id": "CUST-0045",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 9165274.82,
+    "credit_limit_pln": 1451560.77,
+    "exposure_pln": 9165274.82
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "90475487-46ef-4655-98d6-79a19f8e3be3",
+    "simulation_date": "2026-02-20",
+    "order_id": "ORD-2026-001218",
+    "customer_id": "CUST-0053",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 479133.19,
+    "credit_limit_pln": 169968.68,
+    "exposure_pln": 479133.19
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "92a454df-ae8d-4390-9deb-fc24cade84af",
+    "simulation_date": "2026-02-20",
+    "order_id": "ORD-2026-001219",
+    "customer_id": "CUST-0057",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 3943627.38,
+    "credit_limit_pln": 897772.02,
+    "exposure_pln": 3943627.38
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "13cb03a7-0ab3-47dd-80df-88a474dc4340",
+    "simulation_date": "2026-02-20",
+    "order_id": "ORD-2026-001220",
+    "customer_id": "CUST-0059",
+    "customer_balance_pln": 3173252.81,
+    "open_orders_value_pln": 3067786.06,
+    "credit_limit_pln": 1784210.64,
+    "exposure_pln": 6241038.87
+  }
+]

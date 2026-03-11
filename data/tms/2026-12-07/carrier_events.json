@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "6ca013f0-8fc6-4a23-ac84-fac163b28088",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": "PL-WN",
+    "impact_severity": "low",
+    "start_date": "2026-12-07",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-WN, expect 1-2 day delays",
+    "simulation_date": "2026-12-07",
+    "timestamp": "2026-12-07T08:00:00Z",
+    "sync_window": "08"
+  }
+]

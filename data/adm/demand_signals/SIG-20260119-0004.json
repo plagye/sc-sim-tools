@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260119-0004",
+    "timestamp": "2026-01-19T08:00:00Z",
+    "simulation_date": "2026-01-19",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0012",
+    "product_group": "BF-DN50-DPX",
+    "signal_type": "new_demand",
+    "magnitude": "medium",
+    "horizon_weeks": 24,
+    "description": "New demand source identified for this product group. Source: consumption trend.",
+    "confidence": 0.8
+  }
+]

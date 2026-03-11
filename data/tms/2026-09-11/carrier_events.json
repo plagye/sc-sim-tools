@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "8ac37cc8-ae4a-4447-a02c-ada294a0f129",
+    "event_subtype": "rate_change",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-09-11",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": -10.4887,
+    "message": "DHL Freight rate adjustment: -10.5% effective immediately",
+    "simulation_date": "2026-09-11",
+    "timestamp": "2026-09-11T14:00:00Z",
+    "sync_window": "14"
+  }
+]

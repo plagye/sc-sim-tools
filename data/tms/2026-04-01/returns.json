@@ -1,0 +1,152 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "0494dd97-7f8b-4eca-9a54-262ddc382e3e",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1014",
+    "order_id": "ORD-2026-001001",
+    "customer_id": "CUST-0013",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001001-L2",
+        "sku": "FF-GT300-S304-PN25-FM",
+        "quantity_returned": 10,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-04-01",
+    "timestamp": "2026-04-01T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "74a1a6c7-014f-42fd-be07-15bc01e05d7d",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1015",
+    "order_id": "ORD-2026-001014",
+    "customer_id": "CUST-0043",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001014-L2",
+        "sku": "FF-BF40-S304-PN40-TP",
+        "quantity_returned": 21,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-04-01",
+    "timestamp": "2026-04-01T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "3f9122d8-3312-4057-86c1-79d970bb1942",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1016",
+    "order_id": "ORD-2026-001106",
+    "customer_id": "CUST-0016",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001106-L3",
+        "sku": "FF-GL50-CS-PN25-FM",
+        "quantity_returned": 42,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-04-01",
+    "timestamp": "2026-04-01T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "3b116b8f-f32c-454c-9570-d063c58f3cb7",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1017",
+    "order_id": "ORD-2026-001206",
+    "customer_id": "CUST-0036",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001206-L1",
+        "sku": "FF-BF100-S316-PN16-FM",
+        "quantity_returned": 62,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-04-01",
+    "timestamp": "2026-04-01T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "c762b6ba-0e71-4d69-af44-b66a76731072",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1018",
+    "order_id": "ORD-2026-001070",
+    "customer_id": "CUST-0022",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001070-L1",
+        "sku": "FF-BF100-DPX-PN16-WP",
+        "quantity_returned": 29,
+        "quantity_accepted": null,
+        "return_reason": "overstock"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "overstock",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-04-01",
+    "timestamp": "2026-04-01T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "c145e0c9-f812-4edb-8c21-138789f6a0d2",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1019",
+    "order_id": "ORD-2026-001122",
+    "customer_id": "CUST-0046",
+    "carrier_code": "GEODIS",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001122-L2",
+        "sku": "FF-GT100-S316-PN16-TM",
+        "quantity_returned": 78,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-04-01",
+    "timestamp": "2026-04-01T09:00:00Z",
+    "sync_window": "08"
+  }
+]

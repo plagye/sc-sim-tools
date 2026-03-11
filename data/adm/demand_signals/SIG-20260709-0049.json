@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260709-0049",
+    "timestamp": "2026-07-09T08:00:00Z",
+    "simulation_date": "2026-07-09",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0029",
+    "product_group": "GL-DN250-S304",
+    "signal_type": "mix_change",
+    "magnitude": "low",
+    "horizon_weeks": 11,
+    "description": "Product mix shift anticipated toward this product family. Source: seasonal model.",
+    "confidence": 0.8
+  }
+]

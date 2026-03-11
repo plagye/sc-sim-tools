@@ -1,0 +1,54 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "c94e4ac7-cd69-459e-8b5d-0969aca55844",
+    "load_id": "LOAD-1069",
+    "event_subtype": "load_created",
+    "simulation_date": "2026-04-09",
+    "sync_window": "08",
+    "carrier_code": "DHL",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1082"
+    ],
+    "order_ids": [
+      "ORD-2026-001093"
+    ],
+    "total_weight_kg": 135.0,
+    "weight_unit": "kg",
+    "total_weight_reported": 135.0,
+    "status": "load_created",
+    "planned_date": "2026-04-09",
+    "priority": "express",
+    "customer_ids": [
+      "CUST-0047"
+    ],
+    "destination_region": "PL-WP"
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "f20cac6b-ccb3-4b91-ae9f-fddb7accfe5e",
+    "load_id": "LOAD-1069",
+    "event_subtype": "in_transit",
+    "simulation_date": "2026-04-09",
+    "sync_window": "08",
+    "carrier_code": "DHL",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1082"
+    ],
+    "order_ids": [
+      "ORD-2026-001093"
+    ],
+    "total_weight_kg": 135.0,
+    "weight_unit": "kg",
+    "total_weight_reported": 135.0,
+    "status": "in_transit",
+    "planned_date": "2026-04-09",
+    "priority": "express",
+    "customer_ids": [
+      "CUST-0047"
+    ],
+    "destination_region": ""
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "6b72d0d2-3997-4783-9d0d-90e10d2faf83",
+    "event_subtype": "received_at_warehouse",
+    "rma_id": "RMA-1003",
+    "order_id": "ORD-2026-001069",
+    "customer_id": "CUST-0017",
+    "carrier_code": "BALTIC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001069-L1",
+        "sku": "FF-BF25-S316-PN10-TE",
+        "quantity_returned": 24,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "received_at_warehouse",
+    "simulation_date": "2026-02-25",
+    "timestamp": "2026-02-25T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "bd0b04dc-37ae-47a3-bd2c-f9ff7f0100f1",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1004",
+    "order_id": "ORD-2026-001084",
+    "customer_id": "CUST-0046",
+    "carrier_code": "GEODIS",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001084-L3",
+        "sku": "FF-GT50-CS-PN25-FE",
+        "quantity_returned": 30,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-02-25",
+    "timestamp": "2026-02-25T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "a3ab98a7-5895-43d5-b6e1-05a6f28e7c35",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1005",
+    "order_id": "ORD-2026-001070",
+    "customer_id": "CUST-0022",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001070-L1",
+        "sku": "FF-BF100-DPX-PN16-WP",
+        "quantity_returned": 17,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-02-25",
+    "timestamp": "2026-02-25T09:00:00Z",
+    "sync_window": "08"
+  }
+]

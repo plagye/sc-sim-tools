@@ -1,0 +1,102 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "7fe852fb-b92f-4d4b-adfd-d728e61af9fe",
+    "event_subtype": "restocked",
+    "rma_id": "RMA-1003",
+    "order_id": "ORD-2026-001069",
+    "customer_id": "CUST-0017",
+    "carrier_code": "BALTIC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001069-L1",
+        "sku": "FF-BF25-S316-PN10-TE",
+        "quantity_returned": 24,
+        "quantity_accepted": 24,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": "restocked",
+    "return_reason": "quality_defect",
+    "rma_status": "restocked",
+    "simulation_date": "2026-02-26",
+    "timestamp": "2026-02-26T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "605502d3-d934-402f-b826-a68e8efbc144",
+    "event_subtype": "pickup_scheduled",
+    "rma_id": "RMA-1005",
+    "order_id": "ORD-2026-001070",
+    "customer_id": "CUST-0022",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001070-L1",
+        "sku": "FF-BF100-DPX-PN16-WP",
+        "quantity_returned": 17,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "pickup_scheduled",
+    "simulation_date": "2026-02-26",
+    "timestamp": "2026-02-26T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "ce7734c9-3ba1-40de-9361-58e25e712f68",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1006",
+    "order_id": "ORD-2026-001029",
+    "customer_id": "CUST-0043",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001029-L1",
+        "sku": "FF-GT150-BRS-PN16-FE",
+        "quantity_returned": 4,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-02-26",
+    "timestamp": "2026-02-26T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "ece82380-7126-412d-9e26-9a3e14a6b26f",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1007",
+    "order_id": "ORD-2026-001090",
+    "customer_id": "CUST-0031",
+    "carrier_code": "BALTIC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001090-L1",
+        "sku": "FF-GT40-CS-PN16-FP",
+        "quantity_returned": 16,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-02-26",
+    "timestamp": "2026-02-26T09:00:00Z",
+    "sync_window": "08"
+  }
+]

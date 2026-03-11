@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "d4bf5653-f33c-4a34-a364-f3a700b1386e",
+    "cancellation_date": "2026-03-12",
+    "order_id": "ORD-2026-001099",
+    "order_line_id": "ORD-2026-001099-L1",
+    "sku": "FF-GT300-S316-PN40-WP",
+    "quantity_cancelled": 386545745920,
+    "reason": "backorder_timeout",
+    "days_backordered": 32
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260511-0020",
+    "timestamp": "2026-05-11T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0015",
+    "field_changed": "delivery_address_primary",
+    "old_value": {
+      "street": "aleja Łączna 74",
+      "city": "Myszków",
+      "postal_code": "63-529"
+    },
+    "new_value": {
+      "street": "pl. Popiełuszki 78",
+      "city": "Turek",
+      "postal_code": "75-452"
+    },
+    "effective_date": "2026-05-12",
+    "reason": "office_relocation"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "7f5b9f8d-0c5c-46bd-82c3-aa7902efe0f1",
+    "simulation_date": "2026-06-29",
+    "batch_id": "BATCH-1638",
+    "sku": "FF-GL250-CS-PN16-WM",
+    "quantity": 96,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-06-25",
+    "reclassification_reason": "quality_review"
+  }
+]

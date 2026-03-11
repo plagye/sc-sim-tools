@@ -1,0 +1,77 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "cdb57a70-ac71-412a-a0e9-dc7e93e64537",
+    "event_subtype": "restocked",
+    "rma_id": "RMA-1022",
+    "order_id": "ORD-2026-001002",
+    "customer_id": "CUST-0015",
+    "carrier_code": "DHL",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001002-L1",
+        "sku": "FF-GT50-S316-PN25-WP",
+        "quantity_returned": 37,
+        "quantity_accepted": 37,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": "restocked",
+    "return_reason": "damaged_in_transit",
+    "rma_status": "restocked",
+    "simulation_date": "2026-04-21",
+    "timestamp": "2026-04-21T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "1ef72bd2-f50b-428f-b3b4-e80b71d637f7",
+    "event_subtype": "received_at_warehouse",
+    "rma_id": "RMA-1023",
+    "order_id": "ORD-2026-001206",
+    "customer_id": "CUST-0036",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001206-L1",
+        "sku": "FF-BF100-S316-PN16-FM",
+        "quantity_returned": 46,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "received_at_warehouse",
+    "simulation_date": "2026-04-21",
+    "timestamp": "2026-04-21T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "5808117e-5135-45f0-9d05-cc3ce7ed8fc5",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1026",
+    "order_id": "ORD-2026-001150",
+    "customer_id": "CUST-0020",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001150-L1",
+        "sku": "FF-BF100-CS-PN10-FH",
+        "quantity_returned": 59,
+        "quantity_accepted": null,
+        "return_reason": "overstock"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "overstock",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-04-21",
+    "timestamp": "2026-04-21T09:00:00Z",
+    "sync_window": "08"
+  }
+]

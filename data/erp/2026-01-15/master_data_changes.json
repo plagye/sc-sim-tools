@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260115-0001",
+    "timestamp": "2026-01-15T09:00:00Z",
+    "entity_type": "product",
+    "entity_id": "FF-GT200-S316-PN40-FP",
+    "field_changed": "sku_status",
+    "old_value": "active",
+    "new_value": "discontinued",
+    "effective_date": "2026-01-16",
+    "reason": "product_lifecycle"
+  }
+]

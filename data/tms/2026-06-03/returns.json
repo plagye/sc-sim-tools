@@ -1,0 +1,173 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "f3352f2b-3364-46eb-b069-608e4a6efe6d",
+    "event_subtype": "restocked",
+    "rma_id": "RMA-1044",
+    "order_id": "ORD-2026-001070",
+    "customer_id": "CUST-0022",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001070-L1",
+        "sku": "FF-BF100-DPX-PN16-WP",
+        "quantity_returned": 22,
+        "quantity_accepted": 22,
+        "return_reason": "specification_mismatch"
+      }
+    ],
+    "resolution": "restocked",
+    "return_reason": "specification_mismatch",
+    "rma_status": "restocked",
+    "simulation_date": "2026-06-03",
+    "timestamp": "2026-06-02T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "b4de0e5a-94a9-43e6-9c3e-20adba55239c",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1049",
+    "order_id": "ORD-2026-001001",
+    "customer_id": "CUST-0013",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001001-L2",
+        "sku": "FF-GT300-S304-PN25-FM",
+        "quantity_returned": 14,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-06-03",
+    "timestamp": "2026-06-03T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "1b07b576-57bf-47d4-830e-6666584ff4f0",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1050",
+    "order_id": "ORD-2026-001507",
+    "customer_id": "CUST-0007",
+    "carrier_code": "GEODIS",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001507-L2",
+        "sku": "FF-BF150-BRS-PN10-XP",
+        "quantity_returned": 4,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      },
+      {
+        "line_id": "ORD-2026-001507-L1",
+        "sku": "FF-BF100-BRS-PN16-TM",
+        "quantity_returned": 6,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-06-03",
+    "timestamp": "2026-06-03T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "27574a7b-165e-41ce-abe3-d563ec334019",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1051",
+    "order_id": "ORD-2026-001189",
+    "customer_id": "CUST-0047",
+    "carrier_code": "DHL",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001189-L1",
+        "sku": "FF-GT80-S304-PN16-WP",
+        "quantity_returned": 5,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      },
+      {
+        "line_id": "ORD-2026-001189-L3",
+        "sku": "FF-BL100-CS-PN25-TM",
+        "quantity_returned": 11,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-06-03",
+    "timestamp": "2026-06-03T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "b740770d-92cd-4c5b-87f4-d34f65204a2a",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1052",
+    "order_id": "ORD-2026-001407",
+    "customer_id": "CUST-0007",
+    "carrier_code": "GEODIS",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001407-L3",
+        "sku": "FF-GL15-CS-PN16-TM",
+        "quantity_returned": 12,
+        "quantity_accepted": null,
+        "return_reason": "wrong_item_shipped"
+      },
+      {
+        "line_id": "ORD-2026-001407-L2",
+        "sku": "FF-GT40-CS-PN10-TM",
+        "quantity_returned": 11,
+        "quantity_accepted": null,
+        "return_reason": "wrong_item_shipped"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "wrong_item_shipped",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-06-03",
+    "timestamp": "2026-06-03T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "78d4434d-45c2-4140-9ebc-c11ca00ccbb8",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1053",
+    "order_id": "ORD-2026-001173",
+    "customer_id": "CUST-0022",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001173-L1",
+        "sku": "FF-GT150-S316-PN40-WE",
+        "quantity_returned": 12,
+        "quantity_accepted": null,
+        "return_reason": "wrong_item_shipped"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "wrong_item_shipped",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-06-03",
+    "timestamp": "2026-06-03T09:00:00Z",
+    "sync_window": "08"
+  }
+]

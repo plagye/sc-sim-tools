@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "dd1d4bbb-10f4-460f-ad79-4b6f9ce8fd57",
+    "event_subtype": "service_disruption",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": "PL-MA",
+    "impact_severity": "medium",
+    "start_date": "2026-06-30",
+    "end_date": "2026-07-04",
+    "duration_days": 4,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting DHL Freight operations in PL-MA for 4 days",
+    "simulation_date": "2026-06-30",
+    "timestamp": "2026-06-30T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "7dc59f23-381f-405d-b2fa-14d4953c8cd0",
+    "event_subtype": "service_disruption",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": "PL-WN",
+    "impact_severity": "medium",
+    "start_date": "2026-06-30",
+    "end_date": "2026-07-01",
+    "duration_days": 1,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting BalticHaul operations in PL-WN for 1 day",
+    "simulation_date": "2026-06-30",
+    "timestamp": "2026-06-30T20:00:00Z",
+    "sync_window": "20"
+  }
+]

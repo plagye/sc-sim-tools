@@ -1,0 +1,80 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "0b83d6d3-c8b8-4ce8-8f6f-a7255e0f0845",
+    "load_id": "LOAD-1135",
+    "event_subtype": "out_for_delivery",
+    "simulation_date": "2026-10-15",
+    "sync_window": "08",
+    "carrier_code": "DBSC",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1157"
+    ],
+    "order_ids": [
+      "ORD-2026-001800"
+    ],
+    "total_weight_kg": 1279.097,
+    "weight_unit": "kg",
+    "total_weight_reported": 1279.097,
+    "status": "out_for_delivery",
+    "planned_date": "2026-10-12",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0052"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "0b83d6d3-c8b8-4ce8-8f6f-a7255e0f0845",
+    "load_id": "LOAD-1135",
+    "event_subtype": "out_for_delivery",
+    "simulation_date": "2026-10-15",
+    "sync_window": "08",
+    "carrier_code": "DBSC",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1157"
+    ],
+    "order_ids": [
+      "ORD-2026-001800"
+    ],
+    "total_weight_kg": 1279.097,
+    "weight_unit": "kg",
+    "total_weight_reported": 1279.097,
+    "status": "out_for_delivery",
+    "planned_date": "2026-10-12",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0052"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "bfddd552-3728-4e3c-ae92-2314a32794de",
+    "load_id": "LOAD-1137",
+    "event_subtype": "out_for_delivery",
+    "simulation_date": "2026-10-15",
+    "sync_window": "08",
+    "carrier_code": "DHL",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1159"
+    ],
+    "order_ids": [
+      "ORD-2026-002647"
+    ],
+    "total_weight_kg": 21375.315,
+    "weight_unit": "kg",
+    "total_weight_reported": 21375.315,
+    "status": "out_for_delivery",
+    "planned_date": "2026-10-14",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0039"
+    ],
+    "destination_region": ""
+  }
+]

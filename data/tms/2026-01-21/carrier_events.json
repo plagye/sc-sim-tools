@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "af63540d-16f9-4e4c-b67b-cdf2afe3e4d2",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": "PL-DS",
+    "impact_severity": "low",
+    "start_date": "2026-01-21",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-DS, expect 1-2 day delays",
+    "simulation_date": "2026-01-21",
+    "timestamp": "2026-01-21T14:00:00Z",
+    "sync_window": "14"
+  }
+]

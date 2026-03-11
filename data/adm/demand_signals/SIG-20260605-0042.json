@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260605-0042",
+    "timestamp": "2026-06-05T08:00:00Z",
+    "simulation_date": "2026-06-05",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0037",
+    "product_group": "GL-DN40-S304",
+    "signal_type": "timing_shift",
+    "magnitude": "medium",
+    "horizon_weeks": 25,
+    "description": "Delivery timing expected to shift based on customer project schedule. Source: consumption trend.",
+    "confidence": 0.5
+  }
+]

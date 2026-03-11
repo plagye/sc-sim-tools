@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260814-0062",
+    "timestamp": "2026-08-14T08:00:00Z",
+    "simulation_date": "2026-08-14",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0055",
+    "product_group": "GT-DN200-S304",
+    "signal_type": "mix_change",
+    "magnitude": "high",
+    "horizon_weeks": 10,
+    "description": "Product mix shift anticipated toward this product family. Source: consumption trend.",
+    "confidence": 0.6
+  }
+]

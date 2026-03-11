@@ -1,0 +1,24 @@
+[
+  {
+    "event_type": "credit_hold",
+    "event_id": "da5371d8-11a8-4781-bd15-15fb2d4180e8",
+    "simulation_date": "2026-12-21",
+    "order_id": "ORD-2026-003029",
+    "customer_id": "CUST-0042",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 6487725.8,
+    "credit_limit_pln": 602005.86,
+    "exposure_pln": 6487725.8
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "9319752f-e6ba-457a-a88f-815eb0292822",
+    "simulation_date": "2026-12-21",
+    "order_id": "ORD-2026-003030",
+    "customer_id": "CUST-0048",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 131228.88,
+    "credit_limit_pln": 72574.24,
+    "exposure_pln": 131228.88
+  }
+]

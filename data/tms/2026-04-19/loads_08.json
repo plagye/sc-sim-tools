@@ -1,0 +1,60 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "1288bcc3-4cd7-4fbf-b01e-d9eaab7c6516",
+    "load_id": "LOAD-1072",
+    "event_subtype": "delivered",
+    "simulation_date": "2026-04-19",
+    "sync_window": "08",
+    "carrier_code": "GEODIS",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1085",
+      "SHP-1087"
+    ],
+    "order_ids": [
+      "ORD-2026-001407",
+      "ORD-2026-001507"
+    ],
+    "total_weight_kg": 367.89,
+    "weight_unit": "kg",
+    "total_weight_reported": 367.89,
+    "status": "delivered",
+    "planned_date": "2026-04-14",
+    "priority": "critical",
+    "customer_ids": [
+      "CUST-0007"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "de7f61af-d718-43c1-838f-f503d38670d6",
+    "load_id": "LOAD-1074",
+    "event_subtype": "delivered",
+    "simulation_date": "2026-04-19",
+    "sync_window": "08",
+    "carrier_code": "DHL",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1088",
+      "SHP-1089",
+      "SHP-1090"
+    ],
+    "order_ids": [
+      "ORD-2026-001038",
+      "ORD-2026-001046",
+      "ORD-2026-001052"
+    ],
+    "total_weight_kg": 1010.014,
+    "weight_unit": "kg",
+    "total_weight_reported": 1010.014,
+    "status": "delivered",
+    "planned_date": "2026-04-15",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0053"
+    ],
+    "destination_region": ""
+  }
+]

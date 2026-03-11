@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260707-0046",
+    "timestamp": "2026-07-07T08:00:00Z",
+    "simulation_date": "2026-07-07",
+    "signal_source": "customer_communication",
+    "customer_id": "CUST-0013",
+    "product_group": "BF-DN50-DPX",
+    "signal_type": "upside_risk",
+    "magnitude": "high",
+    "horizon_weeks": 3,
+    "description": "Positive demand indicator suggests higher-than-planned volumes ahead. Source: customer communication.",
+    "confidence": 0.9
+  }
+]

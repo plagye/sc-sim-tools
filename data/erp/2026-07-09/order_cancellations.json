@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "d070cdaa-b03d-423b-90ac-73767089fb73",
+    "cancellation_date": "2026-07-09",
+    "order_id": "ORD-2026-001288",
+    "cancellation_type": "full",
+    "cancelled_lines": [
+      "ORD-2026-001288-L1",
+      "ORD-2026-001288-L2",
+      "ORD-2026-001288-L3"
+    ],
+    "reason": "customer_request",
+    "total_quantity_cancelled": 400
+  }
+]

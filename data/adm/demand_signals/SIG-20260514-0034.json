@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260514-0034",
+    "timestamp": "2026-05-14T08:00:00Z",
+    "simulation_date": "2026-05-14",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0048",
+    "product_group": "BF-DN80-CS",
+    "signal_type": "new_demand",
+    "magnitude": "low",
+    "horizon_weeks": 6,
+    "description": "New demand source identified for this product group. Source: consumption trend.",
+    "confidence": 0.9
+  }
+]

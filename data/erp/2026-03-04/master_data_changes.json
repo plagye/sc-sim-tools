@@ -1,0 +1,22 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260304-0008",
+    "timestamp": "2026-03-04T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0018",
+    "field_changed": "delivery_address_primary",
+    "old_value": {
+      "street": "Rosaboulevard 2",
+      "city": "Scharnegoutum",
+      "postal_code": "1833SN"
+    },
+    "new_value": {
+      "street": "plac Listopada 24",
+      "city": "Stargard Szczeciński",
+      "postal_code": "48-358"
+    },
+    "effective_date": "2026-03-05",
+    "reason": "office_relocation"
+  }
+]

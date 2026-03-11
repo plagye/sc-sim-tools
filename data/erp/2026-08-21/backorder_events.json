@@ -1,0 +1,80 @@
+[
+  {
+    "event_type": "backorder",
+    "event_id": "9c13a277-0c2c-4bc2-aa0b-9daebbe605a0",
+    "backorder_date": "2026-08-21",
+    "order_id": "ORD-2026-002318",
+    "order_line_id": "ORD-2026-002318-L2",
+    "sku": "FF-BL40-S304-PN40-FM",
+    "quantity_backordered": 75,
+    "quantity_allocated": 90,
+    "backorder_reason": "no_stock",
+    "days_backordered": 1,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "48824b9b-32cd-4229-9220-2596c66e6ff8",
+    "backorder_date": "2026-08-21",
+    "order_id": "ORD-2026-002142",
+    "order_line_id": "ORD-2026-002142-L1",
+    "sku": "FF-BF50-CS-PN63-XM",
+    "quantity_backordered": 1048576,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 18,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "cd803d8d-4b4b-4827-966b-fedb66770a73",
+    "backorder_date": "2026-08-21",
+    "order_id": "ORD-2026-001161",
+    "order_line_id": "ORD-2026-001161-L4",
+    "sku": "FF-BL100-S316-PN40-WM",
+    "quantity_backordered": 57,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 0,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "e6e906d8-76e4-4d99-b1ea-1b14b1f3c3b5",
+    "backorder_date": "2026-08-21",
+    "order_id": "ORD-2026-002000",
+    "order_line_id": "ORD-2026-002000-L1",
+    "sku": "FF-GL40-CS-PN16-FM",
+    "quantity_backordered": 5888,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 9,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "f574229e-c69e-4e35-9e58-0450a11afe39",
+    "backorder_date": "2026-08-21",
+    "order_id": "ORD-2026-002000",
+    "order_line_id": "ORD-2026-002000-L2",
+    "sku": "FF-BF25-BRS-PN16-TP",
+    "quantity_backordered": 3584,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 9,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "4ea69923-5b35-46fb-995c-3a136b7941d5",
+    "backorder_date": "2026-08-21",
+    "order_id": "ORD-2026-002000",
+    "order_line_id": "ORD-2026-002000-L3",
+    "sku": "FF-BL80-CS-PN10-FP",
+    "quantity_backordered": 2560,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 9,
+    "escalated_to_express": false
+  }
+]

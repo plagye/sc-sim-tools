@@ -1,0 +1,53 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "dca088f8-ba66-4bf5-8d33-bfd0b1a4762e",
+    "event_subtype": "rate_change",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-10-19",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": -11.4832,
+    "message": "DHL Freight rate adjustment: -11.5% effective immediately",
+    "simulation_date": "2026-10-19",
+    "timestamp": "2026-10-19T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "64be62f7-2c06-4d11-9001-6eb65c3fd986",
+    "event_subtype": "rate_change",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-10-19",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": 8.4357,
+    "message": "Raben Group rate adjustment: +8.4% effective immediately",
+    "simulation_date": "2026-10-19",
+    "timestamp": "2026-10-19T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "63f6308c-da73-41f1-83fe-87822f8bd2c7",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": "PL-WN",
+    "impact_severity": "medium",
+    "start_date": "2026-10-19",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-WN, expect 1-2 day delays",
+    "simulation_date": "2026-10-19",
+    "timestamp": "2026-10-19T08:00:00Z",
+    "sync_window": "08"
+  }
+]

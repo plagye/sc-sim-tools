@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "d1495c84-9853-4ff4-bce2-9df1176608fd",
+    "event_subtype": "service_disruption",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": "PL-PM",
+    "impact_severity": "high",
+    "start_date": "2026-08-12",
+    "end_date": "2026-08-13",
+    "duration_days": 1,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting Raben Group operations in PL-PM for 1 day",
+    "simulation_date": "2026-08-12",
+    "timestamp": "2026-08-12T08:00:00Z",
+    "sync_window": "08"
+  }
+]

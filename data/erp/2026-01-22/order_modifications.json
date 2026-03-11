@@ -1,0 +1,35 @@
+[
+  {
+    "event_type": "order_modifications",
+    "event_id": "10f6d36b-e337-406e-af04-77b49b3af796",
+    "modification_date": "2026-01-22",
+    "order_id": "ORD-2026-001050",
+    "modification_type": "quantity_change",
+    "line_id": "ORD-2026-001050-L1",
+    "old_value": "35",
+    "new_value": "45",
+    "reason": "customer_request"
+  },
+  {
+    "event_type": "order_modifications",
+    "event_id": "9b083a7b-f7d2-41fb-bb25-60cdef6840ef",
+    "modification_date": "2026-01-22",
+    "order_id": "ORD-2026-001066",
+    "modification_type": "line_addition",
+    "line_id": "ORD-2026-001066-L2",
+    "old_value": null,
+    "new_value": "FF-BL25-BRS-PN10-WM:16",
+    "reason": "customer_request"
+  },
+  {
+    "event_type": "order_modifications",
+    "event_id": "8b626128-f75a-4bc2-a877-822801c03efc",
+    "modification_date": "2026-01-22",
+    "order_id": "ORD-2026-001084",
+    "modification_type": "line_removal",
+    "line_id": "ORD-2026-001084-L2",
+    "old_value": "22",
+    "new_value": "0",
+    "reason": "customer_request"
+  }
+]

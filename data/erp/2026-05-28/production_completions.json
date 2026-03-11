@@ -1,0 +1,74 @@
+[
+  {
+    "event_type": "production_completion",
+    "event_id": "9793e7fb-75c8-4f25-b7f2-cd7872ca5ae5",
+    "simulation_date": "2026-05-28",
+    "batch_id": "BATCH-1534",
+    "sku": "FF-BF80-CS-PN25-XE",
+    "quantity": 106,
+    "grade": "A",
+    "production_line": 5,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-05-28T13:39:09"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "142e5424-ca16-4f7c-a0ce-34cf7b1a9d38",
+    "simulation_date": "2026-05-28",
+    "batch_id": "BATCH-1535",
+    "sku": "FF-BF100-S304-PN16-WM",
+    "quantity": 94,
+    "grade": "A",
+    "production_line": 1,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-05-28T12:21:00"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "9492eabd-8342-4630-88c2-435a15843724",
+    "simulation_date": "2026-05-28",
+    "batch_id": "BATCH-1536",
+    "sku": "FF-BL100-S316-PN10-FP",
+    "quantity": 177,
+    "grade": "A",
+    "production_line": 2,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-05-28T07:14:02"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "c03836ba-d380-43f7-86ec-dc614983f902",
+    "simulation_date": "2026-05-28",
+    "batch_id": "BATCH-1537",
+    "sku": "FF-BL40-S304-PN25-TE",
+    "quantity": 124,
+    "grade": "A",
+    "production_line": 2,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-05-28T16:15:26"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "8c059b6b-e97e-44c2-872e-aedbb35c80a5",
+    "simulation_date": "2026-05-28",
+    "batch_id": "BATCH-1538",
+    "sku": "FF-GT40-S304-PN10-FM",
+    "quantity": 118,
+    "grade": "A",
+    "production_line": 1,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-05-28T14:30:23"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "f28b7951-098a-43b5-bd7e-537408354e28",
+    "simulation_date": "2026-05-28",
+    "batch_id": "BATCH-1539",
+    "sku": "FF-GL80-S304-PN40-FM",
+    "quantity": 189,
+    "grade": "A",
+    "production_line": 2,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-05-28T08:44:07"
+  }
+]

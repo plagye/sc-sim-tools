@@ -1,0 +1,38 @@
+[
+  {
+    "event_type": "production_completion",
+    "event_id": "e6df5c34-4193-4ce9-b8d0-741b394f37c9",
+    "simulation_date": "2026-12-01",
+    "batch_id": "BATCH-2270",
+    "sku": "FF-BL80-CS-PN10-TM",
+    "quantity": 56,
+    "grade": "A",
+    "production_line": 1,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-12-01T12:53:05"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "011737f1-9992-4e5d-bb66-7fbf1bebb91b",
+    "simulation_date": "2026-12-01",
+    "batch_id": "BATCH-2271",
+    "sku": "FF-ND40-S316-PN25-TM",
+    "quantity": 55,
+    "grade": "A",
+    "production_line": 4,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-12-01T08:25:13"
+  },
+  {
+    "event_type": "production_completion",
+    "event_id": "d4148e16-d8d2-474c-abeb-c0b19f213f36",
+    "simulation_date": "2026-12-01",
+    "batch_id": "BATCH-2272",
+    "sku": "FF-BF300-S316-PN16-FH",
+    "quantity": 72,
+    "grade": "A",
+    "production_line": 4,
+    "warehouse": "W01",
+    "completion_timestamp": "2026-12-01T13:44:30"
+  }
+]

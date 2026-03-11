@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "0995f47b-f77d-4239-93d3-a9d01e39b2df",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": "PL-WN",
+    "impact_severity": "low",
+    "start_date": "2026-09-16",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-WN, expect 1-2 day delays",
+    "simulation_date": "2026-09-16",
+    "timestamp": "2026-09-16T08:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "1220e1e0-849e-4e1a-9cfc-80b68be92be8",
+    "event_subtype": "rate_change",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-09-16",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": -12.2801,
+    "message": "Geodis rate adjustment: -12.3% effective immediately",
+    "simulation_date": "2026-09-16",
+    "timestamp": "2026-09-16T14:00:00Z",
+    "sync_window": "14"
+  }
+]

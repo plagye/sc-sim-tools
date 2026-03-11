@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "2ae27448-4ffa-4b2d-9921-09eed3d6b358",
+    "simulation_date": "2026-03-16",
+    "batch_id": "BATCH-1253",
+    "sku": "FF-GT40-S304-PN10-WP",
+    "quantity": 250,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-03-12",
+    "reclassification_reason": "quality_review"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20261221-0112",
+    "timestamp": "2026-12-21T08:00:00Z",
+    "simulation_date": "2026-12-21",
+    "signal_source": "contract_renewal",
+    "customer_id": "CUST-0029",
+    "product_group": "BF-DN80-S316",
+    "signal_type": "timing_shift",
+    "magnitude": "medium",
+    "horizon_weeks": 9,
+    "description": "Delivery timing expected to shift based on customer project schedule. Source: contract renewal.",
+    "confidence": 0.4
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "89611690-f09c-4396-8d1e-51a773bf8dd4",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": "PL-MA",
+    "impact_severity": "low",
+    "start_date": "2026-11-23",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-MA, expect 1-2 day delays",
+    "simulation_date": "2026-11-23",
+    "timestamp": "2026-11-23T14:00:00Z",
+    "sync_window": "14"
+  }
+]

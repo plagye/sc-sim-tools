@@ -1,0 +1,83 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "48a9d008-4ea3-4d37-9b75-2277e03b5b8a",
+    "load_id": "LOAD-1012",
+    "event_subtype": "load_created",
+    "simulation_date": "2026-01-12",
+    "sync_window": "20",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1015"
+    ],
+    "order_ids": [
+      "ORD-2026-001030"
+    ],
+    "total_weight_kg": 17.1,
+    "weight_unit": "kg",
+    "total_weight_reported": 17.1,
+    "status": "load_created",
+    "planned_date": "2026-01-12",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0048"
+    ],
+    "destination_region": "PL-SL"
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "165848ad-df15-46a0-a5dd-9850b55ab954",
+    "load_id": "LOAD-1008",
+    "event_subtype": "out_for_delivery",
+    "simulation_date": "2026-01-12",
+    "sync_window": "20",
+    "carrier_code": "GEODIS",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1007",
+      "SHP-1008"
+    ],
+    "order_ids": [
+      "ORD-2026-001009",
+      "ORD-2026-001010"
+    ],
+    "total_weight_kg": 6885.884,
+    "weight_unit": "kg",
+    "total_weight_reported": 6885.884,
+    "status": "out_for_delivery",
+    "planned_date": "2026-01-08",
+    "priority": "express",
+    "customer_ids": [
+      "CUST-0004",
+      "CUST-0007"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "3e69f02a-d278-4d7d-8644-33e1f9866a50",
+    "load_id": "LOAD-1012",
+    "event_subtype": "in_transit",
+    "simulation_date": "2026-01-12",
+    "sync_window": "20",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1015"
+    ],
+    "order_ids": [
+      "ORD-2026-001030"
+    ],
+    "total_weight_kg": 17.1,
+    "weight_unit": "kg",
+    "total_weight_reported": 17.1,
+    "status": "in_transit",
+    "planned_date": "2026-01-12",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0048"
+    ],
+    "destination_region": ""
+  }
+]

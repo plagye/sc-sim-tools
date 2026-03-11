@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "70d03f63-ecef-4779-847b-592164934e1c",
+    "simulation_date": "2026-12-02",
+    "batch_id": "BATCH-2255",
+    "sku": "FF-GL50-S304-PN10-FP",
+    "quantity": 55,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-11-27",
+    "reclassification_reason": "quality_review"
+  }
+]

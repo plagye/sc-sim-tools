@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260709-0050",
+    "timestamp": "2026-07-09T08:00:00Z",
+    "simulation_date": "2026-07-09",
+    "signal_source": "market_intelligence",
+    "customer_id": null,
+    "product_group": "BL-DN100-S316",
+    "signal_type": "upside_risk",
+    "magnitude": "high",
+    "horizon_weeks": 18,
+    "description": "Positive demand indicator suggests higher-than-planned volumes ahead. Source: market intelligence.",
+    "confidence": 0.4
+  }
+]

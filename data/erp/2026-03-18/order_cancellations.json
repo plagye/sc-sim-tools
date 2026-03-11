@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "c2470662-0d45-4109-abd6-0de0102f0e3e",
+    "cancellation_date": "2026-03-18",
+    "order_id": "ORD-2026-001082",
+    "order_line_id": "ORD-2026-001082-L1",
+    "sku": "FF-GL100-S316-PN40-TE",
+    "quantity_cancelled": 76416058130432,
+    "reason": "backorder_timeout",
+    "days_backordered": 39
+  }
+]

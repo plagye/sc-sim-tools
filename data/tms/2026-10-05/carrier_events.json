@@ -1,0 +1,53 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "ae092d56-a500-406e-8ee6-53204ee2deb5",
+    "event_subtype": "rate_change",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-10-05",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": -12.9589,
+    "message": "DHL Freight rate adjustment: -13.0% effective immediately",
+    "simulation_date": "2026-10-05",
+    "timestamp": "2026-10-05T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "a28a8a12-aca1-4ffa-b4ae-456e5458114f",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": "PL-MA",
+    "impact_severity": "low",
+    "start_date": "2026-10-05",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-MA, expect 1-2 day delays",
+    "simulation_date": "2026-10-05",
+    "timestamp": "2026-10-05T08:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "39b37006-5efa-4e69-8b27-726290eeccd7",
+    "event_subtype": "maintenance_window",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-10-05",
+    "end_date": null,
+    "duration_days": 0,
+    "rate_delta_pct": null,
+    "message": "Scheduled system maintenance for BalticHaul on 2026-10-05 14:00–18:00 UTC",
+    "simulation_date": "2026-10-05",
+    "timestamp": "2026-10-05T08:00:00Z",
+    "sync_window": "08"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "4daddd04-fb00-429b-8c75-c8315f52c824",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1003",
+    "order_id": "ORD-2026-001069",
+    "customer_id": "CUST-0017",
+    "carrier_code": "BALTIC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001069-L1",
+        "sku": "FF-BF25-S316-PN10-TE",
+        "quantity_returned": 24,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-02-23",
+    "timestamp": "2026-02-23T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "5e5f5319-ef94-461a-81a5-d5d175544bc1",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1004",
+    "order_id": "ORD-2026-001084",
+    "customer_id": "CUST-0046",
+    "carrier_code": "GEODIS",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001084-L3",
+        "sku": "FF-GT50-CS-PN25-FE",
+        "quantity_returned": 30,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-02-23",
+    "timestamp": "2026-02-23T09:00:00Z",
+    "sync_window": "08"
+  }
+]

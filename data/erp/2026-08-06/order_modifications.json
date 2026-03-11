@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "order_modifications",
+    "event_id": "b6df1bd9-afa3-4156-9d07-0e8d74e16f46",
+    "modification_date": "2026-08-06",
+    "order_id": "ORD-2026-001923",
+    "modification_type": "quantity_change",
+    "line_id": "ORD-2026-001923-L1",
+    "old_value": "48",
+    "new_value": "65",
+    "reason": "customer_request"
+  }
+]

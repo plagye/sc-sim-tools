@@ -1,0 +1,370 @@
+[
+  {
+    "event_type": "customer_order",
+    "event_id": "b2f62384-f144-424d-aa42-d1250cc9a09f",
+    "order_id": "ORD-2026-002787",
+    "customer_id": "CUST-0019",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T12:12:03",
+    "currency": "USD",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-11-25",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002787-L1",
+        "sku": "FF-GT100-S316-PN40-TE",
+        "quantity_ordered": 23,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 1908.58,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002787-L2",
+        "sku": "FF-GT150-S316-PN40-FM",
+        "quantity_ordered": 23,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 2409.83,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002787-L3",
+        "sku": "FF-BF150-S316-PN40-TM",
+        "quantity_ordered": 33,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 1409.75,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002787-L4",
+        "sku": "FF-BL15-S304-PN16-TP",
+        "quantity_ordered": 24,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 151.04,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002787-L5",
+        "sku": "FF-GL150-CS-PN10-TP",
+        "quantity_ordered": 40,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 1581.98,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "edi",
+    "incoterms": "FCA"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "b3bfded8-24ce-4a63-986b-c4f622428461",
+    "order_id": "ORD-2026-002788",
+    "customer_id": "CUST-0009",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T13:14:47",
+    "currency": "PLN",
+    "priority": "express",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-11-16",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002788-L1",
+        "sku": "FF-CK100-S316-PN25-FP",
+        "quantity_ordered": 90,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 5354.91,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002788-L2",
+        "sku": "FF-CK300-DPX-PN40-WP",
+        "quantity_ordered": 71,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 89485.83,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "direct",
+    "incoterms": "FCA"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "0f2bcc47-d726-4275-996a-887b0f7615ff",
+    "order_id": "ORD-2026-002789",
+    "customer_id": "CUST-0022",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T10:34:38",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-11-26",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002789-L1",
+        "sku": "FF-GL80-S304-PN25-TM",
+        "quantity_ordered": 8,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 2188.45,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002789-L2",
+        "sku": "FF-CK50-S304-PN10-FM",
+        "quantity_ordered": 5,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 818.4,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002789-L3",
+        "sku": "FF-BF300-S316-PN16-WP",
+        "quantity_ordered": 9,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 35977.34,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002789-L4",
+        "sku": "FF-BL200-S316-PN16-WE",
+        "quantity_ordered": 6,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 23373.5,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "portal",
+    "incoterms": "DAP"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "fa2998a3-a931-4c0b-b82c-bf8930efc886",
+    "order_id": "ORD-2026-002790",
+    "customer_id": "CUST-0027",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T10:41:56",
+    "currency": "USD",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-11-24",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002790-L1",
+        "sku": "FF-GL40-CS-PN16-FM",
+        "quantity_ordered": 22,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 191.08,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002790-L2",
+        "sku": "FF-GT50-BRS-PN16-TM",
+        "quantity_ordered": 25,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 215.51,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002790-L3",
+        "sku": "FF-GL25-CS-PN16-FM",
+        "quantity_ordered": 22,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 141.1,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "direct",
+    "incoterms": "DAP"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "c8fc61c4-868c-44ec-8375-f36a939b5759",
+    "order_id": "ORD-2026-002791",
+    "customer_id": "CUST-0029",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T14:42:02",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-12-01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002791-L1",
+        "sku": "FF-BL100-CS-PN25-WM",
+        "quantity_ordered": 105,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 2582.62,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002791-L2",
+        "sku": "FF-BL200-DPX-PN40-TH",
+        "quantity_ordered": 188,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 41673.14,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "portal",
+    "incoterms": "EXW"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "7a152f3d-9322-4aec-9daa-f0e788713155",
+    "order_id": "ORD-2026-002792",
+    "customer_id": "CUST-0036",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T14:50:19",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-12-03",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002792-L1",
+        "sku": "FF-BF15-CS-PN40-TM",
+        "quantity_ordered": 22,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 238.57,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002792-L2",
+        "sku": "FF-GT100-S316-PN16-TH",
+        "quantity_ordered": 23,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 6672.76,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002792-L3",
+        "sku": "FF-BL100-S304-PN16-TP",
+        "quantity_ordered": 24,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 4200.85,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002792-L4",
+        "sku": "FF-GT50-DPX-PN16-TE",
+        "quantity_ordered": 13,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 2859.75,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "direct",
+    "incoterms": "EXW"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "8e693722-5a47-4219-8315-3f08596c86bf",
+    "order_id": "ORD-2026-002793",
+    "customer_id": "CUST-0053",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T11:27:34",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-11-20",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002793-L1",
+        "sku": "FF-GL80-S316-PN10-TP",
+        "quantity_ordered": 23,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 3076.54,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002793-L2",
+        "sku": "FF-BF50-S304-PN25-FP",
+        "quantity_ordered": 22,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 1225.23,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "direct",
+    "incoterms": "EXW"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "f32e5682-4414-468d-a968-2ea594f57d88",
+    "order_id": "ORD-2026-002794",
+    "customer_id": "CUST-0060",
+    "simulation_date": "2026-11-05",
+    "timestamp": "2026-11-05T14:55:51",
+    "currency": "EUR",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-12-04",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002794-L1",
+        "sku": "FF-GT100-DPX-PN25-FH",
+        "quantity_ordered": 109,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 2513.62,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002794-L2",
+        "sku": "FF-BF200-CS-PN16-XP",
+        "quantity_ordered": 166,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 1386.63,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "edi",
+    "incoterms": "DAP"
+  }
+]

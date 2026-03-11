@@ -1,0 +1,234 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "2e83b987-d2e8-42ae-b893-d293b1ea2667",
+    "event_subtype": "restocked",
+    "rma_id": "RMA-1118",
+    "order_id": "ORD-2026-001612",
+    "customer_id": "CUST-0058",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001612-L1",
+        "sku": "FF-BL150-S304-PN10-FP",
+        "quantity_returned": 23,
+        "quantity_accepted": 23,
+        "return_reason": "wrong_item_shipped"
+      }
+    ],
+    "resolution": "restocked",
+    "return_reason": "wrong_item_shipped",
+    "rma_status": "restocked",
+    "simulation_date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "79e2e008-794d-4653-b1f6-c91334e77736",
+    "event_subtype": "restocked",
+    "rma_id": "RMA-1119",
+    "order_id": "ORD-2026-001074",
+    "customer_id": "CUST-0053",
+    "carrier_code": "DHL",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001074-L2",
+        "sku": "FF-CK40-S316-PN10-FP",
+        "quantity_returned": 18,
+        "quantity_accepted": 18,
+        "return_reason": "wrong_item_shipped"
+      }
+    ],
+    "resolution": "restocked",
+    "return_reason": "wrong_item_shipped",
+    "rma_status": "restocked",
+    "simulation_date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "32bbaaca-b32e-45cc-8d7d-330ae6bc9667",
+    "event_subtype": "received_at_warehouse",
+    "rma_id": "RMA-1121",
+    "order_id": "ORD-2026-001066",
+    "customer_id": "CUST-0001",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001066-L1",
+        "sku": "FF-GL200-BRS-PN16-TE",
+        "quantity_returned": 68,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "received_at_warehouse",
+    "simulation_date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "2b4d266c-6807-4e47-af28-96a6038eeb12",
+    "event_subtype": "restocked",
+    "rma_id": "RMA-1122",
+    "order_id": "ORD-2026-001033",
+    "customer_id": "CUST-0018",
+    "carrier_code": "GEODIS",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001033-L2",
+        "sku": "FF-BL100-CS-PN40-TM",
+        "quantity_returned": 66,
+        "quantity_accepted": 66,
+        "return_reason": "overstock"
+      },
+      {
+        "line_id": "ORD-2026-001033-L1",
+        "sku": "FF-BF150-CS-PN40-TP",
+        "quantity_returned": 46,
+        "quantity_accepted": 46,
+        "return_reason": "overstock"
+      }
+    ],
+    "resolution": "restocked",
+    "return_reason": "overstock",
+    "rma_status": "restocked",
+    "simulation_date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "52277039-8cf7-4b23-a53b-411f10f6732c",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1124",
+    "order_id": "ORD-2026-001300",
+    "customer_id": "CUST-0043",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001300-L1",
+        "sku": "FF-CK80-S304-PN10-WM",
+        "quantity_returned": 8,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-09-08",
+    "timestamp": "2026-09-07T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "fbde3b4c-6894-425f-a7be-dd3515e48e45",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1125",
+    "order_id": "ORD-2026-001695",
+    "customer_id": "CUST-0052",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001695-L1",
+        "sku": "FF-GL80-S316-PN25-WP",
+        "quantity_returned": 81,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00-05:00",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "3412594a-a0ca-47fa-acf2-82fa114e3e65",
+    "event_subtype": "pickup_scheduled",
+    "rma_id": "RMA-1126",
+    "order_id": "ORD-2026-001143",
+    "customer_id": "CUST-0022",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001143-L1",
+        "sku": "FF-BF200-CS-PN25-XM",
+        "quantity_returned": 33,
+        "quantity_accepted": null,
+        "return_reason": "wrong_item_shipped"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "wrong_item_shipped",
+    "rma_status": "pickup_scheduled",
+    "simulation_date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "a716690d-e142-4d89-94f0-cc8a2241c9bb",
+    "event_subtype": "pickup_scheduled",
+    "rma_id": "RMA-1127",
+    "order_id": "ORD-2026-001753",
+    "customer_id": "CUST-0043",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001753-L1",
+        "sku": "FF-BF25-S316-PN16-FE",
+        "quantity_returned": 6,
+        "quantity_accepted": null,
+        "return_reason": "damaged_in_transit"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "damaged_in_transit",
+    "rma_status": "pickup_scheduled",
+    "simulation_date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "ab3ab52d-440b-46da-9dd2-ed50f3f196cb",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1128",
+    "order_id": "ORD-2026-001166",
+    "customer_id": "CUST-0022",
+    "carrier_code": "DBSC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001166-L1",
+        "sku": "FF-BF25-CS-PN10-TM",
+        "quantity_returned": 16,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00Z",
+    "sync_window": "08"
+  }
+]

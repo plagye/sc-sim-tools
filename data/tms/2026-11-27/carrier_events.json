@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "714873e2-97a8-4d1e-96b1-3b8f8a3f7e9f",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "DBSC",
+    "carrier_name": "DB Schenker",
+    "affected_region": "PL-LB",
+    "impact_severity": "medium",
+    "start_date": "2026-11-27",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-LB, expect 1-2 day delays",
+    "simulation_date": "2026-11-27",
+    "timestamp": "2026-11-27T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "7416e6a6-4d60-4887-945b-1ca0ac59bb16",
+    "event_subtype": "maintenance_window",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-11-27",
+    "end_date": null,
+    "duration_days": 0,
+    "rate_delta_pct": null,
+    "message": "Scheduled system maintenance for Geodis on 2026-11-27 06:00–10:00 UTC",
+    "simulation_date": "2026-11-27",
+    "timestamp": "2026-11-27T08:00:00Z",
+    "sync_window": "08"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "052c078a-6858-43ae-99f0-a5b99c26db14",
+    "event_subtype": "restocked",
+    "rma_id": "RMA-1011",
+    "order_id": "ORD-2026-001003",
+    "customer_id": "CUST-0017",
+    "carrier_code": "BALTIC",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001003-L1",
+        "sku": "FF-BF80-CS-PN25-FP",
+        "quantity_returned": 26,
+        "quantity_accepted": 26,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": "restocked",
+    "return_reason": "quality_defect",
+    "rma_status": "restocked",
+    "simulation_date": "2026-03-18",
+    "timestamp": "2026-03-18T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "e86b9621-93bc-421e-8439-b14cff5893ab",
+    "event_subtype": "return_requested",
+    "rma_id": "RMA-1012",
+    "order_id": "ORD-2026-001122",
+    "customer_id": "CUST-0046",
+    "carrier_code": "GEODIS",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001122-L2",
+        "sku": "FF-GT100-S316-PN16-TM",
+        "quantity_returned": 54,
+        "quantity_accepted": null,
+        "return_reason": "overstock"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "overstock",
+    "rma_status": "return_requested",
+    "simulation_date": "2026-03-18",
+    "timestamp": "2026-03-18T09:00:00Z",
+    "sync_window": "08"
+  }
+]

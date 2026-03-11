@@ -1,0 +1,22 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260717-0033",
+    "timestamp": "2026-07-17T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0013",
+    "field_changed": "delivery_address_primary",
+    "old_value": {
+      "street": "al. Niecała 63/95",
+      "city": "Rybnik",
+      "postal_code": "32-843"
+    },
+    "new_value": {
+      "street": "ul. Kochanowskiego 760",
+      "city": "Słupsk",
+      "postal_code": "39-141"
+    },
+    "effective_date": "2026-07-18",
+    "reason": "office_relocation"
+  }
+]

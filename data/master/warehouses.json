@@ -1,0 +1,18 @@
+[
+  {
+    "code": "W01",
+    "name": "FlowForm Katowice Distribution Centre",
+    "city": "Katowice",
+    "country_code": "PL",
+    "role": "main",
+    "inventory_share": 0.8
+  },
+  {
+    "code": "W02",
+    "name": "FlowForm Gdańsk Port Warehouse",
+    "city": "Gdańsk",
+    "country_code": "PL",
+    "role": "port",
+    "inventory_share": 0.2
+  }
+]

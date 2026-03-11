@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "5893dc46-ff08-497e-bb12-fb3baf814763",
+    "event_subtype": "rate_change",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-12-14",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": 14.2989,
+    "message": "Raben Group rate adjustment: +14.3% effective immediately",
+    "simulation_date": "2026-12-14",
+    "timestamp": "2026-12-14T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "28b34c23-8e6a-4626-bf3e-7fe8ea1d91f0",
+    "event_subtype": "rate_change",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-12-14",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": 8.4177,
+    "message": "Geodis rate adjustment: +8.4% effective immediately",
+    "simulation_date": "2026-12-14",
+    "timestamp": "2026-12-14T14:00:00Z",
+    "sync_window": "14"
+  }
+]

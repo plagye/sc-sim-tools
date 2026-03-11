@@ -1,0 +1,24 @@
+[
+  {
+    "event_type": "order_modifications",
+    "event_id": "4b8b8a22-2fdb-4ce9-8ef6-b71ec1b3d3c2",
+    "modification_date": "2026-04-08",
+    "order_id": "ORD-2026-001021",
+    "modification_type": "line_addition",
+    "line_id": "ORD-2026-001021-L4",
+    "old_value": null,
+    "new_value": "FF-CK100-S316-PN40-FM:6",
+    "reason": "customer_request"
+  },
+  {
+    "event_type": "order_modifications",
+    "event_id": "1e512458-0d54-495f-a831-fa256f31eeb2",
+    "modification_date": "2026-04-08",
+    "order_id": "ORD-2026-001429",
+    "modification_type": "priority_change",
+    "line_id": null,
+    "old_value": "standard",
+    "new_value": "express",
+    "reason": "urgency"
+  }
+]

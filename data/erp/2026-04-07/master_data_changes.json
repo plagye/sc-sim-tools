@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20260407-0017",
+    "timestamp": "2026-04-07T09:00:00Z",
+    "entity_type": "carrier",
+    "entity_id": "DHL",
+    "field_changed": "carrier_base_rate",
+    "old_value": 1.0,
+    "new_value": 0.8501,
+    "effective_date": "2026-04-08",
+    "reason": "annual_rate_review"
+  }
+]

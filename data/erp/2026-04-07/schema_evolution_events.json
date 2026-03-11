@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "schema_evolution_event",
+    "evolution_id": "SEVT-20260407-0002",
+    "timestamp": "2026-04-07T09:00:00Z",
+    "affected_system": "forecast",
+    "affected_event_type": "demand_forecast",
+    "field_name": "model_version",
+    "change_type": "model_upgrade",
+    "effective_from_day": 90,
+    "description": "Forecast model upgraded from v2.3 to v3.0 at sim day 90. Wider confidence intervals apply."
+  }
+]

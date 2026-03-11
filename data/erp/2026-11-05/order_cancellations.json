@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "cc6438fe-6ac8-405c-a418-03f1c27e214b",
+    "cancellation_date": "2026-11-05",
+    "order_id": "ORD-2026-002465",
+    "order_line_id": "ORD-2026-002465-L1",
+    "sku": "FF-GL100-DPX-PN25-TP",
+    "quantity_cancelled": 10555150565376,
+    "reason": "backorder_timeout",
+    "days_backordered": 37
+  }
+]

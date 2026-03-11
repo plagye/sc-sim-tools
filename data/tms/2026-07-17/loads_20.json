@@ -1,0 +1,80 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "47bd085d-aa4e-43f2-a0cd-aa9191a26511",
+    "load_id": "LOAD-1104",
+    "event_subtype": "out_for_delivery",
+    "simulation_date": "2026-07-17",
+    "sync_window": "20",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1123"
+    ],
+    "order_ids": [
+      "ORD-2026-001129"
+    ],
+    "total_weight_kg": 437.52,
+    "weight_unit": "kg",
+    "total_weight_reported": 437.52,
+    "status": "out_for_delivery",
+    "planned_date": "2026-07-15",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0031"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "d049f731-c4e2-496e-ab9e-f84820d66066",
+    "load_id": "LOAD-1106",
+    "event_subtype": "out_for_delivery",
+    "simulation_date": "2026-07-17",
+    "sync_window": "20",
+    "carrier_code": "DBSC",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1126"
+    ],
+    "order_ids": [
+      "ORD-2026-002171"
+    ],
+    "total_weight_kg": 26.924,
+    "weight_unit": "kg",
+    "total_weight_reported": 26.924,
+    "status": "out_for_delivery",
+    "planned_date": "2026-07-15",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0022"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "a10abb89-67eb-45ce-a0e8-2d3e4a20676d",
+    "load_id": "LOAD-1102",
+    "event_subtype": "pod_received",
+    "simulation_date": "2026-07-17",
+    "sync_window": "20",
+    "carrier_code": "DBSC",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1121"
+    ],
+    "order_ids": [
+      "ORD-2026-001365"
+    ],
+    "total_weight_kg": 3870.365,
+    "weight_unit": "kg",
+    "total_weight_reported": 3870.365,
+    "status": "pod_received",
+    "planned_date": "2026-07-10",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0016"
+    ],
+    "destination_region": ""
+  }
+]

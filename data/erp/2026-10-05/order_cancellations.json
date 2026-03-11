@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "847bda24-f884-4e15-9376-4f7823cc0d2c",
+    "cancellation_date": "2026-10-05",
+    "order_id": "ORD-2026-002142",
+    "order_line_id": "ORD-2026-002142-L1",
+    "sku": "FF-BF50-CS-PN63-XM",
+    "quantity_cancelled": 2251799813685248,
+    "reason": "backorder_timeout",
+    "days_backordered": 49
+  }
+]

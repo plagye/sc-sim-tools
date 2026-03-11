@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "4f8cfa45-f777-41b7-b8a8-7b5dec96a368",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": "PL-MA",
+    "impact_severity": "low",
+    "start_date": "2026-03-10",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-MA, expect 1-2 day delays",
+    "simulation_date": "2026-03-10",
+    "timestamp": "2026-03-10T08:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "f582b86c-1154-4e85-bdeb-566fab8f1c07",
+    "event_subtype": "service_disruption",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": "PL-MA",
+    "impact_severity": "medium",
+    "start_date": "2026-03-10",
+    "end_date": "2026-03-12",
+    "duration_days": 2,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting Raben Group operations in PL-MA for 2 days",
+    "simulation_date": "2026-03-10",
+    "timestamp": "2026-03-10T08:00:00Z",
+    "sync_window": "08"
+  }
+]

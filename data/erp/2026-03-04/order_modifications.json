@@ -1,0 +1,24 @@
+[
+  {
+    "event_type": "order_modifications",
+    "event_id": "b0e4bdcd-7834-4f23-90ed-29d59f94cf11",
+    "modification_date": "2026-03-04",
+    "order_id": "ORD-2026-001021",
+    "modification_type": "priority_change",
+    "line_id": null,
+    "old_value": "standard",
+    "new_value": "critical",
+    "reason": "urgency"
+  },
+  {
+    "event_type": "order_modifications",
+    "event_id": "2a402840-1831-4798-a70d-b0f16464c72a",
+    "modification_date": "2026-03-04",
+    "order_id": "ORD-2026-001025",
+    "modification_type": "quantity_change",
+    "line_id": "ORD-2026-001025-L1",
+    "old_value": "299",
+    "new_value": "393",
+    "reason": "customer_request"
+  }
+]

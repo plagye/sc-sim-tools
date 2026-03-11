@@ -1,0 +1,24 @@
+[
+  {
+    "event_type": "payment",
+    "event_id": "dd24ee51-b613-436b-9e45-fbec5da43223",
+    "simulation_date": "2026-06-10",
+    "customer_id": "CUST-0022",
+    "payment_amount_pln": 307069.39,
+    "balance_before_pln": 388323.28,
+    "balance_after_pln": 81253.89,
+    "payment_behaviour": "late",
+    "payment_terms_days": 30
+  },
+  {
+    "event_type": "payment",
+    "event_id": "452bd5c2-6c74-42ff-b7c3-2f9b770366f9",
+    "simulation_date": "2026-06-10",
+    "customer_id": "CUST-0026",
+    "payment_amount_pln": 10372.55,
+    "balance_before_pln": 45905.68,
+    "balance_after_pln": 35533.13,
+    "payment_behaviour": "very_late",
+    "payment_terms_days": 60
+  }
+]

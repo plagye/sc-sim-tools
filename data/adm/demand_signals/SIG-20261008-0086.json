@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20261008-0086",
+    "timestamp": "2026-10-08T08:00:00Z",
+    "simulation_date": "2026-10-08",
+    "signal_source": "customer_communication",
+    "customer_id": "CUST-0044",
+    "product_group": "CK-DN150-S316",
+    "signal_type": "upside_risk",
+    "magnitude": "medium",
+    "horizon_weeks": 23,
+    "description": "Positive demand indicator suggests higher-than-planned volumes ahead. Source: customer communication.",
+    "confidence": 0.4
+  }
+]

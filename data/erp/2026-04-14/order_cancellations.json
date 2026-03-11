@@ -1,0 +1,26 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "cb3a0a63-90ff-49ad-a219-43d97cdfc5f1",
+    "cancellation_date": "2026-04-14",
+    "order_id": "ORD-2026-001024",
+    "cancellation_type": "full",
+    "cancelled_lines": [
+      "ORD-2026-001024-L1",
+      "ORD-2026-001024-L3"
+    ],
+    "reason": "customer_request",
+    "total_quantity_cancelled": 39
+  },
+  {
+    "event_type": "order_cancellations",
+    "event_id": "4b2c9b33-4c84-4788-8e4c-39cc5234e997",
+    "cancellation_date": "2026-04-14",
+    "order_id": "ORD-2026-001021",
+    "order_line_id": "ORD-2026-001021-L3",
+    "sku": "FF-GL40-S304-PN16-FE",
+    "quantity_cancelled": 47245000704,
+    "reason": "backorder_timeout",
+    "days_backordered": 32
+  }
+]

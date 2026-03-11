@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "5432accb-3cea-48bd-aa44-afb908bd51b3",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": "PL-LB",
+    "impact_severity": "low",
+    "start_date": "2026-12-21",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-LB, expect 1-2 day delays",
+    "simulation_date": "2026-12-21",
+    "timestamp": "2026-12-21T08:00:00Z",
+    "sync_window": "08"
+  }
+]

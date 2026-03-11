@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "2e68aa87-18ac-4574-81eb-77212f90e331",
+    "event_subtype": "service_disruption",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": "PL-SL",
+    "impact_severity": "medium",
+    "start_date": "2026-07-06",
+    "end_date": "2026-07-07",
+    "duration_days": 1,
+    "rate_delta_pct": null,
+    "message": "Strike action affecting Raben Group operations in PL-SL for 1 day",
+    "simulation_date": "2026-07-06",
+    "timestamp": "2026-07-06T20:00:00Z",
+    "sync_window": "20"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20261012-0043",
+    "timestamp": "2026-10-12T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0049",
+    "field_changed": "delivery_address_primary",
+    "old_value": {
+      "street": "aleja Warszawska 340",
+      "city": "Grodzisk Mazowiecki",
+      "postal_code": "43-402"
+    },
+    "new_value": {
+      "street": "al. Witosa 92/50",
+      "city": "Zduńska Wola",
+      "postal_code": "71-307"
+    },
+    "effective_date": "2026-10-13",
+    "reason": "office_relocation"
+  }
+]

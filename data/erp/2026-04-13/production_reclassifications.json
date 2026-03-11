@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "48bc102c-ac61-4ab7-98cf-ac9c20323903",
+    "simulation_date": "2026-04-13",
+    "batch_id": "BATCH-1344",
+    "sku": "FF-BL250-CS-PN16-TH",
+    "quantity": 135,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-04-07",
+    "reclassification_reason": "quality_review"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "949dac6d-ff03-4d02-acb7-f4dc4fc57c1a",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "DHL",
+    "carrier_name": "DHL Freight",
+    "affected_region": "PL-WN",
+    "impact_severity": "low",
+    "start_date": "2026-10-07",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-WN, expect 1-2 day delays",
+    "simulation_date": "2026-10-07",
+    "timestamp": "2026-10-07T20:00:00Z",
+    "sync_window": "20"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "1ae95ad5-a8c9-407d-8ffe-d4f6b21283df",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": "PL-DS",
+    "impact_severity": "low",
+    "start_date": "2026-10-07",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-DS, expect 1-2 day delays",
+    "simulation_date": "2026-10-07",
+    "timestamp": "2026-10-07T14:00:00Z",
+    "sync_window": "14"
+  }
+]

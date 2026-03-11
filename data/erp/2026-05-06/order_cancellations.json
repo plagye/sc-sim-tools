@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "bfc3e4bb-227c-4958-a0c1-9a5d5183052b",
+    "cancellation_date": "2026-05-06",
+    "order_id": "ORD-2026-001416",
+    "order_line_id": "ORD-2026-001416-L1",
+    "sku": "FF-BL250-CS-PN25-WM",
+    "quantity_cancelled": 105226657792,
+    "reason": "backorder_timeout",
+    "days_backordered": 31
+  }
+]

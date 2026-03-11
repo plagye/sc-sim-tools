@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260811-0061",
+    "timestamp": "2026-08-11T08:00:00Z",
+    "simulation_date": "2026-08-11",
+    "signal_source": "market_intelligence",
+    "customer_id": null,
+    "product_group": "GT-DN50-S316",
+    "signal_type": "downside_risk",
+    "magnitude": "medium",
+    "horizon_weeks": 9,
+    "description": "Market signal indicates potential demand softening in the near term. Source: market intelligence.",
+    "confidence": 0.9
+  }
+]

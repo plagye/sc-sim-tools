@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20261201-0103",
+    "timestamp": "2026-12-01T08:00:00Z",
+    "simulation_date": "2026-12-01",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0013",
+    "product_group": "BL-DN100-BRS",
+    "signal_type": "timing_shift",
+    "magnitude": "high",
+    "horizon_weeks": 19,
+    "description": "Delivery timing expected to shift based on customer project schedule. Source: consumption trend.",
+    "confidence": 0.4
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "399efe87-3fbb-4e4d-90b3-897118bee18a",
+    "load_id": "LOAD-1057",
+    "event_subtype": "load_created",
+    "simulation_date": "2026-03-11",
+    "sync_window": "14",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1069",
+      "SHP-1070"
+    ],
+    "order_ids": [
+      "ORD-2026-001258",
+      "ORD-2026-001283"
+    ],
+    "total_weight_kg": 116.818,
+    "weight_unit": "kg",
+    "total_weight_reported": 116.818,
+    "status": "load_created",
+    "planned_date": "2026-03-11",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0054"
+    ],
+    "destination_region": "CZ-PR"
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "2fdd54a7-1aac-4397-a3ef-5d499eb2df24",
+    "load_id": "LOAD-1057",
+    "event_subtype": "in_transit",
+    "simulation_date": "2026-03-11",
+    "sync_window": "14",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1069",
+      "SHP-1070"
+    ],
+    "order_ids": [
+      "ORD-2026-001258",
+      "ORD-2026-001283"
+    ],
+    "total_weight_kg": 116.818,
+    "weight_unit": "kg",
+    "total_weight_reported": 116.818,
+    "status": "in_transit",
+    "planned_date": "2026-03-11",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0054"
+    ],
+    "destination_region": ""
+  },
+  {
+    "event_type": "load_event",
+    "event_id": "c20691da-f955-4406-9ce0-2d894538bb46",
+    "load_id": "LOAD-1052",
+    "event_subtype": "pod_received",
+    "simulation_date": "2026-03-11",
+    "sync_window": "14",
+    "carrier_code": "RABEN",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1064"
+    ],
+    "order_ids": [
+      "ORD-2026-001300"
+    ],
+    "total_weight_kg": 105.6,
+    "weight_unit": "kg",
+    "total_weight_reported": 105.6,
+    "status": "pod_received",
+    "planned_date": "2026-03-05",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0043"
+    ],
+    "destination_region": ""
+  }
+]

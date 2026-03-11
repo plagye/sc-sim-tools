@@ -1,0 +1,36 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "ce25bcf6-b9ae-4410-9b68-d4646d856d7a",
+    "event_subtype": "maintenance_window",
+    "carrier_code": "RABEN",
+    "carrier_name": "Raben Group",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-11-30",
+    "end_date": null,
+    "duration_days": 0,
+    "rate_delta_pct": null,
+    "message": "Scheduled system maintenance for Raben Group on 2026-11-30 10:00–14:00 UTC",
+    "simulation_date": "2026-11-30",
+    "timestamp": "2026-11-30T08:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "2a02d423-935b-4ebd-9e58-cc38577eebc3",
+    "event_subtype": "capacity_alert",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": "PL-WN",
+    "impact_severity": "medium",
+    "start_date": "2026-11-30",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": null,
+    "message": "Reduced capacity in PL-WN, expect 1-2 day delays",
+    "simulation_date": "2026-11-30",
+    "timestamp": "2026-11-30T20:00:00Z",
+    "sync_window": "20"
+  }
+]

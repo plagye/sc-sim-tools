@@ -1,0 +1,24 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "1d41e1c5-c9b8-45ad-b3c3-874d4cd6d515",
+    "cancellation_date": "2026-04-13",
+    "order_id": "ORD-2026-001021",
+    "order_line_id": "ORD-2026-001021-L2",
+    "sku": "FF-BL200-CS-PN63-FP",
+    "quantity_cancelled": 153008209920,
+    "reason": "backorder_timeout",
+    "days_backordered": 31
+  },
+  {
+    "event_type": "order_cancellations",
+    "event_id": "565b7ef9-06d4-4618-81fa-41d893d78ce2",
+    "cancellation_date": "2026-04-13",
+    "order_id": "ORD-2026-001024",
+    "order_line_id": "ORD-2026-001024-L2",
+    "sku": "FF-GT200-S316-PN63-FM",
+    "quantity_cancelled": 8589936640,
+    "reason": "backorder_timeout",
+    "days_backordered": 31
+  }
+]

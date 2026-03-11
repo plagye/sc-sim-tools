@@ -1,0 +1,19 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "afd5eefd-973a-483b-a8d0-63c2917511c8",
+    "event_subtype": "maintenance_window",
+    "carrier_code": "GEODIS",
+    "carrier_name": "Geodis",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-01-08",
+    "end_date": null,
+    "duration_days": 0,
+    "rate_delta_pct": null,
+    "message": "Scheduled system maintenance for Geodis on 2026-01-08 06:00–10:00 UTC",
+    "simulation_date": "2026-01-08",
+    "timestamp": "2026-01-08T08:00:00Z",
+    "sync_window": "08"
+  }
+]

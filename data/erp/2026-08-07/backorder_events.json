@@ -1,0 +1,41 @@
+[
+  {
+    "event_type": "backorder",
+    "event_id": "487aa551-1856-49e8-aec1-069f235ab57e",
+    "backorder_date": "2026-08-07",
+    "order_id": "ORD-2026-001111",
+    "order_line_id": "ORD-2026-001111-L1",
+    "sku": "FF-BL150-CS-PN40-FH",
+    "quantity_backordered": 207618048,
+    "quantity_allocated": 119,
+    "backorder_reason": "no_stock",
+    "days_backordered": 22,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "a06a1764-26e4-4063-9d58-7e2e88a761ff",
+    "backorder_date": "2026-08-07",
+    "order_id": "ORD-2026-001875",
+    "order_line_id": "ORD-2026-001875-L1",
+    "sku": "FF-GT150-S304-PN10-FE",
+    "quantity_backordered": 65,
+    "quantity_allocated": 128,
+    "backorder_reason": "no_stock",
+    "days_backordered": 1,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "48a3be14-ec1a-41da-8121-8832a116ede4",
+    "backorder_date": "2026-08-07",
+    "order_id": "ORD-2026-002142",
+    "order_line_id": "ORD-2026-002142-L1",
+    "sku": "FF-BF50-CS-PN63-XM",
+    "quantity_backordered": 1024,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 8,
+    "escalated_to_express": false
+  }
+]

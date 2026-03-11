@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260714-0051",
+    "timestamp": "2026-07-14T08:00:00Z",
+    "simulation_date": "2026-07-14",
+    "signal_source": "customer_communication",
+    "customer_id": "CUST-0006",
+    "product_group": "BF-DN100-S304",
+    "signal_type": "mix_change",
+    "magnitude": "high",
+    "horizon_weeks": 18,
+    "description": "Product mix shift anticipated toward this product family. Source: customer communication.",
+    "confidence": 0.8
+  }
+]

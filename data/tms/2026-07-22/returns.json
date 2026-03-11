@@ -1,0 +1,91 @@
+[
+  {
+    "event_type": "return_event",
+    "event_id": "828b0949-3f55-4140-928d-a28311b5f87f",
+    "event_subtype": "in_transit_return",
+    "rma_id": "RMA-1085",
+    "order_id": "ORD-2026-001507",
+    "customer_id": "CUST-0007",
+    "carrier_code": "GEODIS",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001507-L1",
+        "sku": "FF-BF100-BRS-PN16-TM",
+        "quantity_returned": 8,
+        "quantity_accepted": null,
+        "return_reason": "overstock"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "overstock",
+    "rma_status": "in_transit_return",
+    "simulation_date": "2026-07-22",
+    "timestamp": "2026-07-22T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "3ce247d7-9251-4e26-b1c8-0f4ce4b57e69",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1086",
+    "order_id": "ORD-2026-001014",
+    "customer_id": "CUST-0043",
+    "carrier_code": "RABEN",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001014-L1",
+        "sku": "FF-CK150-S316-PN10-WM",
+        "quantity_returned": 16,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      },
+      {
+        "line_id": "ORD-2026-001014-L2",
+        "sku": "FF-BF40-S304-PN40-TP",
+        "quantity_returned": 17,
+        "quantity_accepted": null,
+        "return_reason": "quality_defect"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "quality_defect",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-07-22",
+    "timestamp": "2026-07-22T09:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "return_event",
+    "event_id": "ba9c3a3a-ca1e-4db5-9fd8-1e77a5c99e54",
+    "event_subtype": "return_authorized",
+    "rma_id": "RMA-1087",
+    "order_id": "ORD-2026-001189",
+    "customer_id": "CUST-0047",
+    "carrier_code": "DHL",
+    "return_warehouse_id": "W01",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001189-L1",
+        "sku": "FF-GT80-S304-PN16-WP",
+        "quantity_returned": 6,
+        "quantity_accepted": null,
+        "return_reason": "specification_mismatch"
+      },
+      {
+        "line_id": "ORD-2026-001189-L2",
+        "sku": "FF-CK50-CS-PN16-TM",
+        "quantity_returned": 5,
+        "quantity_accepted": null,
+        "return_reason": "specification_mismatch"
+      }
+    ],
+    "resolution": null,
+    "return_reason": "specification_mismatch",
+    "rma_status": "return_authorized",
+    "simulation_date": "2026-07-22",
+    "timestamp": "2026-07-22T09:00:00Z",
+    "sync_window": "08"
+  }
+]

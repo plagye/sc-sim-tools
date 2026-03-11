@@ -1,0 +1,53 @@
+[
+  {
+    "event_type": "carrier_event",
+    "event_id": "8844cc0d-04e9-4907-aae1-206ccbbdfd3c",
+    "event_subtype": "maintenance_window",
+    "carrier_code": "DBSC",
+    "carrier_name": "DB Schenker",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-11-17",
+    "end_date": null,
+    "duration_days": 0,
+    "rate_delta_pct": null,
+    "message": "Scheduled system maintenance for DB Schenker on 2026-11-17 10:00–14:00 UTC",
+    "simulation_date": "2026-11-17",
+    "timestamp": "2026-11-17T08:00:00Z",
+    "sync_window": "08"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "9d84e94b-7a98-406d-95e3-de7a142f2316",
+    "event_subtype": "rate_change",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-11-17",
+    "end_date": null,
+    "duration_days": null,
+    "rate_delta_pct": -5.8583,
+    "message": "BalticHaul rate adjustment: -5.9% effective immediately",
+    "simulation_date": "2026-11-17",
+    "timestamp": "2026-11-17T14:00:00Z",
+    "sync_window": "14"
+  },
+  {
+    "event_type": "carrier_event",
+    "event_id": "654ee2dc-80e9-4c60-9eed-159f720a1119",
+    "event_subtype": "maintenance_window",
+    "carrier_code": "BALTIC",
+    "carrier_name": "BalticHaul",
+    "affected_region": null,
+    "impact_severity": "low",
+    "start_date": "2026-11-17",
+    "end_date": null,
+    "duration_days": 0,
+    "rate_delta_pct": null,
+    "message": "Scheduled system maintenance for BalticHaul on 2026-11-17 06:00–10:00 UTC",
+    "simulation_date": "2026-11-17",
+    "timestamp": "2026-11-17T08:00:00Z",
+    "sync_window": "08"
+  }
+]

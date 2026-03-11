@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260908-0072",
+    "timestamp": "2026-09-08T08:00:00Z",
+    "simulation_date": "2026-09-08",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0057",
+    "product_group": "BL-DN100-CS",
+    "signal_type": "mix_change",
+    "magnitude": "high",
+    "horizon_weeks": 17,
+    "description": "Product mix shift anticipated toward this product family. Source: consumption trend.",
+    "confidence": 0.8
+  }
+]

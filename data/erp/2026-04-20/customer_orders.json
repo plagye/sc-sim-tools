@@ -1,0 +1,142 @@
+[
+  {
+    "event_type": "customer_order",
+    "event_id": "3d9e6119-73db-417e-998c-8531c0972bba",
+    "order_id": "ORD-2026-001644",
+    "customer_id": "CUST-0002",
+    "simulation_date": "2026-04-20",
+    "timestamp": "2026-04-19T11:19:19",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-05-06",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001644-L1",
+        "sku": "FF-BF100-CS-PN10-WM",
+        "quantity_ordered": 6,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 1323.68,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-001644-L2",
+        "sku": "FF-GT100-DPX-PN10-FP",
+        "quantity_ordered": 12,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 6312.93,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-001644-L3",
+        "sku": "FF-GT50-CS-PN40-WM",
+        "quantity_ordered": 12,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 1180.2,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-001644-L4",
+        "sku": "FF-CK150-S316-PN63-FP",
+        "quantity_ordered": 9,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 15549.18,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-001644-L5",
+        "sku": "FF-GL40-S304-PN25-TP",
+        "quantity_ordered": 8,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 1696.47,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "direct"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "5e9b08b0-2060-4a6f-a8bb-ebfc3207028f",
+    "order_id": "ORD-2026-001645",
+    "customer_id": "CUST-0022",
+    "simulation_date": "2026-04-20",
+    "timestamp": "2026-04-20T11:27:19",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-05-19",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001645-L1",
+        "sku": "FF-BL100-CS-PN63-FE",
+        "quantity_ordered": 10,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 5671.51,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "edi"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "1c13691c-0faa-434d-bfd3-14b0bc309ba1",
+    "order_id": "ORD-2026-001646",
+    "customer_id": "CUST-0034",
+    "simulation_date": "2026-04-20",
+    "timestamp": "2026-04-20T16:53:04",
+    "currency": "EUR",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-05-20",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001646-L1",
+        "sku": "FF-GT250-CS-PN25-FM",
+        "quantity_ordered": 83,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 3623.28,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "direct"
+  },
+  {
+    "event_type": "customer_order",
+    "event_id": "8a38dfcd-9a94-4c87-86ed-e22195b0db50",
+    "order_id": "ORD-2026-001647",
+    "customer_id": "CUST-0053",
+    "simulation_date": "2026-04-20",
+    "timestamp": "2026-04-20T08:11:04",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "requested_delivery_date": "2026-05-12",
+    "lines": [
+      {
+        "line_id": "ORD-2026-001647-L1",
+        "sku": "FF-BF50-CS-PN63-XP",
+        "quantity_ordered": 50,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 969.9,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "direct"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "master_data_change",
+    "change_id": "MDC-20261106-0047",
+    "timestamp": "2026-11-06T09:00:00Z",
+    "entity_type": "customer",
+    "entity_id": "CUST-0030",
+    "field_changed": "segment",
+    "old_value": "Shipyards",
+    "new_value": "HVAC Contractors",
+    "effective_date": "2026-11-07",
+    "reason": "account_reclassification"
+  }
+]

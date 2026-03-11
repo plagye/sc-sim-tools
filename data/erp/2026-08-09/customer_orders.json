@@ -1,0 +1,37 @@
+[
+  {
+    "event_type": "customer_order",
+    "event_id": "b45f37e1-10a0-4e22-99fb-3dac17542192",
+    "order_id": "ORD-2026-002277",
+    "customer_id": "CUST-0048",
+    "simulation_date": "2026-08-09",
+    "timestamp": "2026-08-09T03:42:26",
+    "currency": "PLN",
+    "priority": "standard",
+    "status": "confirmed",
+    "lines": [
+      {
+        "line_id": "ORD-2026-002277-L1",
+        "sku": "FF-BL300-S304-PN25-FH",
+        "quantity_ordered": 4,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 70875.42,
+        "line_status": "open"
+      },
+      {
+        "line_id": "ORD-2026-002277-L2",
+        "sku": "FF-CK40-BRS-PN16-TM",
+        "quantity_ordered": 5,
+        "quantity_allocated": 0,
+        "quantity_shipped": 0,
+        "quantity_backordered": 0,
+        "unit_price": 526.09,
+        "line_status": "open"
+      }
+    ],
+    "sales_channel": "edi",
+    "incoterms": "EXW"
+  }
+]

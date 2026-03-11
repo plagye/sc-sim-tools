@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20261210-0107",
+    "timestamp": "2026-12-10T08:00:00Z",
+    "simulation_date": "2026-12-10",
+    "signal_source": "consumption_trend",
+    "customer_id": "CUST-0052",
+    "product_group": "BF-DN25-S316",
+    "signal_type": "new_demand",
+    "magnitude": "medium",
+    "horizon_weeks": 19,
+    "description": "New demand source identified for this product group. Source: consumption trend.",
+    "confidence": 0.6
+  }
+]

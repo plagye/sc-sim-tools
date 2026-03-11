@@ -1,0 +1,27 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "522bacdd-8379-41e0-9b7c-f0763e79fca9",
+    "cancellation_date": "2026-05-22",
+    "order_id": "ORD-2026-001853",
+    "cancellation_type": "full",
+    "cancelled_lines": [
+      "ORD-2026-001853-L1",
+      "ORD-2026-001853-L2",
+      "ORD-2026-001853-L3"
+    ],
+    "reason": "customer_request",
+    "total_quantity_cancelled": 18
+  },
+  {
+    "event_type": "order_cancellations",
+    "event_id": "8d1a1163-1e8c-4fd9-a1f9-c7e2559ab897",
+    "cancellation_date": "2026-05-22",
+    "order_id": "ORD-2026-001557",
+    "order_line_id": "ORD-2026-001557-L1",
+    "sku": "FF-GT100-S316-PN40-FM",
+    "quantity_cancelled": 249108111360,
+    "reason": "backorder_timeout",
+    "days_backordered": 32
+  }
+]

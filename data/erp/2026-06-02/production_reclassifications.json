@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "production_reclassification",
+    "event_id": "e9826859-1c73-4319-8d56-4d734256135c",
+    "simulation_date": "2026-06-02",
+    "batch_id": "BATCH-1536",
+    "sku": "FF-BL100-S316-PN10-FP",
+    "quantity": 177,
+    "original_grade": "A",
+    "new_grade": "B",
+    "original_completion_date": "2026-05-28",
+    "reclassification_reason": "quality_review"
+  }
+]

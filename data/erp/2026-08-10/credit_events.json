@@ -1,0 +1,134 @@
+[
+  {
+    "event_type": "credit_release",
+    "event_id": "3041bf4a-b1fa-4c28-a0d2-4bd8f55230a7",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002000",
+    "customer_id": "CUST-0007",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 4264.82,
+    "credit_limit_pln": 78253.12,
+    "exposure_pln": 4264.82
+  },
+  {
+    "event_type": "credit_release",
+    "event_id": "6c306bc2-2ce7-4538-a803-b41b33564dab",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002198",
+    "customer_id": "CUST-0007",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 44516.94,
+    "credit_limit_pln": 78253.12,
+    "exposure_pln": 44516.94
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "5cf61d50-92c3-489f-a6d2-e2b36e560260",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002276",
+    "customer_id": "CUST-0043",
+    "customer_balance_pln": 104828.08,
+    "open_orders_value_pln": 198300.32,
+    "credit_limit_pln": 119120.55,
+    "exposure_pln": 303128.39
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "9acebb92-98d8-4807-837e-c52c088c82a9",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002277",
+    "customer_id": "CUST-0048",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 572385.53,
+    "credit_limit_pln": 72574.24,
+    "exposure_pln": 572385.53
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "b0f97827-3926-4677-b1dd-9b394c04c6a5",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002278",
+    "customer_id": "CUST-0003",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 6959937.21,
+    "credit_limit_pln": 1059192.99,
+    "exposure_pln": 6959937.21
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "a549d90f-ec95-412a-8235-5b919a06318e",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002279",
+    "customer_id": "CUST-0005",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 7212435.08,
+    "credit_limit_pln": 822813.9,
+    "exposure_pln": 7212435.08
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "bb50f078-ee38-40d6-bac2-da09127e041c",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002280",
+    "customer_id": "CUST-0013",
+    "customer_balance_pln": 81207.06,
+    "open_orders_value_pln": 896659.37,
+    "credit_limit_pln": 117418.39,
+    "exposure_pln": 977866.43
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "6c197123-8d4b-413e-af24-1668ab192b27",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002281",
+    "customer_id": "CUST-0018",
+    "customer_balance_pln": 702462.66,
+    "open_orders_value_pln": 7620907.18,
+    "credit_limit_pln": 1523035.4,
+    "exposure_pln": 8323369.84
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "2e7d4fea-043c-401c-8edd-5d030ea17178",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002282",
+    "customer_id": "CUST-0020",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 668925.46,
+    "credit_limit_pln": 331924.79,
+    "exposure_pln": 668925.46
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "ca4c568c-00ab-4e17-bee1-e3eb63bce0de",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002283",
+    "customer_id": "CUST-0023",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 7580717.89,
+    "credit_limit_pln": 1159793.53,
+    "exposure_pln": 7580717.89
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "0636c9b1-71f5-49f3-ad8c-7ae0ae23f546",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002284",
+    "customer_id": "CUST-0031",
+    "customer_balance_pln": 84343.61,
+    "open_orders_value_pln": 142608.05,
+    "credit_limit_pln": 116396.27,
+    "exposure_pln": 226951.66
+  },
+  {
+    "event_type": "credit_hold",
+    "event_id": "1a07d8f0-5bbf-470b-b6a2-8ec00dff0fa6",
+    "simulation_date": "2026-08-10",
+    "order_id": "ORD-2026-002285",
+    "customer_id": "CUST-0048",
+    "customer_balance_pln": 0.0,
+    "open_orders_value_pln": 286253.4,
+    "credit_limit_pln": 72574.24,
+    "exposure_pln": 286253.4
+  }
+]

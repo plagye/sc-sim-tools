@@ -1,0 +1,28 @@
+[
+  {
+    "event_type": "load_event",
+    "event_id": "78bbd73c-af92-4015-9e65-babb264eb3fd",
+    "load_id": "LOAD-1137",
+    "event_subtype": "delivered",
+    "simulation_date": "2026-10-17",
+    "sync_window": "08",
+    "carrier_code": "DHL",
+    "source_warehouse_id": "W01",
+    "shipment_ids": [
+      "SHP-1159"
+    ],
+    "order_ids": [
+      "ORD-2026-002647"
+    ],
+    "total_weight_kg": 21375.315,
+    "weight_unit": "kg",
+    "total_weight_reported": 21375.315,
+    "status": "delivered",
+    "planned_date": "2026-10-14",
+    "priority": "standard",
+    "customer_ids": [
+      "CUST-0039"
+    ],
+    "destination_region": ""
+  }
+]

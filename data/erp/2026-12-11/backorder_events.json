@@ -1,0 +1,28 @@
+[
+  {
+    "event_type": "backorder",
+    "event_id": "1a03aba8-1cee-4bdd-b15f-1c288cd2fdf2",
+    "backorder_date": "2026-12-11",
+    "order_id": "ORD-2026-001667",
+    "order_line_id": "ORD-2026-001667-L2",
+    "sku": "FF-BF80-CS-PN10-FM",
+    "quantity_backordered": 96,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 4,
+    "escalated_to_express": false
+  },
+  {
+    "event_type": "backorder",
+    "event_id": "87076966-cdb6-47f5-ac4f-812bdb52d3a1",
+    "backorder_date": "2026-12-11",
+    "order_id": "ORD-2026-001667",
+    "order_line_id": "ORD-2026-001667-L3",
+    "sku": "FF-CK40-CS-PN16-WM",
+    "quantity_backordered": 128,
+    "quantity_allocated": 0,
+    "backorder_reason": "no_stock",
+    "days_backordered": 4,
+    "escalated_to_express": false
+  }
+]

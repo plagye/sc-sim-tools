@@ -1,0 +1,27 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "cee49877-0ab2-437d-9fa4-e1c5c0433a5c",
+    "cancellation_date": "2026-02-11",
+    "order_id": "ORD-2026-001073",
+    "cancellation_type": "full",
+    "cancelled_lines": [
+      "ORD-2026-001073-L1",
+      "ORD-2026-001073-L3"
+    ],
+    "reason": "customer_request",
+    "total_quantity_cancelled": 328
+  },
+  {
+    "event_type": "order_cancellations",
+    "event_id": "57cd9f9a-6d15-4ef9-bf95-ac1f6a4a0911",
+    "cancellation_date": "2026-02-11",
+    "order_id": "ORD-2026-001122",
+    "cancellation_type": "partial",
+    "cancelled_lines": [
+      "ORD-2026-001122-L1"
+    ],
+    "reason": "customer_request",
+    "total_quantity_cancelled": 72
+  }
+]

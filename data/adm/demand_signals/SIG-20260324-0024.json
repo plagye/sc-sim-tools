@@ -1,0 +1,16 @@
+[
+  {
+    "event_type": "demand_signal",
+    "signal_id": "SIG-20260324-0024",
+    "timestamp": "2026-03-24T08:00:00Z",
+    "simulation_date": "2026-03-24",
+    "signal_source": "seasonal_model",
+    "customer_id": "CUST-0048",
+    "product_group": "BF-DN80-CS",
+    "signal_type": "timing_shift",
+    "magnitude": "medium",
+    "horizon_weeks": 11,
+    "description": "Delivery timing expected to shift based on customer project schedule. Source: seasonal model.",
+    "confidence": 0.3
+  }
+]

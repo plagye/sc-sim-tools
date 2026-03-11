@@ -1,0 +1,13 @@
+[
+  {
+    "event_type": "order_cancellations",
+    "event_id": "b097aa7b-25cf-4469-8e72-258f0384af35",
+    "cancellation_date": "2026-08-04",
+    "order_id": "ORD-2026-002053",
+    "order_line_id": "ORD-2026-002053-L1",
+    "sku": "FF-BL100-S316-PN40-FE",
+    "quantity_cancelled": 846130839552,
+    "reason": "backorder_timeout",
+    "days_backordered": 33
+  }
+]
