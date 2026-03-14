@@ -6,13 +6,13 @@ from dotenv import load_dotenv
 import psycopg
 from psycopg.rows import dict_row
 
+load_dotenv()
 log = logging.getLogger(__name__)
 
-DATA_DIR = Path(__file__).parent.parent / "data" / "master"
+DATA_DIR = Path(os.environ["MASTER_DATA_DIR"])
 
 
 def _connect():
-    load_dotenv()
     return psycopg.connect(
         host=os.environ["DB_HOST"],
         dbname=os.environ["DB_NAME"],
