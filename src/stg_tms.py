@@ -346,7 +346,7 @@ def load_returns(conn):
                 "quantity_returned": line.get("quantity_returned"),
                 "quantity_accepted": line.get("quantity_accepted"),
                 "return_reason": line.get("return_reason"),
-                "resolution": p.get("resolution"),
+                "resolution": line.get("resolution"),
             })
             line_count += 1
 

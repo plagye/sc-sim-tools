@@ -301,8 +301,9 @@ def agg_carrier_scorecard(cur):
             GROUP BY sr.carrier_code
         ),
         shipped_lines AS (
-            SELECT COUNT(*) AS total_shipped_lines FROM mart.fact_order_lines
-            WHERE qty_shipped > 0
+            SELECT fs.carrier_code, COUNT(*) AS total_shipped_lines
+            FROM mart.fact_shipments fs
+            GROUP BY fs.carrier_code
         )
         SELECT
             dc.carrier_code,
@@ -317,7 +318,7 @@ def agg_carrier_scorecard(cur):
         FROM mart.dim_carrier dc
         LEFT JOIN shipment_agg sa   ON sa.carrier_code = dc.carrier_code
         LEFT JOIN return_agg ra     ON ra.carrier_code = dc.carrier_code
-        CROSS JOIN shipped_lines sl
+        LEFT JOIN shipped_lines sl  ON sl.carrier_code = dc.carrier_code
     """)
     cur.execute("SELECT COUNT(*) AS n FROM mart.agg_carrier_scorecard")
     print(f"agg_carrier_scorecard: {cur.fetchone()['n']} rows")

@@ -214,13 +214,13 @@ def load_fact_returns(cur):
             return_reason, resolution
         )
         SELECT
-            r.raw_event_id,
+            rr.raw_event_id,
             CASE WHEN rr.event_date BETWEEN '2026-01-01' AND '2027-12-31'
                  THEN rr.event_date ELSE NULL END,
             dc.dim_customer_id,
             ds.dim_sku_id,
             dcarr.dim_carrier_id,
-            rl.rma_id, rl.line_id, r.order_id, r.customer_id, rl.sku,
+            rl.rma_id, rl.line_id, rr.order_id, rr.customer_id, rl.sku,
             rr.event_date, rr.event_subtype,
             rl.quantity_returned, rl.quantity_accepted,
             rl.return_reason, rl.resolution
@@ -232,10 +232,9 @@ def load_fact_returns(cur):
             WHERE event_subtype = 'return_requested'
             ORDER BY rma_id, event_date ASC
         ) rr ON rr.rma_id = rl.rma_id
-        JOIN staging.returns r ON r.rma_id = rl.rma_id AND r.event_subtype = 'return_requested'
         JOIN LATERAL (
             SELECT dim_customer_id FROM mart.dim_customer
-            WHERE customer_id = r.customer_id
+            WHERE customer_id = rr.customer_id
               AND effective_from <= rr.event_date
               AND (effective_to IS NULL OR effective_to >= rr.event_date)
             ORDER BY effective_from DESC LIMIT 1
@@ -249,7 +248,7 @@ def load_fact_returns(cur):
         ) ds ON TRUE
         JOIN LATERAL (
             SELECT dim_carrier_id FROM mart.dim_carrier
-            WHERE carrier_code = r.carrier_code LIMIT 1
+            WHERE carrier_code = rr.carrier_code LIMIT 1
         ) dcarr ON TRUE
         ON CONFLICT (rma_id, line_id) DO UPDATE SET
             qty_accepted  = EXCLUDED.qty_accepted,
