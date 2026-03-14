@@ -28,13 +28,17 @@ A Python 3.12 virtual environment (`venv/`) is present. Install dependencies int
 |---|---|---|---|
 | **Phase 1 — Bronze** | ✅ Complete | `src/event_aggregator.py`, `src/load_master.py` | ~20k events in `raw.events`; all source systems covered |
 | **Phase 2 — Silver** | ✅ Complete | `src/stg_orders.py`, `src/stg_erp_batch1.py`, `src/stg_erp_batch2.py`, `src/stg_tms.py`, `src/stg_adm_forecast.py` | 23 staging tables; `staging.dq_rejects` for rejected rows |
-| **Phase 3 — Gold** | 🔲 Not started | — | — |
+| **Phase 3 — Gold** | ✅ Complete | `src/gold_dimensions.py`, `src/gold_fact_orders.py`, `src/gold_fact_inventory_production.py`, `src/gold_fact_financial_tms.py`, `src/gold_aggregates.py` | 5 dims, 7 facts, 8 agg tables |
 | **Phase 4 — Dagster** | 🔲 Not started | — | After Phase 3 complete |
 
 ### Confirmed schema name deviations from spec
 The actual PostgreSQL schema names differ from CLAUDE.md spec in one place:
 - Spec says `stg.*` → actual schema is **`staging`**
 - All other schemas match: `dim`, `raw`, `fact`, `mart`
+
+### Phase 3 Gold — confirmed data behaviour
+- `mart.fact_order_lines.line_revenue_pln = 0` for all rows — `sc-sim` records order placement only; `quantity_shipped` is always 0 in `customer_orders.json`. Actual shipment data is in TMS loads (`mart.fact_shipments`). This is correct per the formula `qty_shipped × unit_price_pln`.
+- `mart.agg_order_metrics_daily` has 357 rows (not ~174 as spec estimated) — actual order dates span the full simulation range.
 
 ### Known real-data deviations from spec
 - `supply_disruptions` event type does not exist in source data — carrier disruption data is in `carrier_events`
