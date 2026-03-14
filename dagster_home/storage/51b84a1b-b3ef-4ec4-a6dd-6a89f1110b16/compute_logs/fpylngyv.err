@@ -1,0 +1,7 @@
+2026-03-14 19:35:01 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 71878 - LOGS_CAPTURED - Started capturing logs in process (pid: 71878).
+2026-03-14 19:35:01 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 71878 - gold_aggregates_asset - STEP_START - Started execution of step "gold_aggregates_asset".
+2026-03-14 19:35:07 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 71878 - gold_aggregates_asset - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-03-14 19:35:07 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - gold_aggregates_asset - Writing file at: /home/coder/sc-sim-tools/dagster_home/storage/gold_aggregates_asset using PickledObjectFilesystemIOManager...
+2026-03-14 19:35:07 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 71878 - gold_aggregates_asset - ASSET_MATERIALIZATION - Materialized value gold_aggregates_asset.
+2026-03-14 19:35:07 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 71878 - gold_aggregates_asset - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-03-14 19:35:07 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 71878 - gold_aggregates_asset - STEP_SUCCESS - Finished execution of step "gold_aggregates_asset" in 6.28s.

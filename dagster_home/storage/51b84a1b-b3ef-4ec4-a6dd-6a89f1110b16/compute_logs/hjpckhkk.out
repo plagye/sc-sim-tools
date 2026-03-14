@@ -1,0 +1,21 @@
+dim_date: 730 rows upserted
+dim_customer: 71 total rows, 50 current
+dim_sku: seeded from catalog, 0 current discontinued SKUs
+dim_carrier: 5 rows
+dim_warehouse: 2 rows
+
+--- Verification ---
+dim_date row count: 730
+  2026-01-01  holiday=True  business=False
+  2026-04-06  holiday=True  business=False
+  2026-05-01  holiday=True  business=False
+  2026-12-25  holiday=True  business=False
+dim_customer: total=71, current=50
+dim_sku discontinued (current): 0
+  carrier BALTIC: reliability=0.800
+  carrier DBSC: reliability=0.890
+  carrier DHL: reliability=0.920
+  carrier GEODIS: reliability=0.900
+  carrier RABEN: reliability=0.850
+  warehouse W01: FlowForm Katowice Distribution Centre
+  warehouse W02: FlowForm Gdańsk Port Warehouse

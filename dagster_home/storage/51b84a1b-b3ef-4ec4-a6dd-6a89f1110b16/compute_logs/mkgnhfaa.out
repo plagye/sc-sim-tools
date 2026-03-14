@@ -1,0 +1,11 @@
+fact_order_lines: 7350 rows upserted
+
+--- Verification ---
+Total rows: 7350
+NULL dim_customer_id: 0
+NULL unit_price_pln: 0
+  currency=EUR  rows=1830  avg_unit_price_pln=9933.9287
+  currency=PLN  rows=4909  avg_unit_price_pln=8625.3275
+  currency=USD  rows=607  avg_unit_price_pln=8212.3937
+  currency=None  rows=4  avg_unit_price_pln=1827.6475
+is_express_escalated=TRUE: 30

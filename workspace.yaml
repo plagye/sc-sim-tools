@@ -1,0 +1,4 @@
+load_from:
+  - python_package:
+      package_name: sc_sim_pipeline
+      working_directory: src

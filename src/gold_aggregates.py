@@ -534,13 +534,24 @@ def main():
         print("\n--- Sanity checks ---")
         with conn.cursor() as cur:
             cur.execute("SELECT COUNT(*) AS n FROM mart.agg_order_metrics_daily")
-            print(f"agg_order_metrics_daily rows: {cur.fetchone()['n']}  (expected ~174)")
+            print(f"agg_order_metrics_daily rows: {cur.fetchone()['n']}  (actual range 2026-01-06..2027-05-20 = ~389 dates)")
             cur.execute("SELECT COUNT(*) AS n FROM mart.agg_customer_scorecard")
             print(f"agg_customer_scorecard rows:  {cur.fetchone()['n']}  (expected ~60)")
             cur.execute("SELECT COUNT(*) AS n FROM mart.agg_sku_performance")
             print(f"agg_sku_performance rows:     {cur.fetchone()['n']}  (expected ~2500)")
             cur.execute("SELECT SUM(revenue_pln_total) AS s FROM mart.agg_customer_scorecard")
             print(f"agg_customer_scorecard total revenue_pln: {cur.fetchone()['s']}")
+
+            cur.execute("""
+                SELECT SUM(revenue_pln_total) AS total_revenue,
+                       AVG(fill_rate) AS avg_fill_rate,
+                       COUNT(*) FILTER (WHERE fill_rate > 0) AS customers_with_revenue
+                FROM mart.agg_customer_scorecard
+            """)
+            r = cur.fetchone()
+            print(f"Customer scorecard: total_revenue={r['total_revenue']}, "
+                  f"avg_fill_rate={r['avg_fill_rate']:.4f}, "
+                  f"customers_with_revenue={r['customers_with_revenue']}")
 
 
 if __name__ == "__main__":

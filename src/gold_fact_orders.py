@@ -147,6 +147,34 @@ ON CONFLICT (order_id, line_id) DO UPDATE SET
     ingested_at          = now()
 """
 
+# Second pass: mark lines as shipped for orders that appear in delivered TMS loads.
+# Source data records qty_shipped=0 at order creation; actual shipping is in TMS loads.
+SHIPPED_UPDATE = """
+UPDATE mart.fact_order_lines fol
+SET
+    qty_shipped      = CASE
+                         WHEN fol.qty_allocated > 0 AND fol.qty_allocated < fol.qty_ordered
+                         THEN LEAST(fol.qty_ordered, fol.qty_allocated)
+                         ELSE fol.qty_ordered
+                       END,
+    order_status     = 'shipped',
+    qty_allocated    = 0,
+    qty_backordered  = 0,
+    line_revenue_pln = (CASE
+                          WHEN fol.qty_allocated > 0 AND fol.qty_allocated < fol.qty_ordered
+                          THEN LEAST(fol.qty_ordered, fol.qty_allocated)
+                          ELSE fol.qty_ordered
+                        END)::NUMERIC(15,4) * fol.unit_price_pln
+WHERE fol.order_id IN (
+    SELECT DISTINCT oid
+    FROM staging.loads l,
+         jsonb_array_elements_text(l.order_ids) AS oid
+    WHERE l.status IN ('delivered', 'pod_received')
+)
+AND fol.order_status IS DISTINCT FROM 'shipped'
+AND fol.order_status IS DISTINCT FROM 'cancelled'
+"""
+
 
 def run():
     with connect() as conn:
@@ -157,6 +185,10 @@ def run():
                 cur.execute("SELECT COUNT(*) AS n FROM mart.fact_order_lines")
                 total = cur.fetchone()["n"]
                 print(f"fact_order_lines: {total} rows upserted")
+
+                cur.execute(SHIPPED_UPDATE)
+                shipped = cur.rowcount
+                print(f"fact_order_lines: {shipped} lines marked shipped from TMS delivered loads")
 
         print("\n--- Verification ---")
         with conn.cursor() as cur:
@@ -180,6 +212,15 @@ def run():
 
             cur.execute("SELECT COUNT(*) AS n FROM mart.fact_order_lines WHERE is_express_escalated")
             print(f"is_express_escalated=TRUE: {cur.fetchone()['n']}")
+
+            cur.execute("""
+                SELECT SUM(line_revenue_pln) AS total_revenue,
+                       SUM(qty_shipped) AS total_shipped,
+                       COUNT(*) FILTER (WHERE order_status='shipped') AS shipped_lines
+                FROM mart.fact_order_lines
+            """)
+            r = cur.fetchone()
+            print(f"  total_revenue_pln={r['total_revenue']}  total_shipped={r['total_shipped']}  shipped_lines={r['shipped_lines']}")
 
 
 if __name__ == "__main__":

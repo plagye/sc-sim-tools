@@ -1,0 +1,7 @@
+staging.loads: processed 27 raw events
+staging.loads: 194 unique loads in table
+staging.carrier_events: processed 0 raw events
+staging.carrier_events: 319 rows in table
+staging.returns: processed 0 raw events, 0 lines
+staging.returns: 2921 rows in table
+staging.return_lines: 695 rows in table

@@ -1,0 +1,5 @@
+Created view: export.orders_with_customer_and_sku
+Created view: export.inventory_daily_flat
+Created view: export.carrier_performance_flat
+Created view: export.demand_accuracy_flat
+Created view: export.customer_ar_flat

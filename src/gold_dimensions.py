@@ -125,7 +125,9 @@ def load_dim_customer(cur):
         )
     """)
 
-    # Seed: one row per customer from dim.customers
+    # Truncate and re-seed to ensure idempotent SCD2 on re-runs
+    cur.execute("TRUNCATE mart.dim_customer CASCADE")
+
     cur.execute("""
         INSERT INTO mart.dim_customer (
             customer_id, company_name, segment, country_code, region,
@@ -139,7 +141,6 @@ def load_dim_customer(cur):
             contract_discount_pct::NUMERIC(6,4), active, onboarding_date::DATE,
             onboarding_date::DATE, NULL, TRUE
         FROM dim.customers
-        ON CONFLICT (customer_id, effective_from) DO NOTHING
     """)
 
     # SCD2 changes: segment and payment_terms_days only, ordered by change_date ASC
@@ -235,7 +236,9 @@ def load_dim_sku(cur):
         )
     """)
 
-    # Seed from dim.catalog
+    # Truncate and re-seed to ensure idempotent SCD2 on re-runs
+    cur.execute("TRUNCATE mart.dim_sku CASCADE")
+
     cur.execute("""
         INSERT INTO mart.dim_sku (
             sku, valve_type, dn, material, pressure_class, connection,
@@ -251,7 +254,6 @@ def load_dim_sku(cur):
             is_active,
             '2026-01-01'::DATE, NULL, TRUE
         FROM dim.catalog
-        ON CONFLICT (sku, effective_from) DO NOTHING
     """)
 
     # SCD2: sku_status discontinuations

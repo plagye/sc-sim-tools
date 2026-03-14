@@ -1,0 +1,7 @@
+2026-03-14 19:33:24 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70978 - LOGS_CAPTURED - Started capturing logs in process (pid: 70978).
+2026-03-14 19:33:24 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70978 - stg_erp_batch3_asset - STEP_START - Started execution of step "stg_erp_batch3_asset".
+2026-03-14 19:33:25 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70978 - stg_erp_batch3_asset - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-03-14 19:33:25 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - stg_erp_batch3_asset - Writing file at: /home/coder/sc-sim-tools/dagster_home/storage/stg_erp_batch3_asset using PickledObjectFilesystemIOManager...
+2026-03-14 19:33:25 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70978 - stg_erp_batch3_asset - ASSET_MATERIALIZATION - Materialized value stg_erp_batch3_asset.
+2026-03-14 19:33:25 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70978 - stg_erp_batch3_asset - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-03-14 19:33:25 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70978 - stg_erp_batch3_asset - STEP_SUCCESS - Finished execution of step "stg_erp_batch3_asset" in 616ms.

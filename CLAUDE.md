@@ -29,7 +29,7 @@ A Python 3.12 virtual environment (`venv/`) is present. Install dependencies int
 | **Phase 1 — Bronze** | ✅ Complete | `src/event_aggregator.py`, `src/load_master.py` | ~20k events in `raw.events`; all source systems covered |
 | **Phase 2 — Silver** | ✅ Complete | `src/stg_orders.py`, `src/stg_erp_batch1.py`, `src/stg_erp_batch2.py`, `src/stg_tms.py`, `src/stg_adm_forecast.py` | 23 staging tables; `staging.dq_rejects` for rejected rows |
 | **Phase 3 — Gold** | ✅ Complete | `src/gold_dimensions.py`, `src/gold_fact_orders.py`, `src/gold_fact_inventory_production.py`, `src/gold_fact_financial_tms.py`, `src/gold_aggregates.py` | 5 dims, 7 facts, 8 agg tables |
-| **Phase 4 — Dagster** | 🔲 Not started | — | After Phase 3 complete |
+| **Phase 4 — Dagster** | ✅ Complete | `src/sc_sim_pipeline/` package, `src/gold_exports.py` | 14 assets (2 bronze, 6 silver, 6 gold), sensor, daily schedule, export views; dagster-webserver on port 3000 |
 
 ### Confirmed schema name deviations from spec
 The actual PostgreSQL schema names differ from CLAUDE.md spec in one place:
@@ -37,19 +37,37 @@ The actual PostgreSQL schema names differ from CLAUDE.md spec in one place:
 - All other schemas match: `dim`, `raw`, `fact`, `mart`
 
 ### Phase 3 Gold — confirmed data behaviour
-- `mart.fact_order_lines.line_revenue_pln = 0` for all rows — `sc-sim` records order placement only; `quantity_shipped` is always 0 in `customer_orders.json`. Actual shipment data is in TMS loads (`mart.fact_shipments`). This is correct per the formula `qty_shipped × unit_price_pln`.
-- `mart.agg_order_metrics_daily` has 357 rows (not ~174 as spec estimated) — actual order dates span the full simulation range.
+- `mart.fact_order_lines.line_revenue_pln` was 0 for all rows because `customer_orders.json` only records the creation-time snapshot (qty_shipped=0). **Fixed:** `gold_fact_orders.py` now runs a second-pass UPDATE that marks lines as shipped for orders appearing in delivered/pod_received TMS loads, computing `line_revenue_pln = qty_shipped * unit_price_pln`. Total revenue: ~135.6M PLN across 334 shipped lines.
+- `mart.agg_order_metrics_daily` has 389 rows (not ~174 as spec estimated) — actual order dates span 2026-01-06 to 2027-05-20.
 
 ### Bug fixes applied (post-phase-3 audit)
 - **`stg_tms.py`** — `return_lines.resolution` was incorrectly read from the RMA header (`p.get("resolution")`); fixed to `line.get("resolution")` (line-level field)
 - **`gold_fact_financial_tms.py`** — `fact_returns` INSERT had a redundant, unguarded second JOIN to `staging.returns` (could cause duplicates and non-deterministic `raw_event_id`); removed, all header fields now sourced from the already-deduped `DISTINCT ON` subquery
 - **`gold_aggregates.py`** — `agg_carrier_scorecard.return_rate` denominator was a global shipped-lines count (CROSS JOIN); fixed to per-carrier load count via `LEFT JOIN` on `carrier_code`
 
+### Bug fixes applied (pre-analysis validation)
+- **`gold_fact_orders.py`** — Added `SHIPPED_UPDATE` second pass: marks order lines as shipped when their `order_id` appears in delivered/pod_received TMS loads. Computes `qty_shipped` from `LEAST(qty_ordered, qty_allocated)` when partial allocation exists, else `qty_ordered`. Revenue now ~135.6M PLN.
+- **`gold_dimensions.py`** — SCD2 re-run bug: seed `ON CONFLICT DO NOTHING` left stale `is_current=FALSE` rows on re-runs, causing the SCD2 loop to skip changes. Fixed by using `TRUNCATE ... CASCADE` before re-seeding both `dim_sku` and `dim_customer`. Now 28 discontinued SKUs correctly have `is_current=TRUE`.
+- **`gold_aggregates.py`** — Updated sanity check comment from "expected ~174" to actual range (389 dates, 2026-01-06..2027-05-20). Added customer scorecard revenue/fill_rate sanity check.
+
+### Data analysis diagnostic queries run successfully
+- All Block A-G diagnostic queries executed. Key findings: 44 customers with revenue, avg fill_rate 5.7%, 85 SKUs with chronic stockout (>5 days) in W01, 150 payments (88% on_time), 133 demand signals, schema evolution confirmed (sales_channel from 2026-03-06, incoterms from 2026-05-05), 48 qty_overflow DQ flags in order_cancellations.
+
 ### Known real-data deviations from spec
-- `supply_disruptions` event type does not exist in source data — carrier disruption data is in `carrier_events`
+- `supply_disruptions` event type now present after sim reconfiguration — 29 rows loaded into `staging.supply_disruptions` via `stg_erp_batch3.py`
 - All `order_cancellations` line-level `quantity_cancelled` values are > 1,000,000 (overflow) — all 27 NULLed with `qty_overflow` flag
 - `inventory_targets` has 358 rows (one per file, not per SKU×warehouse as spec implied)
 - Various missing `event_id` fields in production_completions, credit_events, inventory_movements — synthetic keys used
+
+### Phase 4 Dagster — implementation notes
+- Package: `src/sc_sim_pipeline/` with assets, resources, sensors, jobs, schedules subpackages
+- 14 assets: `raw_events`, `dim_tables` (bronze); `stg_orders_asset`, `stg_erp_batch1_asset`, `stg_erp_batch2_asset`, `stg_erp_batch3_asset`, `stg_tms_asset`, `stg_adm_forecast_asset` (silver); `gold_dimensions_asset`, `gold_fact_orders_asset`, `gold_fact_financial_tms_asset`, `gold_fact_inventory_asset`, `gold_aggregates_asset`, `gold_exports_asset` (gold)
+- `PostgresResource` provides `dict_row` connections; `get_tuple_connection()` for `stg_adm_forecast` which uses positional row access
+- `sim_data_sensor` polls `raw.ingested_files.ingested_at` every 30s to trigger `pipeline_job`
+- `daily_full_run` schedule runs `pipeline_job` at midnight Europe/Warsaw
+- `gold_exports.py` creates 5 `export.*` views for Power BI / Excel
+- `dagster-webserver` runs on port 3000; `DAGSTER_HOME` must be absolute path
+- `docker-compose.yml` defines postgres, dagster-webserver, dagster-daemon services
 
 ---
 

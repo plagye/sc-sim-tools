@@ -1,0 +1,15 @@
+agg_order_metrics_daily: 389 rows
+agg_customer_scorecard: 60 rows
+agg_sku_performance: 2500 rows
+agg_inventory_health: 3014 rows
+agg_carrier_scorecard: 5 rows
+agg_demand_accuracy: 2728 rows
+agg_cash_flow_monthly: 17 rows
+agg_production_quality: 1908 rows
+
+--- Sanity checks ---
+agg_order_metrics_daily rows: 389  (actual range 2026-01-06..2027-05-20 = ~389 dates)
+agg_customer_scorecard rows:  60  (expected ~60)
+agg_sku_performance rows:     2500  (expected ~2500)
+agg_customer_scorecard total revenue_pln: 135567951.8494
+Customer scorecard: total_revenue=135567951.8494, avg_fill_rate=0.0573, customers_with_revenue=44
