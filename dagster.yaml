@@ -1,6 +1,6 @@
 storage:
   sqlite:
-    base_dir: ./dagster_home
+    base_dir: /home/coder/sc-sim-tools/dagster_home
 
 telemetry:
   enabled: false

@@ -1,0 +1,7 @@
+[32m2026-03-14 20:28:30 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 84261 - LOGS_CAPTURED - Started capturing logs in process (pid: 84261).
+[32m2026-03-14 20:28:30 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 84261 - raw_events - STEP_START - Started execution of step "raw_events".
+[32m2026-03-14 20:29:59 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 84261 - raw_events - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2026-03-14 20:29:59 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - raw_events - Writing file at: /home/coder/sc-sim-tools/dagster_home/storage/raw_events using PickledObjectFilesystemIOManager...
+[32m2026-03-14 20:29:59 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 84261 - raw_events - ASSET_MATERIALIZATION - Materialized value raw_events.
+[32m2026-03-14 20:29:59 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 84261 - raw_events - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2026-03-14 20:29:59 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 84261 - raw_events - STEP_SUCCESS - Finished execution of step "raw_events" in 1m28s.
