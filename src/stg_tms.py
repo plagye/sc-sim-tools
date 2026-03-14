@@ -1,21 +1,4 @@
-import os
-import psycopg
-from psycopg.rows import dict_row
-from dotenv import load_dotenv
-
-load_dotenv()
-
-
-def connect():
-    return psycopg.connect(
-        host=os.environ["DB_HOST"],
-        dbname=os.environ["DB_NAME"],
-        user=os.environ["DB_USER"],
-        password=os.environ["DB_PASSWORD"],
-        port=os.environ["DB_PORT"],
-        sslmode=os.environ["DB_SSL"],
-        row_factory=dict_row,
-    )
+from db import connect
 
 
 DDL_LOADS = """

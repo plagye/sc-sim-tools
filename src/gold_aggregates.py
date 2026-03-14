@@ -1,21 +1,4 @@
-import os
-from dotenv import load_dotenv
-import psycopg
-from psycopg.rows import dict_row
-
-load_dotenv()
-
-
-def connect():
-    return psycopg.connect(
-        host=os.environ["DB_HOST"],
-        dbname=os.environ["DB_NAME"],
-        user=os.environ["DB_USER"],
-        password=os.environ["DB_PASSWORD"],
-        port=os.environ["DB_PORT"],
-        sslmode=os.environ["DB_SSL"],
-        row_factory=dict_row,
-    )
+from db import connect
 
 
 def agg_order_metrics_daily(cur):
@@ -52,6 +35,7 @@ def agg_order_metrics_daily(cur):
             SUM(qty_backordered)::NUMERIC / NULLIF(SUM(qty_ordered), 0)        AS backorder_rate,
             COUNT(*) FILTER (WHERE is_express_escalated = TRUE)                AS is_express_escalated_count
         FROM mart.fact_order_lines
+        WHERE order_date IS NOT NULL
         GROUP BY order_date
     """)
     cur.execute("SELECT COUNT(*) AS n FROM mart.agg_order_metrics_daily")
@@ -407,6 +391,7 @@ def agg_cash_flow_monthly(cur):
                 EXTRACT(MONTH FROM order_date)::INTEGER AS month,
                 SUM(line_revenue_pln)                   AS revenue_pln
             FROM mart.fact_order_lines
+            WHERE order_date IS NOT NULL
             GROUP BY 1, 2
         ),
         payments AS (

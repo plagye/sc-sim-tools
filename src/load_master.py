@@ -3,25 +3,12 @@ import json
 import logging
 from pathlib import Path
 from dotenv import load_dotenv
-import psycopg
-from psycopg.rows import dict_row
+from db import connect
 
 load_dotenv()
 log = logging.getLogger(__name__)
 
 DATA_DIR = Path(os.environ["MASTER_DATA_DIR"])
-
-
-def _connect():
-    return psycopg.connect(
-        host=os.environ["DB_HOST"],
-        dbname=os.environ["DB_NAME"],
-        user=os.environ["DB_USER"],
-        password=os.environ["DB_PASSWORD"],
-        port=os.environ["DB_PORT"],
-        sslmode=os.environ["DB_SSL"],
-        row_factory=dict_row,
-    )
 
 
 def _load_carriers(cur):
@@ -143,7 +130,7 @@ def _load_warehouses(cur):
 
 
 def load_dim():
-    with _connect() as conn:
+    with connect() as conn:
         with conn.transaction():
             with conn.cursor() as cur:
                 _load_carriers(cur)

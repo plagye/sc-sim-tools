@@ -40,6 +40,11 @@ The actual PostgreSQL schema names differ from CLAUDE.md spec in one place:
 - `mart.fact_order_lines.line_revenue_pln = 0` for all rows — `sc-sim` records order placement only; `quantity_shipped` is always 0 in `customer_orders.json`. Actual shipment data is in TMS loads (`mart.fact_shipments`). This is correct per the formula `qty_shipped × unit_price_pln`.
 - `mart.agg_order_metrics_daily` has 357 rows (not ~174 as spec estimated) — actual order dates span the full simulation range.
 
+### Bug fixes applied (post-phase-3 audit)
+- **`stg_tms.py`** — `return_lines.resolution` was incorrectly read from the RMA header (`p.get("resolution")`); fixed to `line.get("resolution")` (line-level field)
+- **`gold_fact_financial_tms.py`** — `fact_returns` INSERT had a redundant, unguarded second JOIN to `staging.returns` (could cause duplicates and non-deterministic `raw_event_id`); removed, all header fields now sourced from the already-deduped `DISTINCT ON` subquery
+- **`gold_aggregates.py`** — `agg_carrier_scorecard.return_rate` denominator was a global shipped-lines count (CROSS JOIN); fixed to per-carrier load count via `LEFT JOIN` on `carrier_code`
+
 ### Known real-data deviations from spec
 - `supply_disruptions` event type does not exist in source data — carrier disruption data is in `carrier_events`
 - All `order_cancellations` line-level `quantity_cancelled` values are > 1,000,000 (overflow) — all 27 NULLed with `qty_overflow` flag

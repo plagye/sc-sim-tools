@@ -1,21 +1,4 @@
-import os
-from dotenv import load_dotenv
-import psycopg
-from psycopg.rows import dict_row
-
-load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
-
-
-def connect():
-    return psycopg.connect(
-        host=os.environ["DB_HOST"],
-        dbname=os.environ["DB_NAME"],
-        user=os.environ["DB_USER"],
-        password=os.environ["DB_PASSWORD"],
-        port=os.environ["DB_PORT"],
-        sslmode=os.environ["DB_SSL"],
-        row_factory=dict_row,
-    )
+from db import connect
 
 
 def process_exchange_rates(conn):
@@ -27,11 +10,12 @@ def process_exchange_rates(conn):
             _dq_flags     TEXT[],
             rate_date     DATE NOT NULL,
             currency_pair TEXT NOT NULL,
-            rate          NUMERIC(15,6) NOT NULL,
+            rate          NUMERIC(15,6),
             change_pct    NUMERIC(8,4),
             UNIQUE (rate_date, currency_pair)
         )
     """)
+    conn.execute("ALTER TABLE staging.exchange_rates ALTER COLUMN rate DROP NOT NULL")
     conn.commit()
 
     watermark = conn.execute(
@@ -55,6 +39,8 @@ def process_exchange_rates(conn):
         if currency_pair is None:
             flags.append("missing_currency_pair")
             currency_pair = "UNKNOWN"
+        if rate is None:
+            flags.append("missing_rate")
 
         conn.execute("""
             INSERT INTO staging.exchange_rates
