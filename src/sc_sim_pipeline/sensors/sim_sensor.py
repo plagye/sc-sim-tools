@@ -1,29 +1,37 @@
-from dagster import sensor, RunRequest, SkipReason, SensorEvaluationContext
-from sc_sim_pipeline.resources.postgres import PostgresResource
+import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+from dagster import RunRequest, SkipReason, SensorEvaluationContext, sensor
+
+from sc_sim_pipeline.jobs.pipeline_job import pipeline_job
+
+load_dotenv(Path(__file__).parents[4] / ".env")
 
 
-@sensor(minimum_interval_seconds=30)
-def sim_data_sensor(context: SensorEvaluationContext, postgres: PostgresResource):
-    try:
-        with postgres.get_connection() as conn:
-            row = conn.execute(
-                "SELECT MAX(ingested_at)::text AS latest, COUNT(*) AS n FROM raw.ingested_files"
-            ).fetchone()
-    except Exception as e:
-        yield SkipReason(f"raw.ingested_files not accessible: {e}")
+@sensor(job=pipeline_job, minimum_interval_seconds=30)
+def sim_data_sensor(context: SensorEvaluationContext):
+    """Watches DATA_DIR for new simulation files. Triggers the full pipeline
+    (raw_events → silver → gold) whenever the newest file mtime advances."""
+    data_dir = Path(os.environ["DATA_DIR"])
+
+    if not data_dir.exists():
+        yield SkipReason(f"DATA_DIR does not exist: {data_dir}")
         return
 
-    latest = row["latest"] if row and row["n"] > 0 else None
-    if latest is None:
-        yield SkipReason("No files ingested yet")
+    mtimes = [f.stat().st_mtime for f in data_dir.rglob("*.json")]
+    if not mtimes:
+        yield SkipReason("No JSON files found in DATA_DIR")
         return
 
-    last_ts = context.cursor or ""
-    if latest > last_ts:
-        context.update_cursor(latest)
+    newest_mtime = max(mtimes)
+    last_mtime = float(context.cursor) if context.cursor else 0.0
+
+    if newest_mtime > last_mtime:
+        context.update_cursor(str(newest_mtime))
         yield RunRequest(
-            run_key=latest,
-            tags={"trigger": "sim_sensor", "ingested_at": latest},
+            run_key=str(newest_mtime),
+            tags={"trigger": "sim_sensor", "newest_mtime": str(int(newest_mtime))},
         )
     else:
-        yield SkipReason(f"No new files since {last_ts}")
+        yield SkipReason(f"No new files since last check")
