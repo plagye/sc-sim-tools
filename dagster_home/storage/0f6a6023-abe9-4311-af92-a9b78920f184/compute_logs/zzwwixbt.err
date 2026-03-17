@@ -1,7 +1,0 @@
-[32m2026-03-14 20:31:20 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 87477 - LOGS_CAPTURED - Started capturing logs in process (pid: 87477).
-[32m2026-03-14 20:31:20 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 87477 - gold_dimensions_asset - STEP_START - Started execution of step "gold_dimensions_asset".
-[32m2026-03-14 20:31:27 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 87477 - gold_dimensions_asset - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2026-03-14 20:31:27 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - gold_dimensions_asset - Writing file at: /home/coder/sc-sim-tools/dagster_home/storage/gold_dimensions_asset using PickledObjectFilesystemIOManager...
-[32m2026-03-14 20:31:27 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 87477 - gold_dimensions_asset - ASSET_MATERIALIZATION - Materialized value gold_dimensions_asset.
-[32m2026-03-14 20:31:27 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 87477 - gold_dimensions_asset - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2026-03-14 20:31:27 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 87477 - gold_dimensions_asset - STEP_SUCCESS - Finished execution of step "gold_dimensions_asset" in 7.4s.

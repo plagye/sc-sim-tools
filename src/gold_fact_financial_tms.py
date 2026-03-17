@@ -30,7 +30,7 @@ def load_fact_payments(cur):
             CASE WHEN p.payment_date BETWEEN '2026-01-01' AND '2027-12-31'
                  THEN p.payment_date ELSE NULL END,
             dc.dim_customer_id,
-            p.event_id, p.payment_date, p.customer_id,
+            COALESCE(p.event_id, 'SYNTH-PAY-' || p.stg_id::text), p.payment_date, p.customer_id,
             p.amount, p.payment_behaviour, p.balance_before, p.balance_after
         FROM staging.payments p
         JOIN LATERAL (

@@ -1,7 +1,0 @@
-2026-03-14 19:33:22 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70949 - LOGS_CAPTURED - Started capturing logs in process (pid: 70949).
-2026-03-14 19:33:22 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70949 - dim_tables - STEP_START - Started execution of step "dim_tables".
-2026-03-14 19:33:23 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70949 - dim_tables - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-2026-03-14 19:33:23 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - dim_tables - Writing file at: /home/coder/sc-sim-tools/dagster_home/storage/dim_tables using PickledObjectFilesystemIOManager...
-2026-03-14 19:33:23 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70949 - dim_tables - ASSET_MATERIALIZATION - Materialized value dim_tables.
-2026-03-14 19:33:23 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70949 - dim_tables - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-2026-03-14 19:33:23 +0100 - dagster - DEBUG - __ASSET_JOB - 51b84a1b-b3ef-4ec4-a6dd-6a89f1110b16 - 70949 - dim_tables - STEP_SUCCESS - Finished execution of step "dim_tables" in 1.18s.

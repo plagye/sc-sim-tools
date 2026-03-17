@@ -1,5 +1,14 @@
+import json as _json
+
 from db import connect
 
+
+DDL_WATERMARKS = """
+CREATE TABLE IF NOT EXISTS staging._watermarks (
+    table_name  TEXT PRIMARY KEY,
+    value       BIGINT NOT NULL
+)
+"""
 
 DDL_LOADS = """
 CREATE TABLE IF NOT EXISTS staging.loads (
@@ -79,13 +88,32 @@ CREATE TABLE IF NOT EXISTS staging.return_lines (
 """
 
 
+def _get_watermark(conn, table_name):
+    conn.execute(DDL_WATERMARKS)
+    conn.commit()
+    row = conn.execute(
+        "SELECT value FROM staging._watermarks WHERE table_name = %s",
+        (table_name,),
+    ).fetchone()
+    return row["value"] if row else 0
+
+
+def _set_watermark(conn, table_name, value):
+    conn.execute(
+        """
+        INSERT INTO staging._watermarks (table_name, value)
+        VALUES (%s, %s)
+        ON CONFLICT (table_name) DO UPDATE SET value = EXCLUDED.value
+        """,
+        (table_name, value),
+    )
+
+
 def load_loads(conn):
     conn.execute(DDL_LOADS)
     conn.commit()
 
-    watermark = conn.execute(
-        "SELECT COALESCE(MAX(raw_event_id), 0) AS w FROM staging.loads"
-    ).fetchone()["w"]
+    watermark = _get_watermark(conn, "staging.loads")
 
     rows = conn.execute(
         """
@@ -97,6 +125,12 @@ def load_loads(conn):
         """,
         (watermark,),
     ).fetchall()
+
+    if not rows:
+        print("staging.loads: no new raw events")
+        total = conn.execute("SELECT COUNT(*) AS n FROM staging.loads").fetchone()["n"]
+        print(f"staging.loads: {total} unique loads in table")
+        return
 
     upsert_sql = """
         INSERT INTO staging.loads (
@@ -126,11 +160,15 @@ def load_loads(conn):
         WHERE EXCLUDED.sync_window > staging.loads.sync_window
     """
 
-    import json as _json
-
-    count = 0
+    params = []
+    max_attempted = watermark
     for row in rows:
         p = row["payload"]
+        max_attempted = row["id"]
+
+        if not p.get("load_id"):
+            continue
+
         dq_flags = []
         weight_unit = p.get("weight_unit")
         raw_weight = p.get("total_weight_reported")
@@ -141,12 +179,9 @@ def load_loads(conn):
         else:
             weight_kg = raw_weight
 
-        if not p.get("load_id"):
-            continue
-
         sync_window = p.get("sync_window") or row["event_type"].split("_")[-1]
 
-        conn.execute(upsert_sql, {
+        params.append({
             "raw_event_id": row["id"],
             "dq_flags": dq_flags or None,
             "load_id": p.get("load_id"),
@@ -163,10 +198,13 @@ def load_loads(conn):
             "order_ids": _json.dumps(p.get("order_ids")),
             "customer_ids": _json.dumps(p.get("customer_ids")),
         })
-        count += 1
 
+    if params:
+        conn.cursor().executemany(upsert_sql, params)
+
+    _set_watermark(conn, "staging.loads", max_attempted)
     conn.commit()
-    print(f"staging.loads: processed {count} raw events")
+    print(f"staging.loads: processed {len(params)} raw events")
     total = conn.execute("SELECT COUNT(*) AS n FROM staging.loads").fetchone()["n"]
     print(f"staging.loads: {total} unique loads in table")
 
@@ -175,9 +213,7 @@ def load_carrier_events(conn):
     conn.execute(DDL_CARRIER_EVENTS)
     conn.commit()
 
-    watermark = conn.execute(
-        "SELECT COALESCE(MAX(raw_event_id), 0) AS w FROM staging.carrier_events"
-    ).fetchone()["w"]
+    watermark = _get_watermark(conn, "staging.carrier_events")
 
     rows = conn.execute(
         """
@@ -189,6 +225,12 @@ def load_carrier_events(conn):
         """,
         (watermark,),
     ).fetchall()
+
+    if not rows:
+        print("staging.carrier_events: no new raw events")
+        total = conn.execute("SELECT COUNT(*) AS n FROM staging.carrier_events").fetchone()["n"]
+        print(f"staging.carrier_events: {total} rows in table")
+        return
 
     upsert_sql = """
         INSERT INTO staging.carrier_events (
@@ -211,14 +253,16 @@ def load_carrier_events(conn):
             rate_delta_pct= EXCLUDED.rate_delta_pct
     """
 
-    count = 0
+    params = []
+    max_attempted = watermark
     for row in rows:
         p = row["payload"]
+        max_attempted = row["id"]
         end_date_raw = p.get("end_date")
         duration_raw = p.get("duration_days")
         rate_raw = p.get("rate_delta_pct")
 
-        conn.execute(upsert_sql, {
+        params.append({
             "raw_event_id": row["id"],
             "dq_flags": None,
             "event_id": p.get("event_id"),
@@ -231,10 +275,13 @@ def load_carrier_events(conn):
             "end_date": end_date_raw if end_date_raw else None,
             "rate_delta_pct": rate_raw if rate_raw is not None else None,
         })
-        count += 1
 
+    if params:
+        conn.cursor().executemany(upsert_sql, params)
+
+    _set_watermark(conn, "staging.carrier_events", max_attempted)
     conn.commit()
-    print(f"staging.carrier_events: processed {count} raw events")
+    print(f"staging.carrier_events: processed {len(params)} raw events")
     total = conn.execute("SELECT COUNT(*) AS n FROM staging.carrier_events").fetchone()["n"]
     print(f"staging.carrier_events: {total} rows in table")
 
@@ -244,9 +291,7 @@ def load_returns(conn):
     conn.execute(DDL_RETURN_LINES)
     conn.commit()
 
-    watermark = conn.execute(
-        "SELECT COALESCE(MAX(raw_event_id), 0) AS w FROM staging.returns"
-    ).fetchone()["w"]
+    watermark = _get_watermark(conn, "staging.returns")
 
     rows = conn.execute(
         """
@@ -258,6 +303,14 @@ def load_returns(conn):
         """,
         (watermark,),
     ).fetchall()
+
+    if not rows:
+        print("staging.returns: no new raw events")
+        total_h = conn.execute("SELECT COUNT(*) AS n FROM staging.returns").fetchone()["n"]
+        total_l = conn.execute("SELECT COUNT(*) AS n FROM staging.return_lines").fetchone()["n"]
+        print(f"staging.returns: {total_h} rows in table")
+        print(f"staging.return_lines: {total_l} rows in table")
+        return
 
     upsert_header_sql = """
         INSERT INTO staging.returns (
@@ -297,15 +350,17 @@ def load_returns(conn):
             resolution        = EXCLUDED.resolution
     """
 
-    header_count = 0
-    line_count = 0
+    header_params = []
+    line_params = []
+    max_attempted = watermark
     for row in rows:
         p = row["payload"]
+        max_attempted = row["id"]
 
         if not p.get("rma_id") or not p.get("event_id"):
             continue
 
-        conn.execute(upsert_header_sql, {
+        header_params.append({
             "raw_event_id": row["id"],
             "dq_flags": None,
             "event_id": p.get("event_id"),
@@ -317,10 +372,9 @@ def load_returns(conn):
             "carrier_code": p.get("carrier_code"),
             "status": p.get("rma_status"),
         })
-        header_count += 1
 
         for line in (p.get("lines") or []):
-            conn.execute(upsert_line_sql, {
+            line_params.append({
                 "raw_event_id": row["id"],
                 "dq_flags": None,
                 "rma_id": p.get("rma_id"),
@@ -331,10 +385,15 @@ def load_returns(conn):
                 "return_reason": line.get("return_reason"),
                 "resolution": line.get("resolution"),
             })
-            line_count += 1
 
+    if header_params:
+        conn.cursor().executemany(upsert_header_sql, header_params)
+    if line_params:
+        conn.cursor().executemany(upsert_line_sql, line_params)
+
+    _set_watermark(conn, "staging.returns", max_attempted)
     conn.commit()
-    print(f"staging.returns: processed {header_count} raw events, {line_count} lines")
+    print(f"staging.returns: processed {len(header_params)} raw events, {len(line_params)} lines")
     total_h = conn.execute("SELECT COUNT(*) AS n FROM staging.returns").fetchone()["n"]
     total_l = conn.execute("SELECT COUNT(*) AS n FROM staging.return_lines").fetchone()["n"]
     print(f"staging.returns: {total_h} rows in table")
@@ -342,7 +401,10 @@ def load_returns(conn):
 
 
 if __name__ == "__main__":
+    import time
+    t0 = time.time()
     with connect() as conn:
         load_loads(conn)
         load_carrier_events(conn)
         load_returns(conn)
+    print(f"Total elapsed: {time.time() - t0:.1f}s")

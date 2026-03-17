@@ -194,6 +194,9 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Dagster
+dagster_home/
+
 # Cursor
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
@@ -208,3 +211,7 @@ __marimo__/
 
 # Jupyter
 notebooks/
+
+# Dagster
+.dagster_home/
+dagster_home/

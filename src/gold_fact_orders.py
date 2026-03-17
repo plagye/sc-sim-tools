@@ -170,6 +170,7 @@ WHERE fol.order_id IN (
     FROM staging.loads l,
          jsonb_array_elements_text(l.order_ids) AS oid
     WHERE l.status IN ('delivered', 'pod_received')
+      AND jsonb_typeof(l.order_ids) = 'array'
 )
 AND fol.order_status IS DISTINCT FROM 'shipped'
 AND fol.order_status IS DISTINCT FROM 'cancelled'

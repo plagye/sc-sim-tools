@@ -1,7 +1,0 @@
-2026-03-14 19:33:05 +0100 - dagster - DEBUG - __ASSET_JOB - 191ce6d8-d114-44e4-9048-a59e166a5808 - 70827 - LOGS_CAPTURED - Started capturing logs in process (pid: 70827).
-2026-03-14 19:33:05 +0100 - dagster - DEBUG - __ASSET_JOB - 191ce6d8-d114-44e4-9048-a59e166a5808 - 70827 - stg_adm_forecast_asset - STEP_START - Started execution of step "stg_adm_forecast_asset".
-2026-03-14 19:33:06 +0100 - dagster - DEBUG - __ASSET_JOB - 191ce6d8-d114-44e4-9048-a59e166a5808 - 70827 - stg_adm_forecast_asset - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-2026-03-14 19:33:06 +0100 - dagster - DEBUG - __ASSET_JOB - 191ce6d8-d114-44e4-9048-a59e166a5808 - stg_adm_forecast_asset - Writing file at: /home/coder/sc-sim-tools/dagster_home/storage/stg_adm_forecast_asset using PickledObjectFilesystemIOManager...
-2026-03-14 19:33:06 +0100 - dagster - DEBUG - __ASSET_JOB - 191ce6d8-d114-44e4-9048-a59e166a5808 - 70827 - stg_adm_forecast_asset - ASSET_MATERIALIZATION - Materialized value stg_adm_forecast_asset.
-2026-03-14 19:33:06 +0100 - dagster - DEBUG - __ASSET_JOB - 191ce6d8-d114-44e4-9048-a59e166a5808 - 70827 - stg_adm_forecast_asset - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-2026-03-14 19:33:06 +0100 - dagster - DEBUG - __ASSET_JOB - 191ce6d8-d114-44e4-9048-a59e166a5808 - 70827 - stg_adm_forecast_asset - STEP_SUCCESS - Finished execution of step "stg_adm_forecast_asset" in 1.06s.

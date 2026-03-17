@@ -89,7 +89,7 @@ DB_NAME=supply_chain
 DB_USER=your_user
 DB_PASSWORD=your_password
 DB_PORT=5432
-DB_SSL=disable
+DB_SSL=require
 
 # Path to sc-sim output folder (where the simulator writes JSON files)
 DATA_DIR=/home/youruser/sc-sim/output

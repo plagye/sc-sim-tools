@@ -1,7 +1,0 @@
-[32m2026-03-14 20:30:01 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 85951 - LOGS_CAPTURED - Started capturing logs in process (pid: 85951).
-[32m2026-03-14 20:30:01 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 85951 - dim_tables - STEP_START - Started execution of step "dim_tables".
-[32m2026-03-14 20:30:02 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 85951 - dim_tables - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2026-03-14 20:30:02 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - dim_tables - Writing file at: /home/coder/sc-sim-tools/dagster_home/storage/dim_tables using PickledObjectFilesystemIOManager...
-[32m2026-03-14 20:30:02 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 85951 - dim_tables - ASSET_MATERIALIZATION - Materialized value dim_tables.
-[32m2026-03-14 20:30:02 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 85951 - dim_tables - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2026-03-14 20:30:02 +0100[0m - dagster - [34mDEBUG[0m - pipeline_job - 0f6a6023-abe9-4311-af92-a9b78920f184 - 85951 - dim_tables - STEP_SUCCESS - Finished execution of step "dim_tables" in 1.33s.

@@ -22,18 +22,18 @@ services:
       timeout: 5s
       retries: 5
 
-  # sc-sim:  # Uncomment when --continuous flag is implemented in sc-sim
-  #   build: ../sc-sim
-  #   command: python -m flowform.cli --continuous 365 30
-  #   volumes:
-  #     - sim-data:/data/output
-  #     - sim-state:/data/state
-  #   environment:
-  #     DATA_DIR: /data/output
-  #     STATE_DIR: /data/state
-  #   depends_on:
-  #     postgres:
-  #       condition: service_healthy
+    sc-sim:
+     build: ../sc-sim
+     command: python -m flowform.cli --continuous 365 30
+     volumes:
+       - sim-data:/data/output
+       - sim-state:/data/state
+     environment:
+       DATA_DIR: /data/output
+       STATE_DIR: /data/state
+     depends_on:
+       postgres:
+         condition: service_healthy
 
   dagster-webserver:
     build: .

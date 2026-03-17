@@ -1,7 +1,0 @@
-2026-03-14 19:31:13 +0100 - dagster - DEBUG - __ASSET_JOB - 6566e709-455c-47b6-9188-c8e895cd8545 - 70224 - LOGS_CAPTURED - Started capturing logs in process (pid: 70224).
-2026-03-14 19:31:13 +0100 - dagster - DEBUG - __ASSET_JOB - 6566e709-455c-47b6-9188-c8e895cd8545 - 70224 - raw_events - STEP_START - Started execution of step "raw_events".
-2026-03-14 19:31:14 +0100 - dagster - DEBUG - __ASSET_JOB - 6566e709-455c-47b6-9188-c8e895cd8545 - 70224 - raw_events - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-2026-03-14 19:31:14 +0100 - dagster - DEBUG - __ASSET_JOB - 6566e709-455c-47b6-9188-c8e895cd8545 - raw_events - Writing file at: /home/coder/sc-sim-tools/dagster_home/storage/raw_events using PickledObjectFilesystemIOManager...
-2026-03-14 19:31:14 +0100 - dagster - DEBUG - __ASSET_JOB - 6566e709-455c-47b6-9188-c8e895cd8545 - 70224 - raw_events - ASSET_MATERIALIZATION - Materialized value raw_events.
-2026-03-14 19:31:14 +0100 - dagster - DEBUG - __ASSET_JOB - 6566e709-455c-47b6-9188-c8e895cd8545 - 70224 - raw_events - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-2026-03-14 19:31:14 +0100 - dagster - DEBUG - __ASSET_JOB - 6566e709-455c-47b6-9188-c8e895cd8545 - 70224 - raw_events - STEP_SUCCESS - Finished execution of step "raw_events" in 1.35s.
